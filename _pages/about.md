@@ -31,9 +31,9 @@ feature_row:
     url: /publications/2017-07-19-Biodiversity-Collapse/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: AntarcticSeaFloorLife.jpg
+  - image_path: AntarcticFoodWebs.jpg
     caption: "Photo credit:  Andrew Tabor"
-    title: "Antarctic Sea Floor Life"
+    title: "Antarctic Food Webs"
     excerpt: "Climatic change is modifying habitats and species interactions, we studies the stability of food webs to these changes."
     url: /publications/2016-12-27-The-food-web-of-Potter-Cove-Antarctica/
     btn_label: "Read More"
