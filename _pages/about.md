@@ -12,7 +12,7 @@ redirect_from:
   - /about.html
 
 intro: 
-  - excerpt: 'I am a computational ecology working as an Professor/Researcher at the UNGS. I code in R and C++, and try to promote open science and reproducibility. I also like photography, poetry, literature, music, walking, and I love my big family. My actual scientific proyects are about global forest patches: early warnings and tipping points. And how climatic change influence ecological networks and biodiversity.'
+  - excerpt: 'I am a computational ecologist working as a Professor/Researcher at the UNGS. I code in R and C++, and try to promote open science and reproducibility. I also like photography, poetry, literature, music, walking, and I love my big family. My actual scientific projects are about global forest patches: early warnings and tipping points. And how climatic change influence ecological networks and biodiversity.'
 
 
 feature_row:
