@@ -8,7 +8,7 @@ paperurl: "https://doi.org/10.1111/oik.04256"
 citation: 
 ---
 
-Saravia, L. A., & Momo, F. R. (2017). Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities. Oikos. <https://doi.org/10.1111/oik.04256>
+Saravia, L. A., & Momo, F. R. (2018). Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities. Oikos. <https://doi.org/10.1111/oik.04256>
 
 ## Abstract
 
