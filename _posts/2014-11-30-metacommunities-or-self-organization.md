@@ -11,15 +11,15 @@ categories:
 
 I am thinking of writing in Spanish, because Spanish is my mother language, but there seem to be not much people writing about ecological science in Spanish. At the end I started to think in English and then write in English, so the next one should be in Spanish, who knows. 
 
-I have a sensation about metacommunity theory, I think that divides things too much. 
-
-![The metacomunity concepts from Logue et al. (2011). NM: Neutral Model, PD: Patch Dynamics, ME: Mass Effect, and SS: Species-Sorting.](https://pegejournalclub.files.wordpress.com/2014/11/metacommunity_types.png)  
+I have a sensation about metacommunity theory, it divides things too much. Each of the concepts in the following image try to keep different processes in its own box. 
 
 
+![](https://pegejournalclub.files.wordpress.com/2014/11/metacommunity_types.png)  
+The metacomunity concepts from Logue et al. (2011). *NM*: Neutral Model, *PD*: Patch Dynamics, *ME*: Mass Effect, and *SS*: Species-Sorting.'
 
 <!-- more -->
 
-Ì have the impression that each of the concepts in the previous image try to keep different processes in its own box. But everything is intermingled in nature and when you try, and you have to try hard, to separate processes, and this is the way that our mind works, you end up with a headache. I think it is nice to have different, clearly drawn, separated and independent things, just like ingredients to cook your own metacommunity. But when you start to work with them you realize that everything is interconnected or worse it is interdependent. Well, Logue et al. [^1] think in the same way saying that "this classification is not directly operational because it is difficult to link mechanisms to a single paradigm and because natural assemblages are structured by a combination of processes ascribed to different paradigms" 
+But everything is intermingled in nature and when you try, and you have to try hard, to separate processes, and this is the way that our mind works, you end up with a headache. I think it is nice to have different, clearly drawn, separated and independent things, just like ingredients to cook your own metacommunity. But when you start to work with them you realize that everything is interconnected or worse it is interdependent. Logue et al. [^1] think in the same way saying that "this classification is not directly operational because it is difficult to link mechanisms to a single paradigm and because natural assemblages are structured by a combination of processes ascribed to different paradigms" 
 
 This is why I like the neutral theory of biodiversity [^2], there is a citation of Hubbell in each post of my blog, I think I like it. Species or mechanisms related to biology of the species doesn't matter here, is the same if you have any "entity" that follows the basic assumptions [^2]. You have the belief that everything is connected through a couple of numbers like $\Theta$ that controls all, you can sit turn the knob to a desired $\Theta$ number and watch the community. But it is not like that because community assembly is not well described by neutral theory. 
 
