@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leonardo A. Saravia">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Percolation   First we will generate a random forest: set each position of a matrix to 1 or 0 with some probability $p$
+  First we need to fill a matrix with numbers
+  	rm(list=ls()) dim_rf &lt;- 10 matrix(0,dim_rf,dim_rf) matrix(1:dim_rf,dim_rf) matrix(1:(dim_rf*dim_rf),dim_rf)   what we really need are random numbers  	runif(10) rf &lt;- matrix(runif(dim_rf*dim_rf),ncol=dim_rf)   now we need to decide which will become 0 or 1 with some probability, the best way to do that is using a function  	set_tree &lt;- function(elem,prob) { if(elem&gt;prob) elem &lt;- 0 else elem &lt;- 1 } set_tree(rf,0.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@larysar">
+  <meta property="twitter:creator" content="@larysar">
+  
+  <meta property="og:site_name" content="Leonardo A. Saravia">
+  <meta property="og:url" content="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/">
+  <meta property="og:title" content="Percolation in R - Day 4 | Leonardo A. Saravia">
+  <meta property="og:description" content="Percolation   First we will generate a random forest: set each position of a matrix to 1 or 0 with some probability $p$
+  First we need to fill a matrix with numbers
+  	rm(list=ls()) dim_rf &lt;- 10 matrix(0,dim_rf,dim_rf) matrix(1:dim_rf,dim_rf) matrix(1:(dim_rf*dim_rf),dim_rf)   what we really need are random numbers  	runif(10) rf &lt;- matrix(runif(dim_rf*dim_rf),ncol=dim_rf)   now we need to decide which will become 0 or 1 with some probability, the best way to do that is using a function  	set_tree &lt;- function(elem,prob) { if(elem&gt;prob) elem &lt;- 0 else elem &lt;- 1 } set_tree(rf,0."><meta property="og:image" content="https://lsaravia.github.io/img/bio-photo.jpg">
+  <meta property="twitter:image" content="https://lsaravia.github.io/img/bio-photo.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-07-26T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2013-07-26T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Percolation in R - Day 4 | Leonardo A. Saravia</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#splash"><span>Inicial</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/multifractals-in-ecology-r/">Overview</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso1/">Day 1 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor1/">Day 1 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso2/">Day 2 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor2/">Day 2 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso3/">Day 3 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor3/">Day 3 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso4/">Day 4 Morning</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/multifractals-in-ecology-r/cursor4/">Day 4 Afternoon</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#percolation">Percolation</a></li>
+    <li><a href="#exercise-1">Exercise 1</a></li>
+    <li><a href="#infection">Infection</a></li>
+    <li><a href="#exercise-2">Exercise 2</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Percolation in R - Day 4</h1>
+
+          <div class="article-style">
+            <h2 id="percolation">Percolation</h2>
+<ul>
+<li>
+<p>First we will generate a random forest: set each position of a matrix to 1 or 0 with some
+probability $p$</p>
+</li>
+<li>
+<p>First we need to fill a matrix with numbers</p>
+</li>
+</ul>
+<pre><code>		rm(list=ls())
+
+		dim_rf &lt;- 10
+
+		matrix(0,dim_rf,dim_rf)
+
+		matrix(1:dim_rf,dim_rf)
+
+		matrix(1:(dim_rf*dim_rf),dim_rf)
+</code></pre>
+<ul>
+<li>what we really need are random numbers</li>
+</ul>
+<pre><code>		runif(10)
+
+		rf &lt;- matrix(runif(dim_rf*dim_rf),ncol=dim_rf)
+</code></pre>
+<ul>
+<li>now we need to decide which will become 0 or 1 with some probability,
+the best way to do that is using a function</li>
+</ul>
+<pre><code>		set_tree &lt;- function(elem,prob) {
+		  if(elem&gt;prob) 
+		      elem &lt;- 0
+		  else
+		      elem &lt;- 1
+		} 
+
+		set_tree(rf,0.5)
+</code></pre>
+<ul>
+<li>the last line don&rsquo;t works because we need to apply the condition to each site individually</li>
+</ul>
+<pre><code>		rf &lt;-apply(rf,1:2,set_tree,0.5)
+</code></pre>
+<ul>
+<li>So we set a matrix of 1&rsquo;s and 0&rsquo;s with probability 0.5, we can plot it</li>
+</ul>
+<pre><code>		image(rf,asp=1,axes=F,col=c(&quot;white&quot;,&quot;black&quot;))
+</code></pre>
+<ul>
+<li>Now we can put all together and make a function that does all things</li>
+</ul>
+<pre><code>		generate_rf &lt;- function(sideDim,p)
+		{
+		  rf &lt;- matrix(runif(sideDim*sideDim),ncol=sideDim)
+		  rf &lt;-apply(rf,1:2,set_tree,p)
+		  image(rf,asp=1,axes=F,col=c(&quot;white&quot;,&quot;black&quot;))
+		}
+</code></pre>
+<ul>
+<li>We can see how the matrix is filled when we change $p$</li>
+</ul>
+<pre><code>		generate_rf(100,0.1)
+
+		generate_rf(100,0.5)
+
+		generate_rf(100,0.59)
+
+</code></pre>
+<ul>
+<li>The next thing is to burn the trees, we forget to return the matrix with the random forest</li>
+</ul>
+<pre><code>		generate_rf &lt;- function(sideDim,p)
+		{
+		  rf &lt;- matrix(runif(sideDim*sideDim),ncol=sideDim)
+		  rf &lt;-apply(rf,1:2,set_tree,p)
+		  image(rf,asp=1,axes=F,col=c(&quot;white&quot;,&quot;black&quot;))
+		  return(rf)
+		}
+
+		rf &lt;- generate_rf(10,0.51)
+</code></pre>
+<ul>
+<li>Now we need a function to explore the neighborhood and fire the actual site if one on the adjacent sites is fired. We can try to use a loop.</li>
+</ul>
+<pre><code>		rf[1,] &lt;- 2
+
+		for(j in 1:ncol(rf))
+		{
+
+			if( rf[1,j]==2 &amp; rf[2,j]==1)
+				rf[2,j] &lt;- 2
+		}
+</code></pre>
+<ul>
+<li>But we have to do that for all the rows of the matrix</li>
+</ul>
+<pre><code>		for(i in 2:nrow(rf))
+			for(j in 1:ncol(rf))
+			{
+				if( rf[i-1,j]==2 &amp; rf[i,j]==1)
+					rf[i,j] &lt;- 2
+			}
+
+
+		image(rf,asp=1,axes=F,col=c(&quot;white&quot;,&quot;black&quot;,&quot;red&quot;))
+</code></pre>
+<ul>
+<li>something is wrong, we need to test all the neighborhood</li>
+</ul>
+<pre><code>		for(i in 2:nrow(rf))
+			for(j in 2:(ncol(rf)-1))
+			{
+				if( (rf[i-1,j]==2 || rf[i-1,j-1]==2 || rf[i-1,j+1]==2) &amp;&amp; rf[i,j]==1)
+					rf[i,j] &lt;- 2
+			}
+</code></pre>
+<ul>
+<li>So now we are ready to build the function</li>
+</ul>
+<pre><code>		fire_rf &lt;- function(rf) {
+		  dimi=nrow(rf)
+		  dimj=ncol(rf)-1
+		  rf[1,] &lt;- 2
+		  for(i in 2:dimi)
+		    for(j in 2:dimj)
+		    {
+		      if((rf[i-1,j]==2 || rf[i-1,j-1]==2 || rf[i-1,j+1]==2) &amp;&amp; (rf[i,j]==1))
+		          rf[i,j] &lt;- 2
+		    }
+		  return(rf)
+		}
+
+		rf &lt;- generate_rf(100,0.1)
+
+		rf1 &lt;- fire_rf(rf)
+
+		image(rf1,asp=1,axes=F,col=c(&quot;white&quot;,&quot;black&quot;,&quot;red&quot;))
+</code></pre>
+<ul>
+<li>Now to finish we have to count the number of burned sites, a simple function will do, but first we
+test the commands</li>
+</ul>
+<pre><code>   		bur &lt;-0
+
+		for(i in 2:nrow(rf1))
+		  for(j in 1:ncol(rf1))
+		  {
+		    if(rf1[i,j]==2 )
+		        bur &lt;- bur + 1
+		  }
+
+		bur
+</code></pre>
+<ul>
+<li>next we create the function</li>
+</ul>
+<pre><code>		countBurned &lt;- function(rf)
+		{
+		  bur &lt;-0
+		  dimi=nrow(rf)
+		  dimj=ncol(rf)
+		  
+		  for(i in 2:dimi)
+		    for(j in 1:dimj)
+		    {
+		      if(rf1[i,j]==2 )
+		        bur &lt;- bur + 1
+		    }
+		  return(bur/((dimi-1)*dimj))
+		}
+</code></pre>
+<h2 id="exercise-1">Exercise 1</h2>
+<ul>
+<li>Make a plot of the proportion of burned sites versus the probability $p$ of the trees</li>
+</ul>
+<h2 id="infection">Infection</h2>
+<ul>
+<li>We can do this in a similar way, first we need a matrix but now one dimension will be the time</li>
+</ul>
+<pre><code>		dim_in &lt;- 10
+		time_in &lt;- 20
+
+		inf&lt;-matrix(0,time_in,dim_in)
+</code></pre>
+<ul>
+<li>At time 1 we need to infect some sites to have a start</li>
+</ul>
+<pre><code>		inf[1,] &lt;- ifelse(runif(dim_in)&gt;0.5,1,0)
+</code></pre>
+<ul>
+<li>Now we have to propagate the infection, there are two possibilities: contagion with probability
+$\lambda$ or recuperation with probability $\mu$</li>
+</ul>
+<pre><code>		lambda = 0.5
+
+		mu= 0.5
+
+		for(i in 1:(time_in-1))
+		  for(j in 2:(dim_in-1))
+		  {
+		    if(inf[i,j]==0){
+		      
+		      if(inf[i,j-1]==1){
+		        inf[i+1,j] &lt;- ifelse(runif(1)&lt;=lambda,1,0)
+		      }
+		      else if(inf[i,j+1]==1 ){
+		        inf[i+1,j] &lt;- ifelse(runif(1)&lt;=lambda,1,0)
+		      }
+		    }
+		    else
+		    {
+
+		      inf[i+1,j] &lt;- ifelse(runif(1)&lt;=mu,0,1)
+		    }
+		  }
+
+		image(inf,asp=1,axes=F,col=c(&quot;grey&quot;,&quot;brown&quot;))
+</code></pre>
+<ul>
+<li>Then we put all in a function</li>
+</ul>
+<pre><code>		simulate_inf &lt;- function(lambda,mu,dim_in,time_in){
+		  
+		  inf&lt;-matrix(0,time_in,dim_in)
+		  inf[1,] &lt;- ifelse(runif(dim_in)&gt;0.5,1,0)
+		  for(i in 1:(time_in-1))
+		    for(j in 2:(dim_in-1))
+		    {
+		      if(inf[i,j]==0){
+		        
+		        if(inf[i,j-1]==1){
+		          inf[i+1,j] &lt;- ifelse(runif(1)&lt;=lambda,1,0)
+		        }
+		        else if(inf[i,j+1]==1 ){
+		          inf[i+1,j] &lt;- ifelse(runif(1)&lt;=lambda,1,0)
+		        }
+		      }
+		      else
+		      {
+		        inf[i+1,j] &lt;- ifelse(runif(1)&lt;=mu,0,1)
+		      }
+		    }
+		    image(inf,asp=1,axes=F,col=c(&quot;grey&quot;,&quot;brown&quot;)) 
+		}
+
+		simulate_inf(.4,.4,50,100)
+</code></pre>
+<ul>
+<li>We can try with different parameters and see what happens at $\lambda &gt; \mu$ or $\lambda &lt; \mu$</li>
+</ul>
+<h2 id="exercise-2">Exercise 2</h2>
+<ul>
+<li>
+<p>Build the plot with a fixed $\mu$ of the probability of propagation versus $\lambda$</p>
+</li>
+<li>
+<p>Estimate the fractal dimension and the multifractal spectrum of the infection</p>
+</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/multifractals-in-ecology-r/curso4/" rel="next">Percolation - Day 4</a>
+  </div>
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2013-07-26</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/multifractals-in-ecology-r/CursoR4.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "lsaravia" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://lsaravia.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

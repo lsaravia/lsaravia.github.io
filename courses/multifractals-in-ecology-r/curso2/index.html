@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leonardo A. Saravia">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Characteristic features of fractals   Mandelbrot Originally defined fractals as sets that have fractal dimension strictly greater than its topological dimension.
+  There is no hard and fast definition but a list of properties.
+  We refer to F as fractal if:
+  F has a fine structure: i.e. detail on small scales.
+  F is too irregular to be described by traditional geometrical language">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@larysar">
+  <meta property="twitter:creator" content="@larysar">
+  
+  <meta property="og:site_name" content="Leonardo A. Saravia">
+  <meta property="og:url" content="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/">
+  <meta property="og:title" content="Fractals in time - Day 2 | Leonardo A. Saravia">
+  <meta property="og:description" content="Characteristic features of fractals   Mandelbrot Originally defined fractals as sets that have fractal dimension strictly greater than its topological dimension.
+  There is no hard and fast definition but a list of properties.
+  We refer to F as fractal if:
+  F has a fine structure: i.e. detail on small scales.
+  F is too irregular to be described by traditional geometrical language"><meta property="og:image" content="https://lsaravia.github.io/img/bio-photo.jpg">
+  <meta property="twitter:image" content="https://lsaravia.github.io/img/bio-photo.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-07-26T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-21T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Fractals in time - Day 2 | Leonardo A. Saravia</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#splash"><span>Inicial</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/multifractals-in-ecology-r/">Overview</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso1/">Day 1 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor1/">Day 1 Afternoon</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/multifractals-in-ecology-r/curso2/">Day 2 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor2/">Day 2 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso3/">Day 3 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor3/">Day 3 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso4/">Day 4 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor4/">Day 4 Afternoon</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#characteristic-features-of-fractals">Characteristic features of fractals</a></li>
+    <li><a href="#random-walks">Random walks</a></li>
+    <li><a href="#fractal-time-series">Fractal time series</a></li>
+    <li><a href="#rescaled-range-analysis">Rescaled Range Analysis</a></li>
+    <li><a href="#papers">Papers</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Fractals in time - Day 2</h1>
+
+          <div class="article-style">
+            <h2 id="characteristic-features-of-fractals">Characteristic features of fractals</h2>
+<ul>
+<li>
+<p>Mandelbrot Originally defined fractals as sets that have fractal dimension
+strictly greater than its topological dimension.</p>
+</li>
+<li>
+<p>There is no hard and fast definition but a list of properties.</p>
+</li>
+<li>
+<p>We refer to <em>F</em> as fractal if:</p>
+<ol>
+<li>
+<p><em>F</em> has a fine structure: i.e. detail on small scales.</p>
+</li>
+<li>
+<p><em>F</em> is too irregular to be described by traditional geometrical language</p>
+</li>
+<li>
+<p><em>F</em> has some form of self-similarity, perhaps approximate or statistical</p>
+</li>
+<li>
+<p>Usually the fractal dimension of <em>F</em> is greater than its topological dimension</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="random-walks">Random walks</h2>
+<ul>
+<li>
+<p>Random walk (RW) is a stochastic process in which an object moves in a space by performing random jumps</p>
+  <center>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="../figs/C2_RandomWalk.png" >
+<img data-src="../figs/C2_RandomWalk.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+  </center> 
+</li>
+<li>
+<p>We can see that the enlarged view of a small part of the trajectory looks similar to the original, is fractal.</p>
+</li>
+<li>
+<p>The pattern displayed by the one dimensional RW is not self-similar but <em>self-affine</em> because the time and space dimensions do not scale in the same way</p>
+</li>
+</ul>
+<h2 id="fractal-time-series">Fractal time series</h2>
+<ul>
+<li>
+<p>Fractal properties in time series can be analyzed by means of Hurst&rsquo;s Rescaled Range Analysis</p>
+<p>Let us consider a time series that can be: the number of extinctions of a group of organism or a particular population or the discharge of a river, etc.</p>
+<p>$X_i$ with $i=1,2,3,&hellip;,T$</p>
+<p>The average of $X_i$ over $T$ time steps will be $&lt; X &gt;_T = \left( \sum_{i} X_t \right)/T$</p>
+<p>The departure from the average over a t-year time horizont is given by:</p>
+<p>$$X(t,T) = \sum_{i=1}^{t} [X_i - &lt; X &gt;_T ] = \left( \sum_{i=1}^{T} X_i \right) - t &lt; X &gt;_T$$</p>
+<p>$X(t,T)$ is usually calculated dividing the time series in $M$ segments of size $T$.</p>
+</li>
+<li>
+<p>What is the value of $X(T,T)$ ?</p>
+</li>
+</ul>
+<h2 id="rescaled-range-analysis">Rescaled Range Analysis</h2>
+<ul>
+<li>
+<p>We need to calculate two more quantities from the previous :</p>
+<p>The standard deviation $S(T) = \left( (&lt; X_t - &lt; X &gt;_T &gt;)^2 \right)^{1/2}$</p>
+<p>The range $R(T) = \max_{1 \le t \le T} X(t,T) - \min_{1 \le t \le T} X(t,T)$</p>
+</li>
+<li>
+<p>The rescaled range is: $F(T)=R(T)/S(T)$</p>
+</li>
+<li>
+<p>Calculate $F(T)$ using $T=5$ and the following series</p>
+<pre><code>  3  4  9  2  1  7  8  2  2  9 
+</code></pre>
+</li>
+<li>
+<p>When the values of the time series are uncorrelated $F(T) \propto T^{1/2}$,
+which is called white noise. The best predictor is the last measured value.</p>
+</li>
+<li>
+<p>Hurst found a more general scaling relation $F(T) \propto T^{H}$.</p>
+<p>for the natural systems he analyzed $H &gt; 1/2$</p>
+<p>it can be shown (easily) than the fractal dimension is related:</p>
+<p>$$D = 2 - H$$</p>
+</li>
+<li>
+<p>When the Hurst exponent is greater than 1/2 the system shows persistence on all time scales.
+An increasing trend in the past implies an increasing trend in the future.</p>
+<p>If $H &lt; 1/2$ an increase in the past implies a decrease in the future, the system shows antipersistence.</p>
+</li>
+</ul>
+<h2 id="papers">Papers</h2>
+<p>We will analyze the data from the paper:</p>
+<ol>
+<li>Meltzer MI, Hastings HM (1992) The use of fractals to assess the ecological impact of increased cattle population: case study from the Runde Communal Land, Zimbabwe. Journal of Applied Ecology 29: 635–646.</li>
+</ol>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/multifractals-in-ecology-r/cursor1/" rel="next">R Basics - Day 1 - afternoon </a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/multifractals-in-ecology-r/cursor2/" rel="prev">Cumulative distributions - Day 2</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2020-01-21</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/multifractals-in-ecology-r/Curso2.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "lsaravia" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://lsaravia.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

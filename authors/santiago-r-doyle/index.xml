@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Santiago R Doyle | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/authors/santiago-r-doyle/</link>
+      <atom:link href="https://lsaravia.github.io/authors/santiago-r-doyle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Santiago R Doyle</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Architecture of Marine Food Webs: To Be or Not Be a ‘Small-World’</title>
+      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
+      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

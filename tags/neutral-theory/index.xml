@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neutral theory | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tags/neutral-theory/</link>
+      <atom:link href="https://lsaravia.github.io/tags/neutral-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Neutral theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Sun, 19 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Neutral theory</title>
+      <link>https://lsaravia.github.io/tags/neutral-theory/</link>
+    </image>
+    
+    <item>
+      <title>The neutral bomb</title>
+      <link>https://lsaravia.github.io/post/2012-08-19/</link>
+      <pubDate>Sun, 19 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/post/2012-08-19/</guid>
+      <description>&lt;p&gt;This is not a sex bomb, but who knows. A couple of weeks ago I was
+giving a talk at the &lt;a href=&#34;http://www.famaf.unc.edu.ar/%7Ebiomat/escuela12/index.php&#34;&gt;Escuela Argentina de Matemática y
+Biología&lt;/a&gt;
+about &lt;a href=&#34;http://dx.doi.org/10.6084/m9.figshare.93530&#34;&gt;neutral and non-neutral models in
+ecology&lt;/a&gt;. I was pointed to
+the paper of  &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534712000365&#34;&gt;Clark 2012 The coherence problem with the Unified Neutral
+Theory of Biodiversity&lt;/a&gt;
+with the commentary: the neutral theory is uninformative.&lt;/p&gt;
+&lt;p&gt;And the paper basically says that neutral models or neutral theory is based on
+ignorance and that they are incoherent.&lt;/p&gt;
+&lt;p&gt;I think this is very interesting, but I disagree, here I review the last
+four points of the article:&lt;/p&gt;
+&lt;p&gt;(i) Incoherence: Neutral models assume all individuals are equal then go
+on and predict things like SADs and SARs, what is this telling us about
+the niche? The individuals are all equal, the species can have different
+effective probabilities to reach a place, different densities, but there
+is no niche. In this sense it can be thought as a null model for niches,
+other kinds of null models for niche can be constructed and maybe they
+are better, but I don&amp;rsquo;t see incoherence.  Competition and niche are not
+the only things relevant to coexistence of species.&lt;/p&gt;
+&lt;p&gt;(ii) Ignorance: I am sure we are ignorant about nature, but assuming
+that all individuals are equal is not equal probability and equal
+probability is not a null model for sameness. Anyway the equivalence of
+individuals is certainly not ignorance is an assumption.&lt;/p&gt;
+&lt;p&gt;(iii)Victory: There are no victories here, but models or theories to
+explain nature patterns and we need to confront them with data in
+several ways, and much better in several ways at the same time.&lt;/p&gt;
+&lt;p&gt;(iv)Applying neutral models in conservation: you have to be careful to
+apply a model to conservation practices, neutral or not neutral does not
+matter at all. Models are not reality, always have simplifications,
+aproximations, or assumptions and we can select which is better for our
+problem (see &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534703003458&#34;&gt;Model selection in ecology and
+evolution&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The real issue I think is a matter of scale: which are the microscale
+processes that determine macroscale patterns. If niche models predicts
+the same patterns that neutral models and both are consistent with real
+data (see &lt;a href=&#34;http://www.pnas.org/content/107/36/15821.abstract&#34;&gt;Niche and neutral models predict asymptotically
+equivalent&amp;hellip;&lt;/a&gt;) a
+parsimonious interpretation is that we don&amp;rsquo;t need niche. But if real
+data does not match the model we do need to add more complexities.&lt;/p&gt;
+&lt;p&gt;I think that neutral models are usefull both intellectually and
+practically, more about this in &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534712000948&#34;&gt;Neutrality without incoherence: a
+response to Clark&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Disentangling the Drivers of beta Diversity Along Latitudinal and Elevational Gradients (updated)</title>
+      <link>https://lsaravia.github.io/post/2011-10-25/</link>
+      <pubDate>Tue, 25 Oct 2011 21:21:00 -0700</pubDate>
+      <guid>https://lsaravia.github.io/post/2011-10-25/</guid>
+      <description>&lt;p&gt;Roughly, this &lt;a href=&#34;http://www.sciencemag.org/content/333/6050/1755.abstract&#34;&gt;science
+paper&lt;/a&gt; suggest
+that gamma diversity can explain the latitudinal/altitudinal variations
+in beta diversity so there is no need to invoke different local assembly
+mechanisms, they use two extensive data sets (One of them is
+&lt;a href=&#34;http://ecologicaldata.org/wiki/alwyn-h-gentry-forest-transect-dataset-0&#34;&gt;here&lt;/a&gt;
+). It seems to me that almost the same thing is formulated in the
+Hubbell&amp;rsquo;s neutral theory, local alfa diversity is determined by
+metacommunity (regional or gamma) diversity so beta diversity will also
+be determined by gamma diversity. In fact an expression for beta
+diversity under the neutral model was derived and it was found
+&lt;a href=&#34;http://www.sciencemag.org/content/295/5555/666&#34;&gt;inconsistent with
+data&lt;/a&gt;. But different
+measures of beta diversity were used.&lt;/p&gt;
+&lt;p&gt;Therefore we can use the same dataset to estimate the neutral theory
+parameters and do simulations to obtain beta diversity (a confidence
+envelope). If we reject neutral theory,  the same results were obtained
+previously with other data sets, so we have to discuss why. If we don&amp;rsquo;t
+reject neutral theory, maybe that is more interesting, also we have to
+discuss why.&lt;/p&gt;
+&lt;p&gt;We can use the methods of:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/07-0049.1?journalCode=ecol&#34;&gt;&lt;em&gt;Estimating Parameters of Neutral Communities: From One Single Large to
+Several Small Samples. Ecology, 88(10),
+2482-2488.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is an open possibility for collaborations so tell me if you like
+the idea and want to work with it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

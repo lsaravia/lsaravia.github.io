@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hierarchical competition models | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tags/hierarchical-competition-models/</link>
+      <atom:link href="https://lsaravia.github.io/tags/hierarchical-competition-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>hierarchical competition models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Thu, 28 Jun 2012 07:51:00 -0700</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>hierarchical competition models</title>
+      <link>https://lsaravia.github.io/tags/hierarchical-competition-models/</link>
+    </image>
+    
+    <item>
+      <title>Come together</title>
+      <link>https://lsaravia.github.io/post/2012-06-28/</link>
+      <pubDate>Thu, 28 Jun 2012 07:51:00 -0700</pubDate>
+      <guid>https://lsaravia.github.io/post/2012-06-28/</guid>
+      <description>&lt;p&gt;Aggregation of objects is widespread phenomena in several sciences and
+of course in biology and ecology. Two cases I found and seem interesting
+to me are: the aggregation  in niche space: &lt;a href=&#34;http://iopscience.iop.org/1742-5468/2010/05/P05005/&#34;&gt;The clumping transition in
+niche competition&lt;/a&gt;,
+and the aggregation in neutral models: &lt;a href=&#34;http://pre.aps.org/abstract/PRE/v68/i6/e061912&#34;&gt;Clustering in neutral
+ecology&lt;/a&gt;.\&lt;/p&gt;
+&lt;p&gt;This seems to depend only on the discreteness and finiteness of the
+objects and space. And in both cases the clumps have sizes distributed
+as power laws.&lt;br&gt;
+Furthermore when you have aggregation &lt;a href=&#34;http://www.nature.com/nature/journal/v335/n6189/abs/335405a0.html&#34;&gt;is possible that you will find
+multifractals&lt;/a&gt;,
+so is very possible that multifractals are widespread on ecological and
+biological phenomena.&lt;/p&gt;
+&lt;p&gt;All this introduction is because my article in Oikos is available as
+early view:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.20423.x/abstract&#34;&gt;Multifractal growth in periphyton
+communities&lt;/a&gt;\&lt;/p&gt;
+&lt;p&gt;And I added some new kind of measures to the &lt;a href=&#34;https://github.com/lsaravia/mfsba&#34;&gt;multifractal estimation
+package&lt;/a&gt; oriented to estimate
+multifractals in spatial species distributions, they are not like the
+ones published by &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/18707410&#34;&gt;Borda-de-Agua in American Naturalist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;They are simpler, I think: the first is the multifractal spectra of the most
+abundant species, and the second is a little bit more complex, it
+requires two steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Assign the number 1 to the most abundant specie, the number two to
+the second most abundant and so on, so the result is a surface with
+higher numbers assigned to the most rare species.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimate the multifractal spectrum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I did these to characterize species distribution in a model that is a mix of neutral spatially
+explicit and &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.2307/1939377&#34;&gt;Tillman&amp;rsquo;s model&lt;/a&gt; that I am
+analysing here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.6084/m9.figshare.91381&#34;&gt;Spatial patterns and diversity in multi-species models of succession&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The spatially explicit model was published as &lt;a href=&#34;https://lsaravia.github.io/publication/saravia-2018/&#34;&gt;Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

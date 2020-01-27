@@ -1,0 +1,2396 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</link>
+      <atom:link href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Thu, 29 Aug 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Overview</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</link>
+    </image>
+    
+    <item>
+      <title>Basic Theory - Day 1</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso1/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso1/</guid>
+      <description>&lt;h2 id=&#34;introduction-to-fractals-and-multifractals&#34;&gt;Introduction to fractals and multifractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What are fractals?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Highly irregular&lt;/strong&gt; : fractal objects tend to be highly irregular and fill the space in
+which it is embedded.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Self-similarity&lt;/strong&gt; : an object that displays the same basic pattern at all scales.
+The simplest fractals are deterministic, and are generated using recursive or
+iterative procedures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fractal Dimension&lt;/strong&gt; : the characteristic are captured by a dimension that is a measure of complexity of the object.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ecological-fractals&#34;&gt;Ecological fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fractal behavior can be observed looking at different scales. In the next figure (modified from Solé &amp;amp; Bascompte 2006) a beetle species walks on the surface of a trunk with lichens carrying lichens on its back.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract1.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_EcoFract1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The spatial distribution of low canopy areas (less than 15m) in a rainforest in Panama (BCI) where clusters of many different sizes can be observed&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract2.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_EcoFract2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deterministic-fractals&#34;&gt;Deterministic fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;The Sierpinsky gasket&lt;/em&gt; : Starting with an equilateral triangle, the procedure
+consist on removing from the central portion an upside down equilateral triangle
+with half the side length of the starting triangle.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_sierpinsky.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_sierpinsky.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deterministic-fractals-1&#34;&gt;Deterministic fractals 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;The Coch curve&lt;/em&gt;: A segment of length 1 is divided into thirds. The center one is
+replaced by the other two sides of an equilateral triangle of length 1/3.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Koch.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_Koch.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The curve occupies a definite space, but its length $L$ goes to infinity.&lt;/p&gt;
+&lt;p&gt;We can compute $L_n$ at different steps $n$&lt;/p&gt;
+&lt;p&gt;$L_0=1$&lt;/p&gt;
+&lt;p&gt;$L_1=4/3$&lt;/p&gt;
+&lt;p&gt;$L_2=(4/3)^2$&lt;/p&gt;
+&lt;p&gt;At an arbitrary step $L_n=(4/3)^n$ that goes to infinity as $n$ grows.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Why $L_n=(4/3)^n$ ?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dynamic-fractals&#34;&gt;Dynamic fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Cellular automata&lt;/em&gt; (CA) are discrete time, discrete space
+and discrete state dynamical models.
+We will consider a one dimensional CA with N sites. We can think that each site
+contains one individual of one species $S_i(t)$ for $i=1,&amp;hellip;,N$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each time step all elements are updated following a rule table:&lt;/p&gt;
+&lt;p&gt;$S_i(t+1) = \Phi \left( S_{i-1}(t),S_{i}(t),S_{i+1}(t) \right)$&lt;/p&gt;
+&lt;p&gt;The state of each unit change according to its own state and the state of
+some neighborhood.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The simplest case is that we have only one species: the possible states are 0 and 1.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_CA.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_CA.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-play-with-1d-ca&#34;&gt;Exercise: play with 1D CA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Rule 22 (monogamy)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  current pattern     111   110    101    100    011    010   001   000  
+  -----------------  ----- -----  -----  -----  -----  ----- ----- ----- 
+  new state            0     1      1      0      1      0     0     0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Starting with the following initial configurations&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  a) 1 0 1 0 1 0 1 0 1 0
+
+  b) 0 1 1 0 1 0 1 1 0 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;But the rule 22 does not generate the Sierpinsky triangle, the following rule generates it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  current pattern    111   110   101   100   011   010   001   000   
+  ----------------- ----- ----- ----- ----- ----- ----- ----- ----- 
+  new state           0     1     0     1     1     0     1     0     
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Starting with the following initial configurations&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  a) 0 0 0 0 1 0 0 0 0 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;random-fractals&#34;&gt;Random Fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;All the previous fractals constructions have random analogues.
+In the Von Koch curve we replace the middle third by the sides of an equilateral triangle,
+we might toss a coin to determine the position of the new part above or below the removed
+segment.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_RandSierp.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_RandSierp.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;statistical-self-similarity&#34;&gt;Statistical self similarity&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The pattern of random fractals is self-similar in the statistical sense.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A given property $L(r)$, which can be length, mass, population abundance or
+number or species, measured at some scale of resolution $r$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then we look at a different scale $r&#39;=\alpha r$. If $\alpha &amp;lt; 1$ then is a finer
+resolution, else a coarser resolution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Statistical self similarity means that $L(r)$ is proportional to $L(\alpha r)$&lt;/p&gt;
+&lt;p&gt;$L(\alpha r) = k L(r)$&lt;/p&gt;
+&lt;p&gt;where k is a constant.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This definition implies that the statistical features
+of a fractal set are the same when measured at different scales.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;scaling-laws&#34;&gt;Scaling laws&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Statistical self similar patterns can be analyzed by power laws or scaling laws&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zipf&amp;rsquo;s law&lt;/strong&gt; : one of the best known scaling laws&lt;/p&gt;
+&lt;p&gt;The fraction of cities $N(n)$ with $n$ inhabitants shows a power law dependence:&lt;/p&gt;
+&lt;p&gt;$N(n) \propto n^{-r}$ with $r \approx 2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An example of an ecological scaling law is the frequency distribution of biomass,
+the plot shows the cumulative distribution $N(&amp;gt;n)$ against biomass&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Biomass.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_Biomass.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Scaling in the cumulative biomass distribution of all organisms in lake Konstanz (from Gaedke 1992).&lt;/p&gt;
+&lt;p&gt;For a scaling law $N(n) \propto n^{-r}$ we get $N(&amp;gt;n) \propto n^{-r+1}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;power-laws-are-scale-invariant&#34;&gt;Power laws are scale invariant&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To show that power laws are scale invariant we can see the effect of a scale transformation.&lt;/p&gt;
+&lt;p&gt;Self similarity implies:&lt;/p&gt;
+&lt;p&gt;$\frac{L(r)}{L(\alpha r)}=k$&lt;/p&gt;
+&lt;p&gt;Let us assume that $L(r)$ follows a power law&lt;/p&gt;
+&lt;p&gt;$L(r)=A r^\eta$&lt;/p&gt;
+&lt;p&gt;then&lt;/p&gt;
+&lt;p&gt;$\frac{A r^\eta}{A (\alpha r)^\eta} = \frac{1}{\alpha^\eta} = k $&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fractal-dimension&#34;&gt;Fractal dimension&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Let us consider different geometric objects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A line $\Omega_1$ of length $L$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A square $\Omega_2$ of area $L^2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A cube  $\Omega_3$ with volume $L^3$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We want to cover these with a set of identical non-overlaping segments/squares/cubes of
+side $\epsilon L$ with $\epsilon &amp;lt; 1$.&lt;/p&gt;
+&lt;p&gt;The number of segments required to cover $\Omega_1$ will be&lt;/p&gt;
+&lt;p&gt;$N(\epsilon) = \frac{L}{\epsilon L} =\epsilon^{-1}$&lt;/p&gt;
+&lt;p&gt;For the squares $\frac{L^2}{(\epsilon L)^2} =\epsilon^{-2}$&lt;/p&gt;
+&lt;p&gt;In general&lt;/p&gt;
+&lt;p&gt;$N(\epsilon) = \epsilon^{-d}$&lt;/p&gt;
+&lt;p&gt;Where $d=dim(\Omega_d)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fractal-dimension-1&#34;&gt;Fractal dimension 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Thus we can define a dimension taking logarithms&lt;/p&gt;
+&lt;p&gt;$$d = -\lim_{\epsilon \to 0}\frac{\log N(\epsilon)}{\log \epsilon}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Why we need the limits?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We can apply it to the Sierpinsky gasket:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;For the first step we need 1 triangle of side $\epsilon_0=1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For the second step we need $N_1(\epsilon)=3$ of side $\epsilon_1=1/2$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In general  $N_n(\epsilon)=3^n$ triangles of side $\epsilon_n=(1/2)^n$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The fractal dimension&lt;/p&gt;
+&lt;p&gt;$$d = -\lim_{n\to \infty}\frac{\log 3^n}{\log (1/2)^n}=\frac{log 3}{log(1/2)}=1.5849$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is a non-integrer value between a line dim=1 and a surface dim=2. In general fractal
+objects have a dimension below of the dimension of the space that contains it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exercise: what is the dimension of the Koch Curve&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$-\frac{log 4}{log(1/3)}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;estimation-of-fractal-dimension&#34;&gt;Estimation of fractal dimension&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How to compute fractal dimensions for natural objects that display
+statistical self similarity?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The box counting algorithm&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We cover the object with square non-overlaping boxes of size $\epsilon^2$ and
+repeat the procedure using a range of $\epsilon$ values&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This range will be limited by the resolution scale $\epsilon_m$ the pixels of
+our system, and the system size $\epsilon_M$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For each $\epsilon$ in our range the number of boxes $N_b(\epsilon)$ containing at least one
+part of the object will be counted&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Following the definition of dimension we can see that $N_b$ will approximately scale as&lt;/p&gt;
+&lt;p&gt;$N_b(\epsilon) \thicksim \epsilon^{-d}$&lt;/p&gt;
+&lt;p&gt;in practice $d$ is estimated by the slope of the scaling relation&lt;/p&gt;
+&lt;p&gt;$-\log(N_b(\epsilon))/\log(\epsilon)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;an-ecological-example&#34;&gt;An ecological example&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The fine scale movement patterns of the ocean sunfish Mola mola (From Seuront 2009). The inset is the detail of the diurnal and nocturnal (shaded) movements.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1a.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_Molamola1a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mola-mola-swimming&#34;&gt;Mola mola swimming&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The fractal dimension was calculated for diurnal and nocturnal movement paths and they were different.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1b.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C1_Molamola1b.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;lower D during daylight&lt;/em&gt; suggest individuals move in more directed manner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Higher D In the night&lt;/em&gt; the movements were more complex suggesting individual interact with environmental heterogeneity on a finer scale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An increase in the complexity of spatial movements should indicate an increase in foraging or searching effort.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;characteristic-features-of-fractals&#34;&gt;Characteristic features of fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mandelbrot Originally defined fractals as sets that have fractal dimension
+strictly greater than its topological dimension.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is no hard and fast definition but a list of properties.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We refer to &lt;em&gt;F&lt;/em&gt; as fractal if:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; has a fine structure: i.e. detail on small scales.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; is too irregular to be described by traditional geometrical language&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; has some form of self-similarity, perhaps approximate or statistical&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Usually the fractal dimension of &lt;em&gt;F&lt;/em&gt; is greater than its topological dimension&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;paper-to-read&#34;&gt;Paper to read&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Sugihara G, May RM (1990) Applications of fractals in ecology. Trends in Ecology &amp;amp; Evolution 5: 79–86.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gaedke U (1992) The size distribution of plankton biomass in a large lake and its seasonal variability. Limnology and Oceanography 37: 1202–1220.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seuront L (2009) Fractals and Multifractals in Ecology and Aquatic Sciences.
+Taylor &amp;amp; Francis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Basics - Day 1 - afternoon </title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/</guid>
+      <description>&lt;h2 id=&#34;introduction-to-r-and-rstudio&#34;&gt;Introduction to R and RStudio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R is a language and environment for statistical computing and graphics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extracted from &lt;a href=&#34;http://nicercode.github.io/intro/&#34;&gt;http://nicercode.github.io/intro/&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Writing code is fast becoming a key - if not the most important - skill for
+doing research in the 21st century. As scientists, we live in extraordinary times.
+The amount of data (information) available to us is increasingly exponentially,
+allowing for rapid advances in our understanding of the world around us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The amount of information contained in a standard scientific paper also
+seems to be on  the rise. Researchers therefore need to be able to handle
+ever larger amounts of data to ask  novel questions and get papers
+published.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yet, the standard tools used by many biologists - point and click programs
+for manipulating data, doing stats and making plots - do not allow us to
+scale-up our analyses to match data availability, at least not without
+many, many more ‘clicks’.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The following material was also based on their introduction to R.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install R for windows&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/bin/windows/base/&#34;&gt;http://cran.r-project.org/bin/windows/base/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install R for Linux (ubuntu)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  sudo add-apt-repository &amp;quot;deb http://cran.stat.ucla.edu/bin/linux/ubuntu precise/&amp;quot;
+  sudo apt-get update
+  sudo apt-get install r-base
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;em&gt;RStudio&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rstudio.com/ide/download/desktop&#34;&gt;http://www.rstudio.com/ide/download/desktop&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;getting-started-with-rstudio&#34;&gt;Getting started with RStudio&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Load R studio however you do that on your platform.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RStudio has four panes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Bottom left – this is the R interpreter. If you type code here, it is “evaluated” so that you get an answer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Top left – editor for writing longer pieces of code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Top right will tell you things about objects in the workspace. We’ll get to this soon, but this will be things like data objects, or functions that will process them. It is completely unrelated to the file system. The “History” tab will keep an eye on what you’ve done.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Will display files, plots, packages, and help information, usually as needed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;using-r-as-calculator&#34;&gt;Using R as calculator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enter the following in the bottom left&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1 + 100
+
+  [1] 101
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lets try something more complex&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  3 + 5 * 2 ^ 2
+
+  [1] 23
+
+  (3 + 5) * 2
+
+  [1] 16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See ?Arithmetic for more information, you can also get there by ?&amp;ldquo;+&amp;rdquo; (note the quotes)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The usual sort of comparison operators are available:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1 == 1  # equality (note two equals signs, read as &amp;quot;is equal to&amp;quot;)
+
+  [1] TRUE
+		
+
+  1 != 2  # inequality (read as &amp;quot;is not equal to&amp;quot;)
+
+
+  [1] TRUE
+
+  1 &amp;lt;  2  # less than
+
+  [1] TRUE
+
+  1 &amp;lt;= 1  # less than or equal to
+
+  [1] TRUE
+
+  1 &amp;gt;  0  # greater than
+
+  [1] TRUE
+
+  1 &amp;gt;= -9 # greater than or equal to
+
+  [1] TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See ?Comparison for more information (you can also get there by help(&amp;ldquo;==&amp;rdquo;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Really small numbers get a scientific notation:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  2/10000
+
+
+  [1] 2e-04
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read e-XX as “multiplied by 10^XX”, so 2e-4 is 2 * 10^(-4).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mathematical-functions&#34;&gt;Mathematical functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R has many built in mathematical functions that will work as you would expect:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  sin(1)  # trig functions
+
+  [1] 0.8415
+
+  asin(1) # inverse sin (also for cos and tan)
+
+  [1] 1.571
+
+  log(1)  # natural logarithm
+
+  [1] 0
+
+  log10(10) # base-10 logarithm
+
+  [1] 1
+
+  log2(100) # base-2 logarithm
+
+  [1] 6.644
+
+  exp(0.5) # e^(1/2)
+
+  [1] 1.649
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;variables-and-assignment&#34;&gt;Variables and assignment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can assign values to variables using the assignment operator &amp;lt;-, like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt;- 1/40
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And now the variable x contains the value 0.025:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x
+
+  [1] 0.025
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;note that it does not contain the fraction 1/40, it contains a decimal approximation of this fraction.
+This appears exact in this case, but it is not. These decimal approximations are called “floating point numbers”
+and at some point you will probably end up having to learn more about them than you’d like.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look up at the top right pane of RStudio, and you’ll see that this has appeared in the “Workspace” pane.
+Our variable x can be used in place of a number in any calculation that expects a number.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  log(x)
+
+
+  [1] -3.689
+
+
+  sin(x)
+
+  [1] 0.025
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The right hand side of the assignment can be any valid R expression.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notice that assignment does not print a value.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt;- 100
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notice also that variables can be reassigned (x used to contain the value 0.025 and and now it has the value 100).
+Assignment values can contain the variable being assigned to: What will x contain after running this?&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt;- x + 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The right hand side is fully evaluated before the assignment occurs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Variable names can contain letters, numbers, underscores and periods. The cannot start with a number. They cannot contain spaces at all. Different people use different conventions for long varaible names, these include&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;periods.between.words&lt;/li&gt;
+&lt;li&gt;underscores_between_words&lt;/li&gt;
+&lt;li&gt;camelCaseToSeparateWords&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What you use is up to you, but be consistent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;p&gt;Compute the difference in years between now and the year that you started at University. Divide this by the difference between now and the year when you were born. Multiply this by 100 to get the percentage of your life spent at university. Use parentheses if you need them, use assignment if you need it.&lt;/p&gt;
+&lt;p&gt;This problem is as much about thinking about formalising the ingredients of a problem as much as actually getting the syntax correct.&lt;/p&gt;
+&lt;h2 id=&#34;vectors&#34;&gt;Vectors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R was designed for people who do data analysis and generally you have more than one piece of data.
+As a result in R all data types are actually vectors.
+So the number ‘1’ is actually a vector of numbers that happens to be of length 1.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1
+
+  [1] 1
+
+  length(1)
+
+  [1] 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To build a vector, use the c function (c stands for “concatenate”).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt;- c(1, 2, 40, 1234)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We have assigned this vector to the variable x.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x
+
+  [1]    1    2   40 1234
+
+  length(x)
+
+  [1] 4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notice how RStudio has updated its description of x. If you click it, you’ll get an option to alter it,
+which is rarely what you want to do.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is a deep piece of engineering in the design; most of R thinks quite happily in terms of vectors.
+If you wanted to double all the values in the vector, just multiply it by 2:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  2 * x
+
+  [1]    2    4   80 2468
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vector-functions&#34;&gt;Vector functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You can get the maximum value…&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  max(x)
+
+  [1] 1234
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…minimum value…&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  min(x)
+
+  [1] 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…sum…&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  sum(x)
+
+  [1] 1277
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…mean value…&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  mean(x)
+
+  [1] 319.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…and so on. There are huge numbers of functions that operate on vectors.
+It is more common that functions will than that they won’t.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vectors can be summed together:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  y &amp;lt;- c(0.1, 0.2, 0.3, 0.4)
+
+  x + y
+
+  [1]    1.1    2.2   40.3 1234.4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And they can be concatenated together:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  c(x, y)
+
+  [1]    1.0    2.0   40.0 1234.0    0.1    0.2    0.3    0.4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and scalars can be added to them&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x + 0.1
+
+  [1]    1.1    2.1   40.1 1234.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be careful though: if you add/multiply together vectors that are of different lengths, but the lengths factor, R will silently “recycle” the length of the shorter one:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x
+
+  [1]    1    2   40 1234
+
+  x * c(-2, 2)
+
+  [1]   -2    4  -80 2468
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(note how the first and third element have been multiplied by -2 while the second and fourth element are multiplied by 2).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the lengths do not factor (i.e., the length of the shorter vector is not a factor of the length of the longer vector) you will get a warning, but the calculation will happen anyway:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x * c(-2, 0, 2)
+
+  Warning: longer object length is not a multiple of shorter object length
+
+  [1]    -2     0    80 -2468
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is almost never what you want. Pay attention to warnings. Note that Warnings are different to Errors. We just saw a warning, where what happened is (probably) undesirable but not fatal. You’ll get Errors where what happened has been deemed unrecoverable. For example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x + z # fails because there is no variable z
+
+  Error: object &#39;z&#39; not found
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Just as with the scalars, as well as doing arithmetic operators we can do comparisons. This returns a new vector of TRUE and FALSE indicating which elements are less than 10:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt; 10
+
+  [1]  TRUE  TRUE FALSE FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can do vector-vector comparisons too:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;lt; y # all false as y is quite small.
+
+  [1] FALSE FALSE FALSE FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And combined arithmetic operations with comparison operations. Both sides of the expression are fully evaluated before the comparison takes place.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;gt; 1/y
+
+  [1] FALSE FALSE  TRUE  TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be careful with comparisons: This compares the first element with -20, the second with 20, the third with -20 and the fourth with 20.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x &amp;gt;= c(-20, 20)
+
+  [1]  TRUE FALSE  TRUE  TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This does nothing sensible, really, and warns you again:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x == c(-2, 0, 2)
+
+  Warning: longer object length is not a multiple of shorter object length
+
+  [1] FALSE FALSE FALSE FALSE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All the comparison operators work in fairly predictable ways:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  x == 40
+
+  [1] FALSE FALSE  TRUE FALSE
+
+  x != 2
+
+  [1]  TRUE FALSE  TRUE  TRUE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sequences are easy to make, and often useful. Integer sequences can be made with the colon operator:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  3:10 # sequence 3, 4, ..., 10
+
+  [1]  3  4  5  6  7  8  9 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which also works backwards&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  10:3 # the reverse
+
+  [1] 10  9  8  7  6  5  4  3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step in different sizes&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  seq(3, 10, by=2)
+
+  [1] 3 5 7 9
+
+  seq(3, 10, length=10)
+
+  [1]  3.000  3.778  4.556  5.333  6.111  6.889  7.667  8.444  9.222 10.000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now we will see the meaning of the [1] term – this indicates that you’re looking at the first element of a vector. If you make a really long vector, you’ll see new numbers:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  seq(3, by=2, length=100)
+
+    [1]   3   5   7   9  11  13  15  17  19  21  23  25  27  29  31  33  35
+   [18]  37  39  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69
+   [35]  71  73  75  77  79  81  83  85  87  89  91  93  95  97  99 101 103
+   [52] 105 107 109 111 113 115 117 119 121 123 125 127 129 131 133 135 137
+   [69] 139 141 143 145 147 149 151 153 155 157 159 161 163 165 167 169 171
+   [86] 173 175 177 179 181 183 185 187 189 191 193 195 197 199 201
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;p&gt;One thing you can do with sequences is you can very informally look at convergent sequences. For example, the sum of squares of the reciprocals of integers:&lt;/p&gt;
+&lt;p&gt;$$\frac{1}{1} + \frac{1}{4} + \frac{1}{9} + \frac{1}{16}$$&lt;/p&gt;
+&lt;p&gt;$$\frac{1}{1} + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} +
+\cdots + \frac{1}{n^2}$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What is the sum of the first four squares?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the sum of the first 100?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;…of the first 10,000?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If x is the answer to 3, what is the square root of 6x?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;a-possible-solution&#34;&gt;A possible solution&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;    1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
+
+    [1] 1.424
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;    squares &amp;lt;- (1:100)^2
+    sum(1/squares)
+
+    [1] 1.635
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;    sum(1 / (1:10000)^2)
+
+    [1] 1.645
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;    x &amp;lt;- sum(1 / (1:10000)^2)
+    sqrt(x * 6)
+
+    [1] 3.141
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;data-frames&#34;&gt;Data frames&lt;/h2&gt;
+&lt;p&gt;Let us remember the power law&lt;/p&gt;
+&lt;p&gt;$$L(r)=A r^\eta$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;then&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  A &amp;lt;- 0.1
+
+  r &amp;lt;- (1:100)
+
+  L &amp;lt;- A*r^eta
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;oops error&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  eta &amp;lt;- -1.1
+
+  L &amp;lt;- A*r^eta
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we can do a plot of the data&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  plot(r,L)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Or using R&amp;rsquo;s &amp;ldquo;formulae&amp;rdquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  plot(log(L)~log(r))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read this as “log(L) is a function of log(r)”.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we can put all together in a data frame&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pl &amp;lt;- data.frame(r,L,logL=log(L),logr=log(r))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;em&gt;pl&lt;/em&gt; variable contains a &lt;em&gt;data.frame&lt;/em&gt; object. It is a number of columns of the same length, arranged like a matrix or table.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  head(pl)  # first rows of the data frame
+
+  names(pl) # the names of columns
+
+  nrow(pl) # the number of rows
+
+  ncol(pl) # the number of columns
+
+  pl$L     # obtain one column
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;we can do a regression to obtain the exponent of our power law&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  lm(logL~logr,data=pl)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;lm&amp;rdquo; stands for linear model and is a general function for doing all kinds of linear statistica models.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-3&#34;&gt;Exercise 3&lt;/h2&gt;
+&lt;p&gt;First delete all variables to start over&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rm(list=ls())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Generate a data.frame with different parameters for the power law and 1000 points.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A possible answer&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pl &amp;lt;- data.frame(r=seq(1,100,0.1))
+
+  pl$L&amp;lt;- 0.4*pl$r^-1.3
+
+  pl$logL &amp;lt;-log(pl$L)
+
+  pl$logr &amp;lt;-log(pl$r)
+
+  lm(logL~log(r),data=pl) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing-functions&#34;&gt;Writing functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Writing functions is one of the most important steps to use all the power of R.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remember the power law of cumulative biomass in lake Constanz, we have to calculate $L(&amp;gt;r)$&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pl$r &amp;gt;=1 
+  pl$r &amp;gt;=2
+
+  pl[pl$r &amp;gt;=2,] 			# select the rows with the column r&amp;gt;2
+
+  pl[pl$r &amp;gt;=99,]
+
+  pl[pl$r &amp;gt;=99,]$L 		# Get only the column that we are interested
+
+  sum(pl[pl$r &amp;gt;=99,]$L)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We can define a function to calculate this using a variable&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  cumPowerL &amp;lt;- function(x) {
+      sum(pl[pl$r &amp;gt;=x,]$L)
+
+  }
+
+  cumPowerL(99)
+
+  cumPowerL(1)
+
+  cumPowerL(pl$r)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If we want to apply the function to a vector we have to use:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  sapply(pl$r,cumPowerL)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;we can add a variable to our data.frame&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pl$cumL &amp;lt;- sapply(pl$r,cumPowerL) 		
+
+  plot(log(cumL)~logr,data=pl)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It seems that the power law is defined for $logr&amp;lt;3$&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pl1 &amp;lt;- pl[pl$logr&amp;lt;3,]
+
+  lm(log(cumL)~logr,data=pl1) 
+
+  lm(log(cumL)~logr,data=pl)
+
+  summary(lm(log(cumL)~logr,data=pl1))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One way to not type the same (or copy) commands is assign a variable&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  lm1 &amp;lt;- lm(log(cumL)~logr,data=pl1) 
+
+  lm0  &amp;lt;- lm(log(cumL)~logr,data=pl) 
+
+  summary(lm1)
+
+  summary(lm0)
+
+  abline(lm1,col=&amp;quot;red&amp;quot;)
+
+  abline(lm0,col=&amp;quot;blue&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We previously said that if we have a power law&lt;/p&gt;
+&lt;p&gt;$$L(r) \propto r^{-\eta}$$&lt;/p&gt;
+&lt;p&gt;the cumulative distribution should be&lt;/p&gt;
+&lt;p&gt;$$L(&amp;gt;r) \propto r^{-\eta+1}$$&lt;/p&gt;
+&lt;p&gt;but here this result is only approximate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-4&#34;&gt;Exercise 4&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fit the cumulative power law to the first 50 values in the data frame&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fractals in time - Day 2</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/</guid>
+      <description>&lt;h2 id=&#34;characteristic-features-of-fractals&#34;&gt;Characteristic features of fractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mandelbrot Originally defined fractals as sets that have fractal dimension
+strictly greater than its topological dimension.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is no hard and fast definition but a list of properties.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We refer to &lt;em&gt;F&lt;/em&gt; as fractal if:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; has a fine structure: i.e. detail on small scales.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; is too irregular to be described by traditional geometrical language&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;F&lt;/em&gt; has some form of self-similarity, perhaps approximate or statistical&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Usually the fractal dimension of &lt;em&gt;F&lt;/em&gt; is greater than its topological dimension&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;random-walks&#34;&gt;Random walks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Random walk (RW) is a stochastic process in which an object moves in a space by performing random jumps&lt;/p&gt;
+  &lt;center&gt;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C2_RandomWalk.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C2_RandomWalk.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+  &lt;/center&gt; 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We can see that the enlarged view of a small part of the trajectory looks similar to the original, is fractal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The pattern displayed by the one dimensional RW is not self-similar but &lt;em&gt;self-affine&lt;/em&gt; because the time and space dimensions do not scale in the same way&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fractal-time-series&#34;&gt;Fractal time series&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fractal properties in time series can be analyzed by means of Hurst&amp;rsquo;s Rescaled Range Analysis&lt;/p&gt;
+&lt;p&gt;Let us consider a time series that can be: the number of extinctions of a group of organism or a particular population or the discharge of a river, etc.&lt;/p&gt;
+&lt;p&gt;$X_i$ with $i=1,2,3,&amp;hellip;,T$&lt;/p&gt;
+&lt;p&gt;The average of $X_i$ over $T$ time steps will be $&amp;lt; X &amp;gt;_T = \left( \sum_{i} X_t \right)/T$&lt;/p&gt;
+&lt;p&gt;The departure from the average over a t-year time horizont is given by:&lt;/p&gt;
+&lt;p&gt;$$X(t,T) = \sum_{i=1}^{t} [X_i - &amp;lt; X &amp;gt;_T ] = \left( \sum_{i=1}^{T} X_i \right) - t &amp;lt; X &amp;gt;_T$$&lt;/p&gt;
+&lt;p&gt;$X(t,T)$ is usually calculated dividing the time series in $M$ segments of size $T$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the value of $X(T,T)$ ?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rescaled-range-analysis&#34;&gt;Rescaled Range Analysis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We need to calculate two more quantities from the previous :&lt;/p&gt;
+&lt;p&gt;The standard deviation $S(T) = \left( (&amp;lt; X_t - &amp;lt; X &amp;gt;_T &amp;gt;)^2 \right)^{1/2}$&lt;/p&gt;
+&lt;p&gt;The range $R(T) = \max_{1 \le t \le T} X(t,T) - \min_{1 \le t \le T} X(t,T)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The rescaled range is: $F(T)=R(T)/S(T)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculate $F(T)$ using $T=5$ and the following series&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  3  4  9  2  1  7  8  2  2  9 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When the values of the time series are uncorrelated $F(T) \propto T^{1/2}$,
+which is called white noise. The best predictor is the last measured value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hurst found a more general scaling relation $F(T) \propto T^{H}$.&lt;/p&gt;
+&lt;p&gt;for the natural systems he analyzed $H &amp;gt; 1/2$&lt;/p&gt;
+&lt;p&gt;it can be shown (easily) than the fractal dimension is related:&lt;/p&gt;
+&lt;p&gt;$$D = 2 - H$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When the Hurst exponent is greater than 1/2 the system shows persistence on all time scales.
+An increasing trend in the past implies an increasing trend in the future.&lt;/p&gt;
+&lt;p&gt;If $H &amp;lt; 1/2$ an increase in the past implies a decrease in the future, the system shows antipersistence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
+&lt;p&gt;We will analyze the data from the paper:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Meltzer MI, Hastings HM (1992) The use of fractals to assess the ecological impact of increased cattle population: case study from the Runde Communal Land, Zimbabwe. Journal of Applied Ecology 29: 635–646.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cumulative distributions - Day 2</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor2/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor2/</guid>
+      <description>&lt;h2 id=&#34;cumulative-distributions-and-ranks&#34;&gt;Cumulative distributions and ranks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We want to make a plot of the cumulative distribution of a function $P(x)$
+the frequency of words in a text.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The cumulative distribution of the frequency is defined such that $P(x)$ is the fraction of
+words with frequency greater than or equal to $x$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If $x$ is the frequency of the most frequent word, usually &amp;ldquo;the&amp;rdquo;, then there is exactly one word with frequency greater than or equal to $x$.&lt;/p&gt;
+&lt;p&gt;Similarly for the second most frequent word, usually &amp;ldquo;of&amp;rdquo;, there are two words with frequency greater than or equal: &amp;ldquo;of&amp;rdquo; and &amp;ldquo;the&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cumulative-distributions-and-ranks-1&#34;&gt;Cumulative distributions and ranks 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In general if we rank the words in descending order then by definition there are &lt;em&gt;n&lt;/em&gt; words with frequency greater than or equal than that of the &lt;em&gt;n&lt;/em&gt;th most commond word.&lt;/p&gt;
+&lt;p&gt;Thus the cumulative distribution $P(x)$ is proportional to the rank &lt;em&gt;n&lt;/em&gt; of a word.&lt;/p&gt;
+&lt;p&gt;Then to plot $P(x)$ we only need to plot the ranks as a function of the frequency.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cumulative-distributions-and-fractal-dimension&#34;&gt;Cumulative distributions and fractal dimension&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We can analyze the data from Metzler (1992)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		rm(list=ls())
+
+		ps &amp;lt;- read.table(&amp;quot;patch1968.dat&amp;quot;,header=T)
+
+		ps$r &amp;lt;- rank(-ps$pSize)
+
+		plot(r ~ pSize,data=ps)
+
+		plot(log(r)~log(pSize),data=ps)		
+
+		lm0 &amp;lt;- lm(log(r)~log(pSize),data=ps)
+
+		summary(lm0)
+
+		abline(lm0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;cumulative-distributions-and-fractal-dimension-1&#34;&gt;Cumulative distributions and fractal dimension 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If $B$ is the exponent then $H = 2 - 2B$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		slope0 &amp;lt;- coef(lm0)[2]
+		
+		2+slope0*2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;The patches are persistent because H=1.18 &amp;gt; 0.5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We need to install the package &amp;ldquo;car&amp;rdquo; to test for autocorrelation with the Durbin-Watson statistic. We can do this using the RStudio menu Tools/Install Packages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		require(car)
+
+		dwt(lm0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;we can draw a grid to determine the break point.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;		grid()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Split the data in two to obtain two fractal dimensions without correlation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is a shorcut for doing this: the package &amp;ldquo;segmented&amp;rdquo; fits a broken line and
+finds the break point.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		require(segmented)
+
+		ps$logr &amp;lt;- log(ps$r)
+		ps$logpSize &amp;lt;- log(ps$pSize)
+		lm0 &amp;lt;- lm(logr~logpSize,data=ps)
+		seg &amp;lt;- segmented(lm0, seg.Z = ~logpSize, psi=4)
+		summary(seg)
+		slope(seg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;exercise-1-cont&#34;&gt;Exercise 1 (Cont.)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Let&amp;rsquo;s do a function to calculate H&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;small patches are persistent&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		calcH &amp;lt;- function(B) { 2-2*abs(B)}
+
+		calcH(.1550) # H = 1.69
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Big patches are anti-persistent
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;		calcH(.9036) # H = 0.19
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What is the breakpoint value in ha? Let&amp;rsquo;s do another function.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A possible answer:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		calcBreak &amp;lt;- function(B) { 0.1*exp(B)*0.65 } 
+
+		calcBreak(3.35) # 1.85 ha
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;small patches: if they are growing they keep growing, if they are reducing they vanish.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;big patches: if they are growing they will reduce, if they are reducing they will grow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thus big patches are more stable, small patches appear and disappear.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Let&amp;rsquo;s do the same thing using segmented with the 1985 data: &amp;ldquo;patch1985.dat&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We can do a plot with the segmented object&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		plot(seg,col=&amp;quot;green&amp;quot;,xlab=&amp;quot;Log Patch Size&amp;quot;
+				,ylab=&amp;quot;Acum Freq&amp;quot;)
+		
+		points(log(r)~log(pSize),data=ps,pch=2,cex=.5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We can use the functions:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		summary(seg)
+		slope(seg)
+
+		calcH(0.2676)
+		calcH(1.26)
+
+		calcBreak(2.708) # 0.97 ha
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;a-different-graphic-analysis&#34;&gt;A different graphic analysis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Using graphics package &amp;ldquo;ggplot2&amp;rdquo;. We need to add both datasets in one data frame&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		ps &amp;lt;- read.table(&amp;quot;patch1985.dat&amp;quot;,header=T)
+		ps$r &amp;lt;- rank(-ps$pSize)
+		ps$Year &amp;lt;- &amp;quot;1985&amp;quot;
+
+		ps1 &amp;lt;- read.table(&amp;quot;patch1968.dat&amp;quot;,header=T)
+		ps1$r &amp;lt;- rank(-ps1$pSize)
+		ps1$Year &amp;lt;- &amp;quot;1968&amp;quot;
+
+		ps &amp;lt;- rbind(ps,ps1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;gramar-of-graphics-ggplot2&#34;&gt;Gramar of graphics ggplot2&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;		require(ggplot2)
+		ggplot(data=ps,aes(x=pSize,y=r,color=Year))
+					+geom_point()
+
+		p &amp;lt;- ggplot(data=ps,aes(x=log(pSize),y=log(r),
+				color=Year))+geom_point(aes(shape=Year))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;more-questions&#34;&gt;More questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This seems a fragmentation process the frequency of small patches increases but the scaling of big patches seems similar, have big patches different scalings?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		ps$logpSize &amp;lt;- log(ps$pSize)
+		
+		ps1 &amp;lt;- ps[ps$logpSize&amp;gt;3.35,]
+
+		p + geom_smooth(data=ps1,method=&amp;quot;lm&amp;quot;)
+
+		ggsave(&amp;quot;patch_Breaks.png&amp;quot;,width=2)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multifractal theory - Day 3</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/</guid>
+      <description>&lt;h2 id=&#34;multifractals&#34;&gt;Multifractals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Many natural systems cannot be characterized by a single number such as the fractal
+dimension. Instead an infinite spectrum of dimensions must be introduced.&lt;/p&gt;
+  &lt;center&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Clouds.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C3_Clouds.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+  &lt;/center&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multifractal-definition&#34;&gt;Multifractal definition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Consider a given object $\Omega$, its multifractal nature is practically determined by
+covering the system with a set of boxes ${B_i(r)}$ with $(i=1,&amp;hellip;, N(r))$ of side lenght $r$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;These boxes are nonoverlaping and such that&lt;/p&gt;
+&lt;p&gt;$$\Omega = \bigcup_{i=1}^{N(r)} B_i(r)$$&lt;/p&gt;
+&lt;p&gt;This is the box-counting method but now a measure $\mu(B_n)$ for each box is computed.
+This measure corresponds to the total population or biomass contained in $B_n$, in general
+will scale as:&lt;/p&gt;
+&lt;p&gt;$$\mu(B_n) \propto r^\alpha$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;box-counting&#34;&gt;Box counting&lt;/h2&gt;
+&lt;center&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/center&gt; 
+&lt;h2 id=&#34;the-generalized-dimensions&#34;&gt;The generalized dimensions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The fractal dimension $D$ already defined is actually one of an infinite spectrum of
+so-called correlation dimension of order $q$ or also called Renyi entropies.&lt;/p&gt;
+&lt;p&gt;$$D_q = \lim_{r \to 0} \frac{1}{q-1}\frac{log \left[ \sum_{i=1}^{N(r)}p_i^q \right]}{\log r}$$&lt;/p&gt;
+&lt;p&gt;where $p_i=\mu(B_i)$ and a normalization is assumed:&lt;/p&gt;
+&lt;p&gt;$$\sum_{i=1}^{N(r)}p_i=1$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For $q=0$ we have the familiar definition of fractal dimension. To see this we replace $q=0$&lt;/p&gt;
+&lt;p&gt;$$D_0 = -\lim_{r \to 0}\frac{N(r)}{\log r}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generalized-dimensions-1&#34;&gt;Generalized dimensions 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It can be shown that the inequality $D_q&amp;rsquo; \leq D_q$ holds for $q&amp;rsquo; \geq q$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The sum&lt;/p&gt;
+&lt;p&gt;$$M_q(r) = \sum_{i=1}^{N(r)}[\mu(B_i(r))]^q = \sum_{i=1}^{N(r)}p_i^q$$&lt;/p&gt;
+&lt;p&gt;is the so-called moment or partition function of order $q$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Varying q allows to measure the non-homogeneity of the pattern. The moments with larger $q$
+will be dominated by the densest boxes.  For $q&amp;lt;0$ will come from small $p_i$&#39;s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alternatively we can think that for $q&amp;gt;0$, $D_q$ reflects the scaling of the large fluctuations
+and strong singularities. In contrast, for $q&amp;lt;0$, $D_q$ reflects the scaling of the small fluctuations
+and weak singularities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise&#34;&gt;Exercise&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Calculate the partition function for the center and lower images of the figure:&lt;/p&gt;
+  &lt;center&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+  &lt;/center&gt; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;two-important-dimensions&#34;&gt;Two important dimensions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Two particular cases are $q=1$ and $q=2$. The dimension for $q=1$ is the Shannon entropy or also called by ecologist the Shannon&amp;rsquo;s index of diversity.&lt;/p&gt;
+&lt;p&gt;$$D_1 = -\lim_{r \to 0}\sum_{i=1}^{N(r)} p_i \log p_i$$&lt;/p&gt;
+&lt;p&gt;and the second is the so-called correlation dimension:&lt;/p&gt;
+&lt;p&gt;$$D_2 = -\lim_{r \to 0} \frac{\log \left[ \sum_{i=1}^{N(r)} p_i^2 \right]}{\log r} $$&lt;/p&gt;
+&lt;p&gt;the numerator is the log of the Simpson index.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;application&#34;&gt;Application&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Salinity stress in the cladoceran Daphniopsis Australis. Behavioral experiments
+were conducted on individual males, and their successive displacements analyzed
+using the generalized dimension function $D_q$ and the mass exponent function $\tau_q$&lt;/p&gt;
+  &lt;center&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Cladoceran.png&#34; &gt;
+&lt;img data-src=&#34;../figs/C3_Cladoceran.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+  &lt;/center&gt; 
+&lt;p&gt;both functions indicate that the successive displacements of male D. australis have weaker multifractal properties. This is consistent with and generalizes previous results showing a decrease in the complexity of behavioral sequences under stressful conditions for a range of organisms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A shift between multifractal and fractal properties or a change in multifractal properties, in animal behavior is then suggested as a potential diagnostic tool to assess animal stress levels and health.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mass-exponent-and-hurst-exponent&#34;&gt;Mass exponent and Hurst exponent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The same information contained in the generalized dimensions can be expressed using mass exponents:&lt;/p&gt;
+&lt;p&gt;$$M_q(r) \propto r^{-\tau_q}$$&lt;/p&gt;
+&lt;p&gt;This is the scaling of the partition function. For monofractals $\tau_q$ is linear and related to the Hurst exponent:&lt;/p&gt;
+&lt;p&gt;$$\tau_q = q H - 1$$&lt;/p&gt;
+&lt;p&gt;For multifractals we have&lt;/p&gt;
+&lt;p&gt;$$\tau_q = (q -1) D_q$$&lt;/p&gt;
+&lt;p&gt;Note that for $q=0$, $D_q = \tau_q$ and for $q=1$, $\tau_q=0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Kellner JR, Asner GP (2009) Convergent structural responses of tropical forests to diverse disturbance regimes. Ecology Letters 12: 887–897. doi:10.1111/j.1461-0248.2009.01345.x.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multifractal estimation - Day 3</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor3/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor3/</guid>
+      <description>&lt;h2 id=&#34;multifractal-estimation&#34;&gt;Multifractal estimation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We will use box counting to estimate $D_q$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$D_q = \lim_{r \to 0} \frac{1}{q-1}\frac{log \left[ M_q(r) \right]}{\log r}$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We cover the object with square non-overlapping boxes of size $r$ and
+repeat the procedure using a range of $r$ values. This range is determined by the size of our sample.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;in practice $D_q$ is estimated by the slope of the scaling relation for a range of $q$&lt;/p&gt;
+&lt;p&gt;$$M_q(r) = A r^{-\tau_q}$$&lt;/p&gt;
+&lt;p&gt;$$\log(M_q(r)) = \log A - \tau_q log(r)$$&lt;/p&gt;
+&lt;p&gt;$$D_q = \frac{\tau_q}{(q-1)}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimating $D_q$ is not very difficult but is no so simple. We need the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Chose a range of $q$ and a range of $r$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start with the first $q$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start with the first $r$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cover the object with boxes of side $r_1$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculate $M_q(r_1)$ store the result.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do this for all $r$&#39;s in the range.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now we have all $r$&#39;s and $M_q(r)$ to calculate $\tau_q$ by regression&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Repeat 3. - 7. for all the $q$s&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If somebody want to do this in R as a final project, we cant talk later.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We will use an open source software mfSBA available at &lt;a href=&#34;http://github/lsaravia/mfsba&#34;&gt;http://github/lsaravia/mfsba&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;using-mfsba&#34;&gt;Using mfSBA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To automate repetitive task and perform visualizations we will use R but
+we need to know how to use mfSBA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To invoke an external program from R we use:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  system(&amp;quot;./mfSBA&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or under windows&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  system(&amp;quot;mfSBA.exe&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the console appears some information about the parameters&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parameter&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;inputFile&lt;/td&gt;
+&lt;td&gt;The file we want to use&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;qFile&lt;/td&gt;
+&lt;td&gt;A file that indicates the $q$&#39;s range&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;minBox&lt;/td&gt;
+&lt;td&gt;The size of the first box&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;maxBox&lt;/td&gt;
+&lt;td&gt;The size of the last box.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The intermediate boxes are calculated as powers of 2.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numBoxSizes&lt;/td&gt;
+&lt;td&gt;limit the number of boxes, not very useful.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;option&lt;/td&gt;
+&lt;td&gt;we will use the option S that makes $\sum p_i=1$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;mfSBA can use tif files but I can&amp;rsquo;t make it work in windows so we will use
+its own format that is called &amp;ldquo;sed&amp;rdquo;. Sed files are text files with a matrix structure.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  s &amp;lt;- &amp;quot;./mfSBA K1_laSelva.sed q.sed 2 512 20 S&amp;quot;
+
+  system(s)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This generates several files:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  a.K1_laSelva.sed
+  f.K1_laSelva.sed
+  t.K1_laSelva.sed
+  s.K1_laSelva.sed
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;a.file/f.file&lt;/strong&gt; have data for $f(\alpha)$ and $\alpha$ an equivalent way
+to express $D_q$ that we will not use.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t.file&lt;/strong&gt; has $\log( M_q(r))$ and the box sizes used, useful to check the validity of
+the regression.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;s.file&lt;/strong&gt; has $\tau_q$, $\alpha$ and $f(\alpha)$, the $R^2$&#39;s and standard deviations, so we will use mostly this file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  sf &amp;lt;- read.table(&amp;quot;s.K1_laSelva.sed&amp;quot;, header=T)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise&#34;&gt;Exercise&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;make a function to read the s.file and discard all the things we don&amp;rsquo;t need and calculate $D_q$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The first step to do a function like this is to test if commands works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A possible answer:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  readDq &amp;lt;- function(sname) {
+	
+      pp &amp;lt;- read.table(sname, header=T)
+
+      pp$Dq  &amp;lt;- with(pp,ifelse(q==1,alfa,Tau/(q-1)))
+	    
+      pp$SD.Dq  &amp;lt;- with(pp,ifelse(q==1,SD.alfa,abs(SD.Tau/(q-1))))
+	    
+      pp$R.Dq &amp;lt;- with(pp,ifelse(q==1,R.alfa,R.Tau))
+	    
+      return(pp[,c(&amp;quot;q&amp;quot;,&amp;quot;Tau,&amp;quot;SD.Tau&amp;quot;,&amp;quot;Dq&amp;quot;,&amp;quot;SD.Dq&amp;quot;,&amp;quot;R.Dq&amp;quot;)])
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;analyze-the-output&#34;&gt;Analyze the output&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;First use our function to get all we need&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  dq &amp;lt;- readDq(&amp;quot;s.K1_laSelva.sed&amp;quot;)
+
+  require(ggplot2)
+
+  pp &amp;lt;- ggplot(dq, aes(x=R.Dq)) + geom_histogram()
+	 
+  pp
+
+  range(dq$R.Dq)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$R^2$ seems very high, that means a very good fit, we could check more using the &lt;strong&gt;t.file&lt;/strong&gt;. Let&amp;rsquo;s try:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  tf &amp;lt;- read.table(&amp;quot;t.K1_laSelva.sed&amp;quot;, header=T)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Oops error: the first line do not have the same number of labels as columns.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  tf &amp;lt;- read.table(&amp;quot;t.K1_laSelva.sed&amp;quot;, skip=1)
+
+  names(tf)[1] &amp;lt;- &amp;quot;Box&amp;quot;
+
+  names(tf)[2] &amp;lt;- &amp;quot;logBox&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And check with the Durbin-Watson statistic&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  lm0 &amp;lt;- lm(V3~logBox,data=tf)
+
+  summary(lm0)
+	
+  require(car)
+	
+  dwt(lm0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let&amp;rsquo;s check another $q$&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  lm0 &amp;lt;- lm(V23~logBox,data=tf)
+
+  dwt(lm0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thus there is some autocorrelation. Let&amp;rsquo;s check graphically&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pp &amp;lt;- ggplot(data=tf,aes(x=logBox,y=V23))+geom_point()+geom_smooth(method=&amp;quot;lm&amp;quot;)
+
+  pp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When there is low $R^2$ or autocorrelation is better to check graphically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;d_q-for-la-selva&#34;&gt;$D_q$ for La Selva&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We can plot $D_q$ with using SD as error bars&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  pp &amp;lt;- ggplot(dq, aes(x=q, y=Dq)) +
+    geom_errorbar(aes(ymin=Dq-SD.Dq, ymax=Dq+SD.Dq), width=.1) +
+    geom_line() +
+    geom_point()
+
+  pp 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Plot $\tau_q$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Can we make more functions to automate the task if we need to repeat the analysis?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A function to read the data, show the $R^2$ histogram and add $D_q$ to a data frame.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A function to plot all the $D_q$ linear fit for all $q$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Percolation - Day 4</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso4/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso4/</guid>
+      <description>&lt;h2 id=&#34;percolation&#34;&gt;Percolation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We will study the simplest and clearest example of statistical fractal behavior on a two dimensional
+spatial landscape.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let us consider a $L \times L$ square grid where each site can be occupied by a tree with probability $p$. The state of a site is indicated $S(i,j)$. There are two states occupied=1, empty=0.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each lattice point has four nearest sites: The &lt;em&gt;neighboorhod&lt;/em&gt; of $(i,j)$ is indicated as $n(i,j)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As each site can be occupied independent of the others they do not have any patchiness or spatial correlations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the probability of finding a path of neighboring trees connecting the bottom to the top?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Our intuition suggest that this probability $P(p,L)$ increase in some monotonous way when $p$ increases.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When a cluster of connected sites of length $L$ is present, &lt;em&gt;percolation&lt;/em&gt; takes place and the cluster is called the &lt;em&gt;percolation cluster&lt;/em&gt;. From this we can see the emergence of a large scale pattern from local interactions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Let us assume that the trees at the bottom row are burned, their state is indicated by $S(i,j)=2$ the trees with a burned neighbor also burn, thus the fire propagates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The question is to compute $P(p,L)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;percolation-and-criticality&#34;&gt;Percolation and criticality&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Graph shows the order parameter for the transition against &lt;em&gt;p&lt;/em&gt;, with a sudden increase at the critical point ($p_c=0.59$). The insets show the cluster of burning trees for different &lt;em&gt;p&lt;/em&gt;.
+&amp;lt;cent
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;..![]%28figs/C4_FirePercol.png&#34; &gt;
+&lt;img data-src=&#34;..![]%28figs/C4_FirePercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/center&gt;  
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are two well defined phases or domains, separated by a well defined boundary or critical point $p_c$:&lt;/p&gt;
+&lt;p&gt;When $p &amp;lt; p_c$ the fire cannot spread to far away places.&lt;/p&gt;
+&lt;p&gt;When $p &amp;gt; p_c$ the fire propagate trough the entire set of units.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At the critical point the cluster of connected units is fractal, and scaling laws arise.
+The same basic process generate small and large structures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Percolation can be related to invasion process: if the invasive species tend to replace a dominant species, a species that percolates, the invasion will be more successful.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the other direction, when an ecosystem needs a minimal spatial habitat to survive, random habitat loss can lead to percolation, that means breaking available space into many small patches and triggering
+ecosystem collapse&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The problem is that this is a threshold phenomena and can be sudden and unexpected.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;percolation-an-infection&#34;&gt;Percolation an infection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Let us consider a one dimensional system of $N$ sites $S_i(t)$ where $S_i(t) \epsilon [0,1]$,  healthy=0 and infected=1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The rules for this system are&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Infection: a healthy site become infected proportionate to the infected neighbors&lt;/p&gt;
+&lt;p&gt;$$0 \xrightarrow{\lambda n_i} 1$$&lt;/p&gt;
+&lt;p&gt;where $n_i= S_{i+1}+S_{i-1}$, and $\lambda$ the probability of infection in a single contact.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Recovery: an infected individual can recover with probability $\mu$&lt;/p&gt;
+&lt;p&gt;$$1 \xrightarrow{\mu} 0$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The question is whether the epidemic will persist or become extinct&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here there is an example of a phase transition. A string of 150 has been used and  $\mu=0.5$. The
+triangles indicate the probability that active particles are observed after $10^3$ steps. A sharp transition
+can be observed at the critical probability of infection $\mu_c=0.5&amp;rdquo;. The insets are space-time diagrams at
+different points in the parameter space.
+&lt;center&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;..figs/C4_InfectPercol.png&#34; &gt;
+&lt;img data-src=&#34;..figs/C4_InfectPercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;/center&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;self-organization&#34;&gt;Self-organization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Self-organization is defined as a set of dynamical mechanisms whereby structures appear at the global level of a system from interactions among their lower-level components. The interactions between the constituent units are determined by local information, without reference to the global pattern, which is an emergent property (Solé and Bascompte 2006).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The characteristics of a self-organizing process are:&lt;/p&gt;
+&lt;p&gt;a) the creation of space-time structures from an homogeneous medium;&lt;/p&gt;
+&lt;p&gt;b) the possible existence of multiple stable states, because the structures emerge through the amplification of random fluctuations;&lt;/p&gt;
+&lt;p&gt;c) the existence of thresholds where a tiny change in a parameter can lead to a qualitative change in the behavior of the system, these are called bifurcations. In this context, the details of the particular biological interactions could be irrelevant for the dynamics of the system, thus a very simple model can describe it successfully&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Weerman EJ, Van Belzen J, Rietkerk M, Temmerman S, Kéfi S, et al. (2012) Changes in diatom patch-size distribution and degradation in a spatially self-organized intertidal mudflat ecosystem. Ecology 93: 608–618. doi:10.1890/11-0625.1.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Percolation in R - Day 4</title>
+      <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/</link>
+      <pubDate>Fri, 26 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/</guid>
+      <description>&lt;h2 id=&#34;percolation&#34;&gt;Percolation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;First we will generate a random forest: set each position of a matrix to 1 or 0 with some
+probability $p$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;First we need to fill a matrix with numbers&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		rm(list=ls())
+
+		dim_rf &amp;lt;- 10
+
+		matrix(0,dim_rf,dim_rf)
+
+		matrix(1:dim_rf,dim_rf)
+
+		matrix(1:(dim_rf*dim_rf),dim_rf)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;what we really need are random numbers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		runif(10)
+
+		rf &amp;lt;- matrix(runif(dim_rf*dim_rf),ncol=dim_rf)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;now we need to decide which will become 0 or 1 with some probability,
+the best way to do that is using a function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		set_tree &amp;lt;- function(elem,prob) {
+		  if(elem&amp;gt;prob) 
+		      elem &amp;lt;- 0
+		  else
+		      elem &amp;lt;- 1
+		} 
+
+		set_tree(rf,0.5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;the last line don&amp;rsquo;t works because we need to apply the condition to each site individually&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		rf &amp;lt;-apply(rf,1:2,set_tree,0.5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;So we set a matrix of 1&amp;rsquo;s and 0&amp;rsquo;s with probability 0.5, we can plot it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		image(rf,asp=1,axes=F,col=c(&amp;quot;white&amp;quot;,&amp;quot;black&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Now we can put all together and make a function that does all things&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		generate_rf &amp;lt;- function(sideDim,p)
+		{
+		  rf &amp;lt;- matrix(runif(sideDim*sideDim),ncol=sideDim)
+		  rf &amp;lt;-apply(rf,1:2,set_tree,p)
+		  image(rf,asp=1,axes=F,col=c(&amp;quot;white&amp;quot;,&amp;quot;black&amp;quot;))
+		}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We can see how the matrix is filled when we change $p$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		generate_rf(100,0.1)
+
+		generate_rf(100,0.5)
+
+		generate_rf(100,0.59)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;The next thing is to burn the trees, we forget to return the matrix with the random forest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		generate_rf &amp;lt;- function(sideDim,p)
+		{
+		  rf &amp;lt;- matrix(runif(sideDim*sideDim),ncol=sideDim)
+		  rf &amp;lt;-apply(rf,1:2,set_tree,p)
+		  image(rf,asp=1,axes=F,col=c(&amp;quot;white&amp;quot;,&amp;quot;black&amp;quot;))
+		  return(rf)
+		}
+
+		rf &amp;lt;- generate_rf(10,0.51)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Now we need a function to explore the neighborhood and fire the actual site if one on the adjacent sites is fired. We can try to use a loop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		rf[1,] &amp;lt;- 2
+
+		for(j in 1:ncol(rf))
+		{
+
+			if( rf[1,j]==2 &amp;amp; rf[2,j]==1)
+				rf[2,j] &amp;lt;- 2
+		}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;But we have to do that for all the rows of the matrix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		for(i in 2:nrow(rf))
+			for(j in 1:ncol(rf))
+			{
+				if( rf[i-1,j]==2 &amp;amp; rf[i,j]==1)
+					rf[i,j] &amp;lt;- 2
+			}
+
+
+		image(rf,asp=1,axes=F,col=c(&amp;quot;white&amp;quot;,&amp;quot;black&amp;quot;,&amp;quot;red&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;something is wrong, we need to test all the neighborhood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		for(i in 2:nrow(rf))
+			for(j in 2:(ncol(rf)-1))
+			{
+				if( (rf[i-1,j]==2 || rf[i-1,j-1]==2 || rf[i-1,j+1]==2) &amp;amp;&amp;amp; rf[i,j]==1)
+					rf[i,j] &amp;lt;- 2
+			}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;So now we are ready to build the function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		fire_rf &amp;lt;- function(rf) {
+		  dimi=nrow(rf)
+		  dimj=ncol(rf)-1
+		  rf[1,] &amp;lt;- 2
+		  for(i in 2:dimi)
+		    for(j in 2:dimj)
+		    {
+		      if((rf[i-1,j]==2 || rf[i-1,j-1]==2 || rf[i-1,j+1]==2) &amp;amp;&amp;amp; (rf[i,j]==1))
+		          rf[i,j] &amp;lt;- 2
+		    }
+		  return(rf)
+		}
+
+		rf &amp;lt;- generate_rf(100,0.1)
+
+		rf1 &amp;lt;- fire_rf(rf)
+
+		image(rf1,asp=1,axes=F,col=c(&amp;quot;white&amp;quot;,&amp;quot;black&amp;quot;,&amp;quot;red&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Now to finish we have to count the number of burned sites, a simple function will do, but first we
+test the commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   		bur &amp;lt;-0
+
+		for(i in 2:nrow(rf1))
+		  for(j in 1:ncol(rf1))
+		  {
+		    if(rf1[i,j]==2 )
+		        bur &amp;lt;- bur + 1
+		  }
+
+		bur
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;next we create the function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		countBurned &amp;lt;- function(rf)
+		{
+		  bur &amp;lt;-0
+		  dimi=nrow(rf)
+		  dimj=ncol(rf)
+		  
+		  for(i in 2:dimi)
+		    for(j in 1:dimj)
+		    {
+		      if(rf1[i,j]==2 )
+		        bur &amp;lt;- bur + 1
+		    }
+		  return(bur/((dimi-1)*dimj))
+		}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;exercise-1&#34;&gt;Exercise 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a plot of the proportion of burned sites versus the probability $p$ of the trees&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infection&#34;&gt;Infection&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We can do this in a similar way, first we need a matrix but now one dimension will be the time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		dim_in &amp;lt;- 10
+		time_in &amp;lt;- 20
+
+		inf&amp;lt;-matrix(0,time_in,dim_in)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;At time 1 we need to infect some sites to have a start&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		inf[1,] &amp;lt;- ifelse(runif(dim_in)&amp;gt;0.5,1,0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Now we have to propagate the infection, there are two possibilities: contagion with probability
+$\lambda$ or recuperation with probability $\mu$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		lambda = 0.5
+
+		mu= 0.5
+
+		for(i in 1:(time_in-1))
+		  for(j in 2:(dim_in-1))
+		  {
+		    if(inf[i,j]==0){
+		      
+		      if(inf[i,j-1]==1){
+		        inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=lambda,1,0)
+		      }
+		      else if(inf[i,j+1]==1 ){
+		        inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=lambda,1,0)
+		      }
+		    }
+		    else
+		    {
+
+		      inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=mu,0,1)
+		    }
+		  }
+
+		image(inf,asp=1,axes=F,col=c(&amp;quot;grey&amp;quot;,&amp;quot;brown&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Then we put all in a function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;		simulate_inf &amp;lt;- function(lambda,mu,dim_in,time_in){
+		  
+		  inf&amp;lt;-matrix(0,time_in,dim_in)
+		  inf[1,] &amp;lt;- ifelse(runif(dim_in)&amp;gt;0.5,1,0)
+		  for(i in 1:(time_in-1))
+		    for(j in 2:(dim_in-1))
+		    {
+		      if(inf[i,j]==0){
+		        
+		        if(inf[i,j-1]==1){
+		          inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=lambda,1,0)
+		        }
+		        else if(inf[i,j+1]==1 ){
+		          inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=lambda,1,0)
+		        }
+		      }
+		      else
+		      {
+		        inf[i+1,j] &amp;lt;- ifelse(runif(1)&amp;lt;=mu,0,1)
+		      }
+		    }
+		    image(inf,asp=1,axes=F,col=c(&amp;quot;grey&amp;quot;,&amp;quot;brown&amp;quot;)) 
+		}
+
+		simulate_inf(.4,.4,50,100)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;We can try with different parameters and see what happens at $\lambda &amp;gt; \mu$ or $\lambda &amp;lt; \mu$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exercise-2&#34;&gt;Exercise 2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Build the plot with a fixed $\mu$ of the probability of propagation versus $\lambda$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Estimate the fractal dimension and the multifractal spectrum of the infection&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

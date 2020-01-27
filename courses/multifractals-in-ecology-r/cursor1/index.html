@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leonardo A. Saravia">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction to R and RStudio   R is a language and environment for statistical computing and graphics.
+  Extracted from http://nicercode.github.io/intro/
+ Writing code is fast becoming a key - if not the most important - skill for doing research in the 21st century. As scientists, we live in extraordinary times. The amount of data (information) available to us is increasingly exponentially, allowing for rapid advances in our understanding of the world around us.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@larysar">
+  <meta property="twitter:creator" content="@larysar">
+  
+  <meta property="og:site_name" content="Leonardo A. Saravia">
+  <meta property="og:url" content="https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/">
+  <meta property="og:title" content="R Basics - Day 1 - afternoon  | Leonardo A. Saravia">
+  <meta property="og:description" content="Introduction to R and RStudio   R is a language and environment for statistical computing and graphics.
+  Extracted from http://nicercode.github.io/intro/
+ Writing code is fast becoming a key - if not the most important - skill for doing research in the 21st century. As scientists, we live in extraordinary times. The amount of data (information) available to us is increasingly exponentially, allowing for rapid advances in our understanding of the world around us."><meta property="og:image" content="https://lsaravia.github.io/img/bio-photo.jpg">
+  <meta property="twitter:image" content="https://lsaravia.github.io/img/bio-photo.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-07-26T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-21T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>R Basics - Day 1 - afternoon  | Leonardo A. Saravia</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#splash"><span>Inicial</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/multifractals-in-ecology-r/">Overview</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso1/">Day 1 Morning</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/multifractals-in-ecology-r/cursor1/">Day 1 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso2/">Day 2 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor2/">Day 2 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso3/">Day 3 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor3/">Day 3 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso4/">Day 4 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor4/">Day 4 Afternoon</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction-to-r-and-rstudio">Introduction to R and RStudio</a></li>
+    <li><a href="#getting-started-with-rstudio">Getting started with RStudio</a></li>
+    <li><a href="#using-r-as-calculator">Using R as calculator</a></li>
+    <li><a href="#mathematical-functions">Mathematical functions</a></li>
+    <li><a href="#variables-and-assignment">Variables and assignment</a></li>
+    <li><a href="#exercise-1">Exercise 1</a></li>
+    <li><a href="#vectors">Vectors</a></li>
+    <li><a href="#vector-functions">Vector functions</a></li>
+    <li><a href="#exercise-2">Exercise 2</a></li>
+    <li><a href="#a-possible-solution">A possible solution</a></li>
+    <li><a href="#data-frames">Data frames</a></li>
+    <li><a href="#exercise-3">Exercise 3</a></li>
+    <li><a href="#writing-functions">Writing functions</a></li>
+    <li><a href="#exercise-4">Exercise 4</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>R Basics - Day 1 - afternoon </h1>
+
+          <div class="article-style">
+            <h2 id="introduction-to-r-and-rstudio">Introduction to R and RStudio</h2>
+<ul>
+<li>
+<p>R is a language and environment for statistical computing and graphics.</p>
+</li>
+<li>
+<p>Extracted from <a href="http://nicercode.github.io/intro/">http://nicercode.github.io/intro/</a></p>
+<blockquote>
+<p>Writing code is fast becoming a key - if not the most important - skill for
+doing research in the 21st century. As scientists, we live in extraordinary times.
+The amount of data (information) available to us is increasingly exponentially,
+allowing for rapid advances in our understanding of the world around us.</p>
+</blockquote>
+<blockquote>
+<p>The amount of information contained in a standard scientific paper also
+seems to be on  the rise. Researchers therefore need to be able to handle
+ever larger amounts of data to ask  novel questions and get papers
+published.</p>
+</blockquote>
+<blockquote>
+<p>Yet, the standard tools used by many biologists - point and click programs
+for manipulating data, doing stats and making plots - do not allow us to
+scale-up our analyses to match data availability, at least not without
+many, many more ‘clicks’.</p>
+</blockquote>
+<p>The following material was also based on their introduction to R.</p>
+</li>
+<li>
+<p>Install R for windows</p>
+<p><a href="http://cran.r-project.org/bin/windows/base/">http://cran.r-project.org/bin/windows/base/</a></p>
+</li>
+<li>
+<p>Install R for Linux (ubuntu)</p>
+<pre><code>  sudo add-apt-repository &quot;deb http://cran.stat.ucla.edu/bin/linux/ubuntu precise/&quot;
+  sudo apt-get update
+  sudo apt-get install r-base
+</code></pre>
+</li>
+<li>
+<p>Install <em>RStudio</em></p>
+<p><a href="http://www.rstudio.com/ide/download/desktop">http://www.rstudio.com/ide/download/desktop</a></p>
+</li>
+</ul>
+<h2 id="getting-started-with-rstudio">Getting started with RStudio</h2>
+<ul>
+<li>
+<p>Load R studio however you do that on your platform.</p>
+</li>
+<li>
+<p>RStudio has four panes:</p>
+<ol>
+<li>
+<p>Bottom left – this is the R interpreter. If you type code here, it is “evaluated” so that you get an answer.</p>
+</li>
+<li>
+<p>Top left – editor for writing longer pieces of code.</p>
+</li>
+<li>
+<p>Top right will tell you things about objects in the workspace. We’ll get to this soon, but this will be things like data objects, or functions that will process them. It is completely unrelated to the file system. The “History” tab will keep an eye on what you’ve done.</p>
+</li>
+<li>
+<p>Will display files, plots, packages, and help information, usually as needed.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="using-r-as-calculator">Using R as calculator</h2>
+<ul>
+<li>
+<p>Enter the following in the bottom left</p>
+<pre><code>  1 + 100
+
+  [1] 101
+</code></pre>
+</li>
+<li>
+<p>Lets try something more complex</p>
+<pre><code>  3 + 5 * 2 ^ 2
+
+  [1] 23
+
+  (3 + 5) * 2
+
+  [1] 16
+</code></pre>
+<p>See ?Arithmetic for more information, you can also get there by ?&ldquo;+&rdquo; (note the quotes)</p>
+</li>
+<li>
+<p>The usual sort of comparison operators are available:</p>
+<pre><code>  1 == 1  # equality (note two equals signs, read as &quot;is equal to&quot;)
+
+  [1] TRUE
+		
+
+  1 != 2  # inequality (read as &quot;is not equal to&quot;)
+
+
+  [1] TRUE
+
+  1 &lt;  2  # less than
+
+  [1] TRUE
+
+  1 &lt;= 1  # less than or equal to
+
+  [1] TRUE
+
+  1 &gt;  0  # greater than
+
+  [1] TRUE
+
+  1 &gt;= -9 # greater than or equal to
+
+  [1] TRUE
+</code></pre>
+<p>See ?Comparison for more information (you can also get there by help(&ldquo;==&rdquo;).</p>
+</li>
+<li>
+<p>Really small numbers get a scientific notation:</p>
+<pre><code>  2/10000
+
+
+  [1] 2e-04
+</code></pre>
+<p>Read e-XX as “multiplied by 10^XX”, so 2e-4 is 2 * 10^(-4).</p>
+</li>
+</ul>
+<h2 id="mathematical-functions">Mathematical functions</h2>
+<ul>
+<li>
+<p>R has many built in mathematical functions that will work as you would expect:</p>
+<pre><code>  sin(1)  # trig functions
+
+  [1] 0.8415
+
+  asin(1) # inverse sin (also for cos and tan)
+
+  [1] 1.571
+
+  log(1)  # natural logarithm
+
+  [1] 0
+
+  log10(10) # base-10 logarithm
+
+  [1] 1
+
+  log2(100) # base-2 logarithm
+
+  [1] 6.644
+
+  exp(0.5) # e^(1/2)
+
+  [1] 1.649
+</code></pre>
+</li>
+</ul>
+<h2 id="variables-and-assignment">Variables and assignment</h2>
+<ul>
+<li>
+<p>You can assign values to variables using the assignment operator &lt;-, like this:</p>
+<pre><code>  x &lt;- 1/40
+</code></pre>
+</li>
+<li>
+<p>And now the variable x contains the value 0.025:</p>
+<pre><code>  x
+
+  [1] 0.025
+</code></pre>
+</li>
+<li>
+<p>note that it does not contain the fraction 1/40, it contains a decimal approximation of this fraction.
+This appears exact in this case, but it is not. These decimal approximations are called “floating point numbers”
+and at some point you will probably end up having to learn more about them than you’d like.</p>
+</li>
+<li>
+<p>Look up at the top right pane of RStudio, and you’ll see that this has appeared in the “Workspace” pane.
+Our variable x can be used in place of a number in any calculation that expects a number.</p>
+<pre><code>  log(x)
+
+
+  [1] -3.689
+
+
+  sin(x)
+
+  [1] 0.025
+</code></pre>
+</li>
+<li>
+<p>The right hand side of the assignment can be any valid R expression.</p>
+</li>
+<li>
+<p>Notice that assignment does not print a value.</p>
+<pre><code>  x &lt;- 100
+</code></pre>
+</li>
+<li>
+<p>Notice also that variables can be reassigned (x used to contain the value 0.025 and and now it has the value 100).
+Assignment values can contain the variable being assigned to: What will x contain after running this?</p>
+<pre><code>  x &lt;- x + 1
+</code></pre>
+</li>
+<li>
+<p>The right hand side is fully evaluated before the assignment occurs.</p>
+</li>
+<li>
+<p>Variable names can contain letters, numbers, underscores and periods. The cannot start with a number. They cannot contain spaces at all. Different people use different conventions for long varaible names, these include</p>
+<ul>
+<li>periods.between.words</li>
+<li>underscores_between_words</li>
+<li>camelCaseToSeparateWords</li>
+</ul>
+<p>What you use is up to you, but be consistent.</p>
+</li>
+</ul>
+<h2 id="exercise-1">Exercise 1</h2>
+<p>Compute the difference in years between now and the year that you started at University. Divide this by the difference between now and the year when you were born. Multiply this by 100 to get the percentage of your life spent at university. Use parentheses if you need them, use assignment if you need it.</p>
+<p>This problem is as much about thinking about formalising the ingredients of a problem as much as actually getting the syntax correct.</p>
+<h2 id="vectors">Vectors</h2>
+<ul>
+<li>
+<p>R was designed for people who do data analysis and generally you have more than one piece of data.
+As a result in R all data types are actually vectors.
+So the number ‘1’ is actually a vector of numbers that happens to be of length 1.</p>
+<pre><code>  1
+
+  [1] 1
+
+  length(1)
+
+  [1] 1
+</code></pre>
+</li>
+<li>
+<p>To build a vector, use the c function (c stands for “concatenate”).</p>
+<pre><code>  x &lt;- c(1, 2, 40, 1234)
+</code></pre>
+</li>
+<li>
+<p>We have assigned this vector to the variable x.</p>
+<pre><code>  x
+
+  [1]    1    2   40 1234
+
+  length(x)
+
+  [1] 4
+</code></pre>
+</li>
+<li>
+<p>Notice how RStudio has updated its description of x. If you click it, you’ll get an option to alter it,
+which is rarely what you want to do.</p>
+</li>
+<li>
+<p>This is a deep piece of engineering in the design; most of R thinks quite happily in terms of vectors.
+If you wanted to double all the values in the vector, just multiply it by 2:</p>
+<pre><code>  2 * x
+
+  [1]    2    4   80 2468
+</code></pre>
+</li>
+</ul>
+<h2 id="vector-functions">Vector functions</h2>
+<ul>
+<li>
+<p>You can get the maximum value…</p>
+<pre><code>  max(x)
+
+  [1] 1234
+</code></pre>
+</li>
+<li>
+<p>…minimum value…</p>
+<pre><code>  min(x)
+
+  [1] 1
+</code></pre>
+</li>
+<li>
+<p>…sum…</p>
+<pre><code>  sum(x)
+
+  [1] 1277
+</code></pre>
+</li>
+<li>
+<p>…mean value…</p>
+<pre><code>  mean(x)
+
+  [1] 319.2
+</code></pre>
+</li>
+<li>
+<p>…and so on. There are huge numbers of functions that operate on vectors.
+It is more common that functions will than that they won’t.</p>
+</li>
+<li>
+<p>Vectors can be summed together:</p>
+<pre><code>  y &lt;- c(0.1, 0.2, 0.3, 0.4)
+
+  x + y
+
+  [1]    1.1    2.2   40.3 1234.4
+</code></pre>
+</li>
+<li>
+<p>And they can be concatenated together:</p>
+<pre><code>  c(x, y)
+
+  [1]    1.0    2.0   40.0 1234.0    0.1    0.2    0.3    0.4
+</code></pre>
+</li>
+<li>
+<p>and scalars can be added to them</p>
+<pre><code>  x + 0.1
+
+  [1]    1.1    2.1   40.1 1234.1
+</code></pre>
+</li>
+<li>
+<p>Be careful though: if you add/multiply together vectors that are of different lengths, but the lengths factor, R will silently “recycle” the length of the shorter one:</p>
+<pre><code>  x
+
+  [1]    1    2   40 1234
+
+  x * c(-2, 2)
+
+  [1]   -2    4  -80 2468
+</code></pre>
+<p>(note how the first and third element have been multiplied by -2 while the second and fourth element are multiplied by 2).</p>
+</li>
+<li>
+<p>If the lengths do not factor (i.e., the length of the shorter vector is not a factor of the length of the longer vector) you will get a warning, but the calculation will happen anyway:</p>
+<pre><code>  x * c(-2, 0, 2)
+
+  Warning: longer object length is not a multiple of shorter object length
+
+  [1]    -2     0    80 -2468
+</code></pre>
+</li>
+<li>
+<p>This is almost never what you want. Pay attention to warnings. Note that Warnings are different to Errors. We just saw a warning, where what happened is (probably) undesirable but not fatal. You’ll get Errors where what happened has been deemed unrecoverable. For example</p>
+<pre><code>  x + z # fails because there is no variable z
+
+  Error: object 'z' not found
+</code></pre>
+</li>
+<li>
+<p>Just as with the scalars, as well as doing arithmetic operators we can do comparisons. This returns a new vector of TRUE and FALSE indicating which elements are less than 10:</p>
+<pre><code>  x &lt; 10
+
+  [1]  TRUE  TRUE FALSE FALSE
+</code></pre>
+</li>
+<li>
+<p>You can do vector-vector comparisons too:</p>
+<pre><code>  x &lt; y # all false as y is quite small.
+
+  [1] FALSE FALSE FALSE FALSE
+</code></pre>
+</li>
+<li>
+<p>And combined arithmetic operations with comparison operations. Both sides of the expression are fully evaluated before the comparison takes place.</p>
+<pre><code>  x &gt; 1/y
+
+  [1] FALSE FALSE  TRUE  TRUE
+</code></pre>
+</li>
+<li>
+<p>Be careful with comparisons: This compares the first element with -20, the second with 20, the third with -20 and the fourth with 20.</p>
+<pre><code>  x &gt;= c(-20, 20)
+
+  [1]  TRUE FALSE  TRUE  TRUE
+</code></pre>
+</li>
+<li>
+<p>This does nothing sensible, really, and warns you again:</p>
+<pre><code>  x == c(-2, 0, 2)
+
+  Warning: longer object length is not a multiple of shorter object length
+
+  [1] FALSE FALSE FALSE FALSE
+</code></pre>
+</li>
+<li>
+<p>All the comparison operators work in fairly predictable ways:</p>
+<pre><code>  x == 40
+
+  [1] FALSE FALSE  TRUE FALSE
+
+  x != 2
+
+  [1]  TRUE FALSE  TRUE  TRUE
+</code></pre>
+</li>
+<li>
+<p>Sequences are easy to make, and often useful. Integer sequences can be made with the colon operator:</p>
+<pre><code>  3:10 # sequence 3, 4, ..., 10
+
+  [1]  3  4  5  6  7  8  9 10
+</code></pre>
+</li>
+<li>
+<p>Which also works backwards</p>
+<pre><code>  10:3 # the reverse
+
+  [1] 10  9  8  7  6  5  4  3
+</code></pre>
+</li>
+<li>
+<p>Step in different sizes</p>
+<pre><code>  seq(3, 10, by=2)
+
+  [1] 3 5 7 9
+
+  seq(3, 10, length=10)
+
+  [1]  3.000  3.778  4.556  5.333  6.111  6.889  7.667  8.444  9.222 10.000
+</code></pre>
+</li>
+<li>
+<p>Now we will see the meaning of the [1] term – this indicates that you’re looking at the first element of a vector. If you make a really long vector, you’ll see new numbers:</p>
+<pre><code>  seq(3, by=2, length=100)
+
+    [1]   3   5   7   9  11  13  15  17  19  21  23  25  27  29  31  33  35
+   [18]  37  39  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69
+   [35]  71  73  75  77  79  81  83  85  87  89  91  93  95  97  99 101 103
+   [52] 105 107 109 111 113 115 117 119 121 123 125 127 129 131 133 135 137
+   [69] 139 141 143 145 147 149 151 153 155 157 159 161 163 165 167 169 171
+   [86] 173 175 177 179 181 183 185 187 189 191 193 195 197 199 201
+</code></pre>
+</li>
+</ul>
+<h2 id="exercise-2">Exercise 2</h2>
+<p>One thing you can do with sequences is you can very informally look at convergent sequences. For example, the sum of squares of the reciprocals of integers:</p>
+<p>$$\frac{1}{1} + \frac{1}{4} + \frac{1}{9} + \frac{1}{16}$$</p>
+<p>$$\frac{1}{1} + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} +
+\cdots + \frac{1}{n^2}$$</p>
+<ol>
+<li>
+<p>What is the sum of the first four squares?</p>
+</li>
+<li>
+<p>What is the sum of the first 100?</p>
+</li>
+<li>
+<p>…of the first 10,000?</p>
+</li>
+<li>
+<p>If x is the answer to 3, what is the square root of 6x?</p>
+</li>
+</ol>
+<h2 id="a-possible-solution">A possible solution</h2>
+<ol>
+<li></li>
+</ol>
+<pre><code>    1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
+
+    [1] 1.424
+</code></pre>
+<ol start="2">
+<li></li>
+</ol>
+<pre><code>    squares &lt;- (1:100)^2
+    sum(1/squares)
+
+    [1] 1.635
+</code></pre>
+<ol start="3">
+<li></li>
+</ol>
+<pre><code>    sum(1 / (1:10000)^2)
+
+    [1] 1.645
+</code></pre>
+<ol start="4">
+<li></li>
+</ol>
+<pre><code>    x &lt;- sum(1 / (1:10000)^2)
+    sqrt(x * 6)
+
+    [1] 3.141
+</code></pre>
+<h2 id="data-frames">Data frames</h2>
+<p>Let us remember the power law</p>
+<p>$$L(r)=A r^\eta$$</p>
+<ul>
+<li>
+<p>then</p>
+<pre><code>  A &lt;- 0.1
+
+  r &lt;- (1:100)
+
+  L &lt;- A*r^eta
+</code></pre>
+</li>
+<li>
+<p>oops error</p>
+<pre><code>  eta &lt;- -1.1
+
+  L &lt;- A*r^eta
+</code></pre>
+</li>
+<li>
+<p>we can do a plot of the data</p>
+<pre><code>  plot(r,L)
+</code></pre>
+</li>
+<li>
+<p>Or using R&rsquo;s &ldquo;formulae&rdquo;</p>
+<pre><code>  plot(log(L)~log(r))
+</code></pre>
+<p>Read this as “log(L) is a function of log(r)”.</p>
+</li>
+<li>
+<p>we can put all together in a data frame</p>
+<pre><code>  pl &lt;- data.frame(r,L,logL=log(L),logr=log(r))
+</code></pre>
+<p>The <em>pl</em> variable contains a <em>data.frame</em> object. It is a number of columns of the same length, arranged like a matrix or table.</p>
+<pre><code>  head(pl)  # first rows of the data frame
+
+  names(pl) # the names of columns
+
+  nrow(pl) # the number of rows
+
+  ncol(pl) # the number of columns
+
+  pl$L     # obtain one column
+</code></pre>
+</li>
+<li>
+<p>we can do a regression to obtain the exponent of our power law</p>
+<pre><code>  lm(logL~logr,data=pl)
+</code></pre>
+</li>
+<li>
+<p>&ldquo;lm&rdquo; stands for linear model and is a general function for doing all kinds of linear statistica models.</p>
+</li>
+</ul>
+<h2 id="exercise-3">Exercise 3</h2>
+<p>First delete all variables to start over</p>
+<pre><code>rm(list=ls())
+</code></pre>
+<p>Generate a data.frame with different parameters for the power law and 1000 points.</p>
+<ul>
+<li>
+<p>A possible answer</p>
+<pre><code>  pl &lt;- data.frame(r=seq(1,100,0.1))
+
+  pl$L&lt;- 0.4*pl$r^-1.3
+
+  pl$logL &lt;-log(pl$L)
+
+  pl$logr &lt;-log(pl$r)
+
+  lm(logL~log(r),data=pl) 
+</code></pre>
+</li>
+</ul>
+<h2 id="writing-functions">Writing functions</h2>
+<ul>
+<li>
+<p>Writing functions is one of the most important steps to use all the power of R.</p>
+</li>
+<li>
+<p>Remember the power law of cumulative biomass in lake Constanz, we have to calculate $L(&gt;r)$</p>
+<pre><code>  pl$r &gt;=1 
+  pl$r &gt;=2
+
+  pl[pl$r &gt;=2,] 			# select the rows with the column r&gt;2
+
+  pl[pl$r &gt;=99,]
+
+  pl[pl$r &gt;=99,]$L 		# Get only the column that we are interested
+
+  sum(pl[pl$r &gt;=99,]$L)
+</code></pre>
+</li>
+<li>
+<p>We can define a function to calculate this using a variable</p>
+<pre><code>  cumPowerL &lt;- function(x) {
+      sum(pl[pl$r &gt;=x,]$L)
+
+  }
+
+  cumPowerL(99)
+
+  cumPowerL(1)
+
+  cumPowerL(pl$r)
+</code></pre>
+</li>
+<li>
+<p>If we want to apply the function to a vector we have to use:</p>
+<pre><code>  sapply(pl$r,cumPowerL)
+</code></pre>
+<p>we can add a variable to our data.frame</p>
+<pre><code>  pl$cumL &lt;- sapply(pl$r,cumPowerL) 		
+
+  plot(log(cumL)~logr,data=pl)
+</code></pre>
+</li>
+<li>
+<p>It seems that the power law is defined for $logr&lt;3$</p>
+<pre><code>  pl1 &lt;- pl[pl$logr&lt;3,]
+
+  lm(log(cumL)~logr,data=pl1) 
+
+  lm(log(cumL)~logr,data=pl)
+
+  summary(lm(log(cumL)~logr,data=pl1))
+</code></pre>
+</li>
+<li>
+<p>One way to not type the same (or copy) commands is assign a variable</p>
+<pre><code>  lm1 &lt;- lm(log(cumL)~logr,data=pl1) 
+
+  lm0  &lt;- lm(log(cumL)~logr,data=pl) 
+
+  summary(lm1)
+
+  summary(lm0)
+
+  abline(lm1,col=&quot;red&quot;)
+
+  abline(lm0,col=&quot;blue&quot;)
+</code></pre>
+</li>
+<li>
+<p>We previously said that if we have a power law</p>
+<p>$$L(r) \propto r^{-\eta}$$</p>
+<p>the cumulative distribution should be</p>
+<p>$$L(&gt;r) \propto r^{-\eta+1}$$</p>
+<p>but here this result is only approximate.</p>
+</li>
+</ul>
+<h2 id="exercise-4">Exercise 4</h2>
+<ul>
+<li>Fit the cumulative power law to the first 50 values in the data frame</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/multifractals-in-ecology-r/curso1/" rel="next">Basic Theory - Day 1</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/multifractals-in-ecology-r/curso2/" rel="prev">Fractals in time - Day 2</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2020-01-21</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/multifractals-in-ecology-r/CursoR1.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "lsaravia" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://lsaravia.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

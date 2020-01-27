@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Leonardo A. Saravia">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Multifractals   Many natural systems cannot be characterized by a single number such as the fractal dimension. Instead an infinite spectrum of dimensions must be introduced.
+       Multifractal definition   Consider a given object $\Omega$, its multifractal nature is practically determined by covering the system with a set of boxes ${B_i(r)}$ with $(i=1,&hellip;, N(r))$ of side lenght $r$
+  These boxes are nonoverlaping and such that">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu17dd387f39160d9f5c698e37a6bf1f01_821_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@larysar">
+  <meta property="twitter:creator" content="@larysar">
+  
+  <meta property="og:site_name" content="Leonardo A. Saravia">
+  <meta property="og:url" content="https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/">
+  <meta property="og:title" content="Multifractal theory - Day 3 | Leonardo A. Saravia">
+  <meta property="og:description" content="Multifractals   Many natural systems cannot be characterized by a single number such as the fractal dimension. Instead an infinite spectrum of dimensions must be introduced.
+       Multifractal definition   Consider a given object $\Omega$, its multifractal nature is practically determined by covering the system with a set of boxes ${B_i(r)}$ with $(i=1,&hellip;, N(r))$ of side lenght $r$
+  These boxes are nonoverlaping and such that"><meta property="og:image" content="https://lsaravia.github.io/img/bio-photo.jpg">
+  <meta property="twitter:image" content="https://lsaravia.github.io/img/bio-photo.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-07-26T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-01-21T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Multifractal theory - Day 3 | Leonardo A. Saravia</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Leonardo A. Saravia</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#splash"><span>Inicial</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/multifractals-in-ecology-r/">Overview</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso1/">Day 1 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor1/">Day 1 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso2/">Day 2 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor2/">Day 2 Afternoon</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/multifractals-in-ecology-r/curso3/">Day 3 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor3/">Day 3 Afternoon</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/curso4/">Day 4 Morning</a>
+      </li>
+      
+      <li >
+        <a href="/courses/multifractals-in-ecology-r/cursor4/">Day 4 Afternoon</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#multifractals">Multifractals</a></li>
+    <li><a href="#multifractal-definition">Multifractal definition</a></li>
+    <li><a href="#box-counting">Box counting</a></li>
+    <li><a href="#the-generalized-dimensions">The generalized dimensions</a></li>
+    <li><a href="#generalized-dimensions-1">Generalized dimensions 1</a></li>
+    <li><a href="#exercise">Exercise</a></li>
+    <li><a href="#two-important-dimensions">Two important dimensions</a></li>
+    <li><a href="#application">Application</a></li>
+    <li><a href="#mass-exponent-and-hurst-exponent">Mass exponent and Hurst exponent</a></li>
+    <li><a href="#paper">Paper</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Multifractal theory - Day 3</h1>
+
+          <div class="article-style">
+            <h2 id="multifractals">Multifractals</h2>
+<ul>
+<li>
+<p>Many natural systems cannot be characterized by a single number such as the fractal
+dimension. Instead an infinite spectrum of dimensions must be introduced.</p>
+  <center>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="../figs/C3_Clouds.png" >
+<img data-src="../figs/C3_Clouds.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+  </center> 
+</li>
+</ul>
+<h2 id="multifractal-definition">Multifractal definition</h2>
+<ul>
+<li>
+<p>Consider a given object $\Omega$, its multifractal nature is practically determined by
+covering the system with a set of boxes ${B_i(r)}$ with $(i=1,&hellip;, N(r))$ of side lenght $r$</p>
+</li>
+<li>
+<p>These boxes are nonoverlaping and such that</p>
+<p>$$\Omega = \bigcup_{i=1}^{N(r)} B_i(r)$$</p>
+<p>This is the box-counting method but now a measure $\mu(B_n)$ for each box is computed.
+This measure corresponds to the total population or biomass contained in $B_n$, in general
+will scale as:</p>
+<p>$$\mu(B_n) \propto r^\alpha$$</p>
+</li>
+</ul>
+<h2 id="box-counting">Box counting</h2>
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="../figs/C3_BoxCounting.png" >
+<img data-src="../figs/C3_BoxCounting.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+</center> 
+<h2 id="the-generalized-dimensions">The generalized dimensions</h2>
+<ul>
+<li>
+<p>The fractal dimension $D$ already defined is actually one of an infinite spectrum of
+so-called correlation dimension of order $q$ or also called Renyi entropies.</p>
+<p>$$D_q = \lim_{r \to 0} \frac{1}{q-1}\frac{log \left[ \sum_{i=1}^{N(r)}p_i^q \right]}{\log r}$$</p>
+<p>where $p_i=\mu(B_i)$ and a normalization is assumed:</p>
+<p>$$\sum_{i=1}^{N(r)}p_i=1$$</p>
+</li>
+<li>
+<p>For $q=0$ we have the familiar definition of fractal dimension. To see this we replace $q=0$</p>
+<p>$$D_0 = -\lim_{r \to 0}\frac{N(r)}{\log r}$$</p>
+</li>
+</ul>
+<h2 id="generalized-dimensions-1">Generalized dimensions 1</h2>
+<ul>
+<li>
+<p>It can be shown that the inequality $D_q&rsquo; \leq D_q$ holds for $q&rsquo; \geq q$</p>
+</li>
+<li>
+<p>The sum</p>
+<p>$$M_q(r) = \sum_{i=1}^{N(r)}[\mu(B_i(r))]^q = \sum_{i=1}^{N(r)}p_i^q$$</p>
+<p>is the so-called moment or partition function of order $q$.</p>
+</li>
+<li>
+<p>Varying q allows to measure the non-homogeneity of the pattern. The moments with larger $q$
+will be dominated by the densest boxes.  For $q&lt;0$ will come from small $p_i$'s.</p>
+</li>
+<li>
+<p>Alternatively we can think that for $q&gt;0$, $D_q$ reflects the scaling of the large fluctuations
+and strong singularities. In contrast, for $q&lt;0$, $D_q$ reflects the scaling of the small fluctuations
+and weak singularities.</p>
+</li>
+</ul>
+<h2 id="exercise">Exercise</h2>
+<ul>
+<li>
+<p>Calculate the partition function for the center and lower images of the figure:</p>
+  <center>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="../figs/C3_BoxCounting.png" >
+<img data-src="../figs/C3_BoxCounting.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+  </center> 
+</li>
+</ul>
+<h2 id="two-important-dimensions">Two important dimensions</h2>
+<ul>
+<li>
+<p>Two particular cases are $q=1$ and $q=2$. The dimension for $q=1$ is the Shannon entropy or also called by ecologist the Shannon&rsquo;s index of diversity.</p>
+<p>$$D_1 = -\lim_{r \to 0}\sum_{i=1}^{N(r)} p_i \log p_i$$</p>
+<p>and the second is the so-called correlation dimension:</p>
+<p>$$D_2 = -\lim_{r \to 0} \frac{\log \left[ \sum_{i=1}^{N(r)} p_i^2 \right]}{\log r} $$</p>
+<p>the numerator is the log of the Simpson index.</p>
+</li>
+</ul>
+<h2 id="application">Application</h2>
+<ul>
+<li>
+<p>Salinity stress in the cladoceran Daphniopsis Australis. Behavioral experiments
+were conducted on individual males, and their successive displacements analyzed
+using the generalized dimension function $D_q$ and the mass exponent function $\tau_q$</p>
+  <center>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="../figs/C3_Cladoceran.png" >
+<img data-src="../figs/C3_Cladoceran.png" class="lazyload" alt="" ></a>
+
+
+
+</figure>
+
+  </center> 
+<p>both functions indicate that the successive displacements of male D. australis have weaker multifractal properties. This is consistent with and generalizes previous results showing a decrease in the complexity of behavioral sequences under stressful conditions for a range of organisms.</p>
+</li>
+<li>
+<p>A shift between multifractal and fractal properties or a change in multifractal properties, in animal behavior is then suggested as a potential diagnostic tool to assess animal stress levels and health.</p>
+</li>
+</ul>
+<h2 id="mass-exponent-and-hurst-exponent">Mass exponent and Hurst exponent</h2>
+<ul>
+<li>
+<p>The same information contained in the generalized dimensions can be expressed using mass exponents:</p>
+<p>$$M_q(r) \propto r^{-\tau_q}$$</p>
+<p>This is the scaling of the partition function. For monofractals $\tau_q$ is linear and related to the Hurst exponent:</p>
+<p>$$\tau_q = q H - 1$$</p>
+<p>For multifractals we have</p>
+<p>$$\tau_q = (q -1) D_q$$</p>
+<p>Note that for $q=0$, $D_q = \tau_q$ and for $q=1$, $\tau_q=0$</p>
+</li>
+</ul>
+<h2 id="paper">Paper</h2>
+<ol>
+<li>Kellner JR, Asner GP (2009) Convergent structural responses of tropical forests to diverse disturbance regimes. Ecology Letters 12: 887–897. doi:10.1111/j.1461-0248.2009.01345.x.</li>
+</ol>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/multifractals-in-ecology-r/cursor2/" rel="next">Cumulative distributions - Day 2</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/multifractals-in-ecology-r/cursor3/" rel="prev">Multifractal estimation - Day 3</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on 2020-01-21</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/multifractals-in-ecology-r/Curso3.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "lsaravia" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"></a>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>. &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://lsaravia.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scaling | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tags/scaling/</link>
+      <atom:link href="https://lsaravia.github.io/tags/scaling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Scaling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Sat, 26 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Scaling</title>
+      <link>https://lsaravia.github.io/tags/scaling/</link>
+    </image>
+    
+    <item>
+      <title>Percolation and scaling in ecology</title>
+      <link>https://lsaravia.github.io/post/2015-12-26/</link>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/post/2015-12-26/</guid>
+      <description>&lt;p&gt;Scaling is a central theme in ecology, well this is my opinion, but there are others that think like me, for example Brian Enquist, that organized a symposium for the 100th anniversary of the Ecological Society of America &lt;a href=&#34;https://brianjenquist.wordpress.com/2015/02/02/scaling-in-ecology-and-the-esa-100th-anniversary-symposium-on-a-focus-on-scaling-for-the-next-100-years&#34;&gt;Scaling in Ecology&lt;/a&gt;. He mentioned that two of the most influential papers from ESA were about scaling:  &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.2307/1941447&#34;&gt;Simon Levin The Problem of Pattern and Scale in Ecology&lt;/a&gt; and &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/03-9000&#34;&gt;J.H. Brown The Metabolic Theory of Ecology&lt;/a&gt;. But why some
+processes permeate through scales and others do not; scaling is important because it implies something that crosses scales, did you ever heard the phrase: think globally act locally. Our new preprint analyzes what happens when &lt;a href=&#34;https://peerj.com/preprints/1589/&#34;&gt;one species percolates through the landscape&lt;/a&gt;&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;Think globally, act locally has been extensively used in environmental campaigns about earth health; and it is precisely about scaling, about the spread of something trough scales: local actions that have a global effect. In fact we don&amp;rsquo;t know which are the effect of most local actions on a global scale, this is a social issue that is very interesting and is in the line of the plenary talk given by Simon Levin (which I knew by twitter thanks to @DrEmilySKlein)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr Levin: So the challenge is - how do we look towards sustainability? Can we look up macroscopic patterns and emergent properties? #ESA100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr Levin: Collective action is possible if you build up from smaller scales and individual actions #ESA100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;@DrEmilySKlein: Dr Levin: Linking these ideas of econom theory,scales,individual action,possibility of collective action = imp for managing Commons #ESA100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I wanted to talk about percolation, percolation is something you can experience when you filter coffee, soluble substances in coffee grains pass through the filter and make the beverage that we drink. The theory about percolation has expanded from the fluid of liquid in porous media to a lot of different fields including biology and ecology. There are excellent introductions in the context of ecology like this: &lt;a href=&#34;http://beata.web.elte.hu/Scaling-Chapter.pdf&#34;&gt;Survival of species in patchy landscapes: percolation in space and time&lt;/a&gt; even some lectures by well a known author in the field &lt;a href=&#34;http://havlin.biu.ac.il/course3.php&#34;&gt;Shlomo Havlin&lt;/a&gt;. Basically percolation is a threshold phenomena: it happens when, due to a local interaction (I mean the connection between two neighbours), some kind of message or process spreads to all scales, and this happens suddenly at a critical point.&lt;/p&gt;
+&lt;p&gt;I started to study this in the context of community ecology: can you think about what happens if one species percolates? there is a patch of one species that connects the landscape. What are the consequences for diversity?, when we can observe percolation in a community?&lt;/p&gt;
+&lt;p&gt;I made a spatial model to study the transition between neutral and niche communities &lt;a href=&#34;https://github.com/lsaravia/Neutral&#34;&gt;https://github.com/lsaravia/Neutral&lt;/a&gt;, when the community has no interactions it has a neutral dynamics. But if individuals start to have competitive interactions, best competitors start to replace bad ones and with increasing intensity of competition there is a point were one species percolates, spreads from side to side of the simulation arena. This is a critical point because there is a sudden change in the proportion of this species and as a consequence it produces a biodiversity collapse.  Here is an animation of the transition:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;neuU32_256R0.0029.gif&#34; &gt;
+&lt;img data-src=&#34;neuU32_256R0.0029.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;What happens in this animation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When a species patch spreads from one side to the other of the landscape it percolates, and I change the color of the other accompanying species in the animation, so the image becomes bi-color: the pink pixels are the accompanying species and the brown pixels the percolating species.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The size of the biggest (&lt;strong&gt;Size&lt;/strong&gt;) patch that will be the spanning patch goes from 0.14% &amp;mdash;in proportion of the landscape&amp;mdash; to approximately 0.60%.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Shannon diversity (&lt;strong&gt;H&lt;/strong&gt;) drops from 1.75 to 1.45&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The richness (&lt;strong&gt;S&lt;/strong&gt;) keeps more or less the same&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Percolation has a low probability to happen in a purely neutral model, in my model has a zero probability but that depends on the metacommunity&amp;rsquo;s species abundance distribution, because on the long term the local community tend to be equal to the metacommunity in species abundances. When the community have a small probability of competitive interactions percolation is the rule. In the previous animation the probability of a competitive displacement between two interacting individuals was 0.0011, so it is very low.&lt;/p&gt;
+&lt;p&gt;This kind of critical behavior should be observed when climatic conditions or stress change, thus I am looking for data on communities that change its competitive behavior when suffer some stress to validate that this happens in real communities.&lt;/p&gt;
+&lt;p&gt;One interesting thing about this critical transition is that happens well before the communities start to loss cover, or before there is any habitat loss, so we could have an early warning signal detecting percolation.&lt;/p&gt;
+&lt;p&gt;More about this in our preprint &lt;a href=&#34;https://peerj.com/preprints/1589/&#34;&gt;Biodiversity collapse in a phase transition between neutral and niche communities&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This was published as &lt;a href=&#34;https://lsaravia.github.io/publication/saravia-2018/&#34;&gt;Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
