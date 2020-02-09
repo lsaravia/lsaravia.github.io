@@ -6,6 +6,12 @@
       <atom:link href="https://lsaravia.github.io/authors/graeme-d-ruxton/index.xml" rel="self" type="application/rss+xml" />
     <description>Graeme D Ruxton</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Thu, 01 Jan 1998 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Graeme D Ruxton</title>
+      <link>https://lsaravia.github.io/authors/graeme-d-ruxton/</link>
+    </image>
+    
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
       <link>https://lsaravia.github.io/publication/ruxton-1998/</link>

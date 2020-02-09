@@ -6,6 +6,12 @@
       <atom:link href="https://lsaravia.github.io/authors/leonardo-ariel-saravia/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo Ariel Saravia</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Mon, 25 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Leonardo Ariel Saravia</title>
+      <link>https://lsaravia.github.io/authors/leonardo-ariel-saravia/</link>
+    </image>
+    
     <item>
       <title>Multifractal Growth in Periphyton Communities</title>
       <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>

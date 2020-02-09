@@ -6,6 +6,12 @@
       <atom:link href="https://lsaravia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Authors</title>
+      <link>https://lsaravia.github.io/authors/</link>
+    </image>
+    
     <item>
       <title></title>
       <link>https://lsaravia.github.io/authors/admin/</link>

@@ -6,6 +6,12 @@
       <atom:link href="https://lsaravia.github.io/authors/leonardo-a.-saravia/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo A. Saravia</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <title>Leonardo A. Saravia</title>
+      <link>https://lsaravia.github.io/authors/leonardo-a.-saravia/</link>
+    </image>
+    
     <item>
       <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
       <link>https://lsaravia.github.io/publication/saravia-2018/</link>
