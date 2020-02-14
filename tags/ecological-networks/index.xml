@@ -18,7 +18,7 @@
       <pubDate>Sun, 09 Feb 2020 23:53:14 -0300</pubDate>
       <guid>https://lsaravia.github.io/post/snim-tutorial/</guid>
       <description>&lt;p&gt;This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the &lt;strong&gt;B&lt;/strong&gt; model of the paper &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I read it long ago and for many years I wanted to make a version of it, finally, I did it.&lt;/p&gt;
-&lt;p&gt;I know, nobody will use it until I make an R package, even in that case, maybe nobody will use it. You can find it here &lt;a href=&#34;https://github.com/lsaravia/snim&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
+&lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, to install it you need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
 &lt;p&gt;Then the description of the model from &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is the following&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The second model again involves a set of S (possible) species plus empty sites (pseudospecies
