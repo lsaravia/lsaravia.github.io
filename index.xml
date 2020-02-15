@@ -2478,6 +2478,37 @@ out &amp;lt;- run_snim_plot(&amp;quot;simul.cfg&amp;quot;,&amp;quot;model3.par&a
 
 &lt;/figure&gt;
 
+&lt;p&gt;One nice addition to this plot is to add an annimation with the R package &lt;code&gt;gganimate&lt;/code&gt;, I only changed the &lt;code&gt;nEvals = 100&lt;/code&gt; in the simulation parameters file, and made another run of the model, then plot with the &lt;code&gt;out&lt;/code&gt; dataframe,&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;require(gganimate)
+
+ggplot(filter(out,Species!=0), aes(x = Time, y = Density,colour=Species)) + 
+            geom_line() +  theme_bw() + scale_y_log10() + xlab(&amp;quot;Years&amp;quot;) + 
+            transition_reveal(Time)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;SNIManimation3Species.gif&#34; &gt;
+&lt;img data-src=&#34;SNIManimation3Species.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;Have fun!&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
