@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/</link>
       <atom:link href="https://lsaravia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo A. Saravia</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Jan 2022 19:53:13 -0300</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
       <title>Leonardo A. Saravia</title>
@@ -2313,6 +2313,14 @@ $\lambda$ or recuperation with probability $\mu$&lt;/li&gt;
     </item>
     
     <item>
+      <title>Global Tipping Points Forest Wildfires</title>
+      <link>https://lsaravia.github.io/talk/global-tipping-points-forest-wildfires/</link>
+      <pubDate>Sun, 30 Jan 2022 19:53:13 -0300</pubDate>
+      <guid>https://lsaravia.github.io/talk/global-tipping-points-forest-wildfires/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Network Analysis Can Detect Changes In Food Web Stability Produced By Bottom Trawl Fishery In Patagonia</title>
       <link>https://lsaravia.github.io/publication/funes-2022/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
@@ -2341,14 +2349,6 @@ $\lambda$ or recuperation with probability $\mu$&lt;/li&gt;
       <link>https://lsaravia.github.io/publication/nicoletti-2021/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/nicoletti-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Global Tipping Points in Forest Fires</title>
-      <link>https://lsaravia.github.io/talk/global-tipping-points-in-forest-fires/</link>
-      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/talk/global-tipping-points-in-forest-fires/</guid>
       <description></description>
     </item>
     

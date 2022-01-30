@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forest fires | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tag/forest-fires/</link>
+      <atom:link href="https://lsaravia.github.io/tag/forest-fires/index.xml" rel="self" type="application/rss+xml" />
+    <description>Forest fires</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
+      <title>Forest fires</title>
+      <link>https://lsaravia.github.io/tag/forest-fires/</link>
+    </image>
+    
+    <item>
+      <title>Global Tipping Points in Forest Fires</title>
+      <link>https://lsaravia.github.io/talk/global-tipping-points-in-forest-fires/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/talk/global-tipping-points-in-forest-fires/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
