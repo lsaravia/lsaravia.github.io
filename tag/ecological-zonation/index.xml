@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecological zonation | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tag/ecological-zonation/</link>
+      <atom:link href="https://lsaravia.github.io/tag/ecological-zonation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ecological zonation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
+      <title>Ecological zonation</title>
+      <link>https://lsaravia.github.io/tag/ecological-zonation/</link>
+    </image>
+    
+    <item>
+      <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
+      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

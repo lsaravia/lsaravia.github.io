@@ -1,1035 +1,379 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso1/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor2/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor3/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso4/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/</loc>
-    <lastmod>2013-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/tags/ecological-networks/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/tags/food-webs/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/tags/github/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/post/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/tags/stochastic-models/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/post/snim-tutorial/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/tags/</loc>
-    <lastmod>2020-02-09T23:53:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/authors/admin/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
   
   <url>
-    <loc>https://lsaravia.github.io/publication_types/6/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/authors/alicia-l.-boraso/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/antarctic/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lsaravia.github.io/authors/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso1/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/carolina-v.-matula/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor1/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/dolores-deregibus/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso2/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/fernando-r.-momo/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor2/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/gabriela-l.-campana/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso3/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/macroalgae/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor3/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/maria-l.-quartino/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/curso4/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/quartino-2020/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/multifractals-in-ecology-r/cursor4/</loc><lastmod>2013-07-26T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication_types/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/antarctic-macroalgae/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/climatic-change/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/glaciar-melting/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/primary-producers/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication-type/2/</loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/project/pict2019/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/project/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/rodriguez2022/</loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication_types/</loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication_types/3/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/</loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/complex-ecology/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2022-01-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecological-network-assembly/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/ecological-network-assembly/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2019/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2019/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/food-web-structure/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/ecological-networks/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/fragmentation/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/global-forest/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/food-web-structure/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/habitat-loss/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/marleen-de-troch/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/metawebs/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/metawebs/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/modularity/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/modularity/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/motifs/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/motifs/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/project/ungs2019/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/qss-stability/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/tomas-i.-marina/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tags/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/topological-roles/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/topological-roles/</loc><lastmod>2021-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/trophic-coherence/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication_types/2/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/categories/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2018/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/leonardo-a.-saravia/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/antarctica/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/post/getting-started/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/degree-distribution/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/esteban-barrera-oro/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/eugenia-moreira/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/fernando-r-momo/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/food-webs/</loc><lastmod>2020-02-09T23:53:14-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/gabriela-campana/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/github/</loc><lastmod>2020-02-09T23:53:14-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/georgina-cordone/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/stochastic-models/</loc><lastmod>2020-02-09T23:53:14-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/leonardo-a-saravia/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/post/snim-tutorial/</loc><lastmod>2020-02-09T23:53:14-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/luciana-torre/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication-type/6/</loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/marcos-tatian/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/marine-ecosystem/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/antarctic/</loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/maria-liliana-quartino/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/ricardo-sahade/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/santiago-doyle/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/marina-2018/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/macroalgae/</loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/vanesa-salinas/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/marina-2018-a/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/quartino-2020/</loc><lastmod>2020-02-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/ben-bond-lamberty/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/antarctic-macroalgae/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/critical-transitions/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/climatic-change/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/early-warning-signals/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/glaciar-melting/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/cordone-2018/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/primary-producers/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/extinctions/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/project/pict2019/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/forest-fragmentation/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/project/</loc><lastmod>2019-04-24T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/macroalgae-loss/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/modis/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/percolation/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/complex-ecology/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/power-laws/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/fragmentation/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2018-a/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/global-forest/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/santiago-r-doyle/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/habitat-loss/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/tomas-i-marina/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/project/ungs2019/</loc><lastmod>2019-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/old-posts/</loc>
-    <lastmod>2020-02-08T09:31:00-03:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2018/</loc><lastmod>2018-06-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/stochastic-network-interaction-model/</loc>
-    <lastmod>2020-02-08T09:31:00-03:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-06-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/aquatic-communities/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/antarctica/</loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/benthos/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/degree-distribution/</loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/community-structure/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecological-zonation/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/gabriela-laura-campana/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/isla-25-de-mayo/king-george-island/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/leonardo-saravia/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/marcias-2016/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/maria-laura-marcias/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/seaweeds/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecological-theory/</loc>
-    <lastmod>2015-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/marine-ecosystem/</loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecology/</loc>
-    <lastmod>2015-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2015-12-26/</loc>
-    <lastmod>2015-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/scaling/</loc>
-    <lastmod>2015-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/biodiversity/</loc>
-    <lastmod>2015-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/marina-2018/</loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2015-09-27/</loc>
-    <lastmod>2015-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecological-interactions/</loc>
-    <lastmod>2015-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/marina-2018-a/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2015-a/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/a.-vanreusel/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/critical-transitions/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/pasotti-2015/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/early-warning-signals/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/bioindicator/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/cordone-2018/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/c-coviella/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/extinctions/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/c-di-ciocco/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/forest-fragmentation/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/falco-2015/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/macroalgae-loss/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/earthworms/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/modis/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/f-momo/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/percolation/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/f-pasotti/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2018-a/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/farming-systems/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/power-laws/</loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/l-b-falco/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/l-saravia/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2018-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/l.-a.%C2%BA-saravia/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/old-posts/</loc><lastmod>2020-02-08T09:31:00-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/m.-de-troch/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/post/stochastic-network-interaction-model/</loc><lastmod>2020-02-08T09:31:00-03:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/m.-s.-tarantelli/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/aquatic-communities/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/r-sandler/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/benthos/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/r.-sahade/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/community-structure/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/soil-ecology/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/ecological-zonation/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/soil-use-intensity/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/community-ecology/</loc>
-    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2014-11-30/</loc>
-    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/marcias-2016/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/metacommunity-theory/</loc>
-    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/a.-v.-bers/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/seaweeds/</loc><lastmod>2016-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/a.-wasilowska/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2015-a/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/c.-a.-michaud-tremblay/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/d.-dumont/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/pasotti-2015/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/d.-monien/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/bioindicator/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/e.-e.-kopczynska/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/g.-a.-ferreyra/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/g.-o.-almandoz/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/falco-2015/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/i.-r.-schloss/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/earthworms/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/l.-a.-saravia/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/m.-p.-hernando/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/m.-rzepecki/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/farming-systems/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2014/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/schloss-2014/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/p.-monien/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2013-11-30/</loc>
-    <lastmod>2013-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/neutral-models/</loc>
-    <lastmod>2020-01-22T11:48:19-03:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/neutral-theory/</loc>
-    <lastmod>2020-01-22T11:48:19-03:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2012-08-19/</loc>
-    <lastmod>2020-01-22T11:48:19-03:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2012-06-28/</loc>
-    <lastmod>2012-06-28T07:51:00-07:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/soil-ecology/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/hierarchical-competition-models/</loc>
-    <lastmod>2012-06-28T07:51:00-07:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/soil-use-intensity/</loc><lastmod>2015-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/multifractals/</loc>
-    <lastmod>2012-06-28T07:51:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/spatially-explicit-models/</loc>
-    <lastmod>2012-06-28T07:51:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/adonis-giorgi/</loc>
-    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/fernando-momo/</loc>
-    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/leonardo-ariel-saravia/</loc>
-    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2012-a/</loc>
-    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/confussion/</loc>
-    <lastmod>2012-05-22T18:46:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/eureka/</loc>
-    <lastmod>2012-05-22T18:46:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/psicology/</loc>
-    <lastmod>2012-05-22T18:46:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2012-05-22/</loc>
-    <lastmod>2012-05-22T18:46:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2012-05-13/</loc>
-    <lastmod>2012-05-13T19:14:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ideas/</loc>
-    <lastmod>2012-05-13T19:14:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2012/</loc>
-    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2014/</loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2011-11-16/</loc>
-    <lastmod>2011-11-16T05:34:00-08:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/schloss-2014/</loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/posters/</loc>
-    <lastmod>2011-11-16T05:34:00-08:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2014-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/biomat/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/courses/</loc><lastmod>2020-01-21T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2011-11-11/</loc>
-    <lastmod>2011-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2012-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/beta-diversity/</loc>
-    <lastmod>2011-10-25T21:21:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2012-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2011-10-25/</loc>
-    <lastmod>2011-10-25T21:21:00-07:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2012-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/post/2011-10-19/</loc>
-    <lastmod>2011-10-19T20:07:00-07:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2012-a/</loc><lastmod>2012-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication_types/0/</loc>
-    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2012/</loc><lastmod>2012-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2009/</loc>
-    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication-type/0/</loc><lastmod>2009-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/animal-migration/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2009/</loc><lastmod>2009-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/animals/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/animal-migration/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/asynchrony/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/animals/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/biological/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/asynchrony/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/c.-e.-coviella/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/biological/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/ecosystem/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/g.-d.-ruxton/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/ecosystem/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/insects/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/insects-physiology/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/insects/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/models/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/insects-physiology/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/population-density/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/models/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/population-dynamics/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/population-density/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/spatial-model/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/population-dynamics/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/supertransients/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/spatial-model/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/synchrony/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/supertransients/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-2000/</loc>
-    <lastmod>2000-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/synchrony/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-1999/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-2000/</loc><lastmod>2000-09-07T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/chla/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-1999/</loc><lastmod>1999-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/non-destructive-estimation/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/chla/</loc><lastmod>1999-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/periphyton/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/non-destructive-estimation/</loc><lastmod>1999-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/time-series/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/periphyton/</loc><lastmod>1999-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/graeme-d-ruxton/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/time-series/</loc><lastmod>1999-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/l-a-saravia/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/lucila-d-boffi-lissin/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/model-assumptions/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc></loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/saravia-1998/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/model-assumptions/</loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/spatial-dynamics/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/saravia-1998/</loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/tags/stochastic-cellular-automata/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/spatial-dynamics/</loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/publication/ruxton-1998/</loc>
-    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
+    <loc>https://lsaravia.github.io/tag/stochastic-cellular-automata/</loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/iirodriguez/</loc>
-  </url>
-  
+    <loc>https://lsaravia.github.io/publication/ruxton-1998/</loc><lastmod>1998-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/mccrettazminaglia/</loc>
-  </url>
-  
+    <loc>https://lsaravia.github.io/admin/</loc></url>
   <url>
-    <loc>https://lsaravia.github.io/authors/vnvelazco/</loc>
-  </url>
-  
+    <loc></loc></url>
   <url>
-    <loc>https://lsaravia.github.io/categories/</loc>
-  </url>
-  
+    <loc></loc></url>
   <url>
-    <loc>https://lsaravia.github.io/courses/</loc>
-  </url>
-  
-</urlset>
+    <loc>https://lsaravia.github.io/tag/isla-25-de-mayo/king-george-island/</loc></url></urlset>

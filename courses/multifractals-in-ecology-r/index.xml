@@ -5,9 +5,9 @@
     <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</link>
       <atom:link href="https://lsaravia.github.io/courses/multifractals-in-ecology-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Overview</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Thu, 29 Aug 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Aug 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
       <title>Overview</title>
       <link>https://lsaravia.github.io/courses/multifractals-in-ecology-r/</link>
     </image>
@@ -54,16 +54,11 @@ iterative procedures.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract1.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_EcoFract1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_EcoFract1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;The spatial distribution of low canopy areas (less than 15m) in a rainforest in Panama (BCI) where clusters of many different sizes can be observed&lt;/p&gt;
 
 
@@ -78,16 +73,11 @@ iterative procedures.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract2.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_EcoFract2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_EcoFract2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;deterministic-fractals&#34;&gt;Deterministic fractals&lt;/h2&gt;
@@ -109,16 +99,11 @@ with half the side length of the starting triangle.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_sierpinsky.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_sierpinsky.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_sierpinsky.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;deterministic-fractals-1&#34;&gt;Deterministic fractals 1&lt;/h2&gt;
@@ -139,16 +124,11 @@ replaced by the other two sides of an equilateral triangle of length 1/3.&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Koch.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Koch.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Koch.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;The curve occupies a definite space, but its length $L$ goes to infinity.&lt;/p&gt;
 &lt;p&gt;We can compute $L_n$ at different steps $n$&lt;/p&gt;
 &lt;p&gt;$L_0=1$&lt;/p&gt;
@@ -189,16 +169,11 @@ some neighborhood.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_CA.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_CA.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_CA.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;exercise-play-with-1d-ca&#34;&gt;Exercise: play with 1D CA&lt;/h2&gt;
@@ -246,16 +221,11 @@ segment.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_RandSierp.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_RandSierp.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_RandSierp.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;statistical-self-similarity&#34;&gt;Statistical self similarity&lt;/h2&gt;
@@ -309,16 +279,11 @@ the plot shows the cumulative distribution $N(&amp;gt;n)$ against biomass&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Biomass.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Biomass.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Biomass.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;Scaling in the cumulative biomass distribution of all organisms in lake Konstanz (from Gaedke 1992).&lt;/p&gt;
 &lt;p&gt;For a scaling law $N(n) \propto n^{-r}$ we get $N(&amp;gt;n) \propto n^{-r+1}$&lt;/p&gt;
 &lt;/li&gt;
@@ -449,16 +414,11 @@ part of the object will be counted&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1a.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Molamola1a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Molamola1a.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mola-mola-swimming&#34;&gt;Mola mola swimming&lt;/h2&gt;
@@ -478,16 +438,11 @@ part of the object will be counted&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1b.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Molamola1b.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Molamola1b.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;lower D during daylight&lt;/em&gt; suggest individuals move in more directed manner.&lt;/p&gt;
@@ -554,7 +509,7 @@ Taylor &amp;amp; Francis.&lt;/p&gt;
 &lt;p&gt;R is a language and environment for statistical computing and graphics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Extracted from &lt;a href=&#34;http://nicercode.github.io/intro/&#34;&gt;http://nicercode.github.io/intro/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Extracted from &lt;a href=&#34;http://nicercode.github.io/intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://nicercode.github.io/intro/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Writing code is fast becoming a key - if not the most important - skill for
 doing research in the 21st century. As scientists, we live in extraordinary times.
@@ -577,7 +532,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install R for windows&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/bin/windows/base/&#34;&gt;http://cran.r-project.org/bin/windows/base/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/bin/windows/base/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.r-project.org/bin/windows/base/&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install R for Linux (ubuntu)&lt;/p&gt;
@@ -588,7 +543,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install &lt;em&gt;RStudio&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rstudio.com/ide/download/desktop&#34;&gt;http://www.rstudio.com/ide/download/desktop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rstudio.com/ide/download/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.rstudio.com/ide/download/desktop&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;getting-started-with-rstudio&#34;&gt;Getting started with RStudio&lt;/h2&gt;
@@ -633,14 +588,14 @@ many, many more ‘clicks’.&lt;/p&gt;
 
   [1] 16
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See ?Arithmetic for more information, you can also get there by ?&amp;ldquo;+&amp;rdquo; (note the quotes)&lt;/p&gt;
+&lt;p&gt;See ?Arithmetic for more information, you can also get there by ?&amp;quot;+&amp;quot; (note the quotes)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The usual sort of comparison operators are available:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  1 == 1  # equality (note two equals signs, read as &amp;quot;is equal to&amp;quot;)
 
   [1] TRUE
-		
+
 
   1 != 2  # inequality (read as &amp;quot;is not equal to&amp;quot;)
 
@@ -663,7 +618,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 
   [1] TRUE
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See ?Comparison for more information (you can also get there by help(&amp;ldquo;==&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;See ?Comparison for more information (you can also get there by help(&amp;quot;==&amp;quot;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Really small numbers get a scientific notation:&lt;/p&gt;
@@ -1006,32 +961,32 @@ It is more common that functions will than that they won’t.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
+&lt;pre&gt;&lt;code&gt;	1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
 
-    [1] 1.424
+	[1] 1.424
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    squares &amp;lt;- (1:100)^2
-    sum(1/squares)
+&lt;pre&gt;&lt;code&gt;	squares &amp;lt;- (1:100)^2
+	sum(1/squares)
 
-    [1] 1.635
+	[1] 1.635
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    sum(1 / (1:10000)^2)
+&lt;pre&gt;&lt;code&gt;	sum(1 / (1:10000)^2)
 
-    [1] 1.645
+	[1] 1.645
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    x &amp;lt;- sum(1 / (1:10000)^2)
-    sqrt(x * 6)
+&lt;pre&gt;&lt;code&gt;	x &amp;lt;- sum(1 / (1:10000)^2)
+	sqrt(x * 6)
 
-    [1] 3.141
+	[1] 3.141
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;data-frames&#34;&gt;Data frames&lt;/h2&gt;
 &lt;p&gt;Let us remember the power law&lt;/p&gt;
@@ -1131,7 +1086,7 @@ It is more common that functions will than that they won’t.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;We can define a function to calculate this using a variable&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  cumPowerL &amp;lt;- function(x) {
-      sum(pl[pl$r &amp;gt;=x,]$L)
+  	sum(pl[pl$r &amp;gt;=x,]$L)
 
   }
 
@@ -1243,16 +1198,11 @@ strictly greater than its topological dimension.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C2_RandomWalk.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C2_RandomWalk.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C2_RandomWalk.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;li&gt;
@@ -1268,9 +1218,9 @@ strictly greater than its topological dimension.&lt;/p&gt;
 &lt;p&gt;Fractal properties in time series can be analyzed by means of Hurst&amp;rsquo;s Rescaled Range Analysis&lt;/p&gt;
 &lt;p&gt;Let us consider a time series that can be: the number of extinctions of a group of organism or a particular population or the discharge of a river, etc.&lt;/p&gt;
 &lt;p&gt;$X_i$ with $i=1,2,3,&amp;hellip;,T$&lt;/p&gt;
-&lt;p&gt;The average of $X_i$ over $T$ time steps will be $&amp;lt; X &amp;gt;_T = \left( \sum_{i} X_t \right)/T$&lt;/p&gt;
+&lt;p&gt;The average of $X_i$ over $T$ time steps will be $&amp;lt; X &amp;gt;&lt;em&gt;T = \left( \sum&lt;/em&gt;{i} X_t \right)/T$&lt;/p&gt;
 &lt;p&gt;The departure from the average over a t-year time horizont is given by:&lt;/p&gt;
-&lt;p&gt;$$X(t,T) = \sum_{i=1}^{t} [X_i - &amp;lt; X &amp;gt;_T ] = \left( \sum_{i=1}^{T} X_i \right) - t &amp;lt; X &amp;gt;_T$$&lt;/p&gt;
+&lt;p&gt;$$X(t,T) = \sum_{i=1}^{t} [X_i - &amp;lt; X &amp;gt;&lt;em&gt;T ] = \left( \sum&lt;/em&gt;{i=1}^{T} X_i \right) - t &amp;lt; X &amp;gt;_T$$&lt;/p&gt;
 &lt;p&gt;$X(t,T)$ is usually calculated dividing the time series in $M$ segments of size $T$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1531,16 +1481,11 @@ dimension. Instead an infinite spectrum of dimensions must be introduced.&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Clouds.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_Clouds.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_Clouds.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1574,16 +1519,11 @@ will scale as:&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_BoxCounting.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/center&gt; 
 &lt;h2 id=&#34;the-generalized-dimensions&#34;&gt;The generalized dimensions&lt;/h2&gt;
 &lt;ul&gt;
@@ -1602,7 +1542,7 @@ so-called correlation dimension of order $q$ or also called Renyi entropies.&lt;
 &lt;h2 id=&#34;generalized-dimensions-1&#34;&gt;Generalized dimensions 1&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;It can be shown that the inequality $D_q&amp;rsquo; \leq D_q$ holds for $q&amp;rsquo; \geq q$&lt;/p&gt;
+&lt;p&gt;It can be shown that the inequality $D_q&#39; \leq D_q$ holds for $q&#39; \geq q$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The sum&lt;/p&gt;
@@ -1611,7 +1551,7 @@ so-called correlation dimension of order $q$ or also called Renyi entropies.&lt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Varying q allows to measure the non-homogeneity of the pattern. The moments with larger $q$
-will be dominated by the densest boxes.  For $q&amp;lt;0$ will come from small $p_i$&#39;s.&lt;/p&gt;
+will be dominated by the densest boxes.  For $q&amp;lt;0$ will come from small $p_i$&amp;rsquo;s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Alternatively we can think that for $q&amp;gt;0$, $D_q$ reflects the scaling of the large fluctuations
@@ -1637,16 +1577,11 @@ and weak singularities.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_BoxCounting.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1680,16 +1615,11 @@ using the generalized dimension function $D_q$ and the mass exponent function $\
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Cladoceran.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_Cladoceran.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_Cladoceran.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;p&gt;both functions indicate that the successive displacements of male D. australis have weaker multifractal properties. This is consistent with and generalizes previous results showing a decrease in the complexity of behavioral sequences under stressful conditions for a range of organisms.&lt;/p&gt;
 &lt;/li&gt;
@@ -1756,10 +1686,10 @@ repeat the procedure using a range of $r$ values. This range is determined by th
 &lt;p&gt;Calculate $M_q(r_1)$ store the result.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Do this for all $r$&#39;s in the range.&lt;/p&gt;
+&lt;p&gt;Do this for all $r$&amp;rsquo;s in the range.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Now we have all $r$&#39;s and $M_q(r)$ to calculate $\tau_q$ by regression&lt;/p&gt;
+&lt;p&gt;Now we have all $r$&amp;rsquo;s and $M_q(r)$ to calculate $\tau_q$ by regression&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Repeat 3. - 7. for all the $q$s&lt;/p&gt;
@@ -1770,7 +1700,7 @@ repeat the procedure using a range of $r$ values. This range is determined by th
 &lt;p&gt;If somebody want to do this in R as a final project, we cant talk later.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We will use an open source software mfSBA available at &lt;a href=&#34;http://github/lsaravia/mfsba&#34;&gt;http://github/lsaravia/mfsba&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will use an open source software mfSBA available at &lt;a href=&#34;http://github/lsaravia/mfsba&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github/lsaravia/mfsba&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;using-mfsba&#34;&gt;Using mfSBA&lt;/h2&gt;
@@ -1803,7 +1733,7 @@ we need to know how to use mfSBA&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;qFile&lt;/td&gt;
-&lt;td&gt;A file that indicates the $q$&#39;s range&lt;/td&gt;
+&lt;td&gt;A file that indicates the $q$&amp;rsquo;s range&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;minBox&lt;/td&gt;
@@ -1831,7 +1761,7 @@ we need to know how to use mfSBA&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;mfSBA can use tif files but I can&amp;rsquo;t make it work in windows so we will use
 its own format that is called &amp;ldquo;sed&amp;rdquo;. Sed files are text files with a matrix structure.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  s &amp;lt;- &amp;quot;./mfSBA K1_laSelva.sed q.sed 2 512 20 S&amp;quot;
+&lt;pre&gt;&lt;code&gt;	s &amp;lt;- &amp;quot;./mfSBA K1_laSelva.sed q.sed 2 512 20 S&amp;quot;
 
   system(s)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1847,7 +1777,7 @@ its own format that is called &amp;ldquo;sed&amp;rdquo;. Sed files are text file
 to express $D_q$ that we will not use.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;t.file&lt;/strong&gt; has $\log( M_q(r))$ and the box sizes used, useful to check the validity of
 the regression.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;s.file&lt;/strong&gt; has $\tau_q$, $\alpha$ and $f(\alpha)$, the $R^2$&#39;s and standard deviations, so we will use mostly this file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;s.file&lt;/strong&gt; has $\tau_q$, $\alpha$ and $f(\alpha)$, the $R^2$&amp;rsquo;s and standard deviations, so we will use mostly this file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  sf &amp;lt;- read.table(&amp;quot;s.K1_laSelva.sed&amp;quot;, header=T)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
@@ -1863,15 +1793,15 @@ the regression.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;A possible answer:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  readDq &amp;lt;- function(sname) {
-	
-      pp &amp;lt;- read.table(sname, header=T)
+
+  	pp &amp;lt;- read.table(sname, header=T)
 
       pp$Dq  &amp;lt;- with(pp,ifelse(q==1,alfa,Tau/(q-1)))
-	    
+
       pp$SD.Dq  &amp;lt;- with(pp,ifelse(q==1,SD.alfa,abs(SD.Tau/(q-1))))
-	    
+
       pp$R.Dq &amp;lt;- with(pp,ifelse(q==1,R.alfa,R.Tau))
-	    
+
       return(pp[,c(&amp;quot;q&amp;quot;,&amp;quot;Tau,&amp;quot;SD.Tau&amp;quot;,&amp;quot;Dq&amp;quot;,&amp;quot;SD.Dq&amp;quot;,&amp;quot;R.Dq&amp;quot;)])
   }
 &lt;/code&gt;&lt;/pre&gt;
@@ -1886,7 +1816,7 @@ the regression.&lt;/p&gt;
   require(ggplot2)
 
   pp &amp;lt;- ggplot(dq, aes(x=R.Dq)) + geom_histogram()
-	 
+
   pp
 
   range(dq$R.Dq)
@@ -1909,9 +1839,9 @@ the regression.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  lm0 &amp;lt;- lm(V3~logBox,data=tf)
 
   summary(lm0)
-	
+
   require(car)
-	
+
   dwt(lm0)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
@@ -2017,16 +1947,11 @@ spatial landscape.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;..![]%28figs/C4_FirePercol.png&#34; &gt;
-&lt;img data-src=&#34;..![]%28figs/C4_FirePercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;..![]%28figs/C4_FirePercol.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/center&gt;  
 &lt;ul&gt;
@@ -2076,7 +2001,7 @@ ecosystem collapse&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Here there is an example of a phase transition. A string of 150 has been used and  $\mu=0.5$. The
 triangles indicate the probability that active particles are observed after $10^3$ steps. A sharp transition
-can be observed at the critical probability of infection $\mu_c=0.5&amp;rdquo;. The insets are space-time diagrams at
+can be observed at the critical probability of infection $\mu_c=0.5&amp;quot;. The insets are space-time diagrams at
 different points in the parameter space.
 &lt;center&gt;
 
@@ -2092,16 +2017,11 @@ different points in the parameter space.
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;..figs/C4_InfectPercol.png&#34; &gt;
-&lt;img data-src=&#34;..figs/C4_InfectPercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;..figs/C4_InfectPercol.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;self-organization&#34;&gt;Self-organization&lt;/h2&gt;

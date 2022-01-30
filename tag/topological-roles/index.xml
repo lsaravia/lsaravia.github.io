@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>topological roles | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tag/topological-roles/</link>
+      <atom:link href="https://lsaravia.github.io/tag/topological-roles/index.xml" rel="self" type="application/rss+xml" />
+    <description>topological roles</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
+      <title>topological roles</title>
+      <link>https://lsaravia.github.io/tag/topological-roles/</link>
+    </image>
+    
+    <item>
+      <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
+      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

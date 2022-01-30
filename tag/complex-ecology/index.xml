@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complex Ecology | Leonardo A. Saravia</title>
+    <link>https://lsaravia.github.io/tag/complex-ecology/</link>
+      <atom:link href="https://lsaravia.github.io/tag/complex-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Complex Ecology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
+      <title>Complex Ecology</title>
+      <link>https://lsaravia.github.io/tag/complex-ecology/</link>
+    </image>
+    
+    <item>
+      <title>Redes de interacciones Ecologicas, la influencia del cambio global y la degradación del hábitat</title>
+      <link>https://lsaravia.github.io/project/ungs2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/project/ungs2019/</guid>
+      <description>&lt;p&gt;La explotación y la degradación de los hábitats naturales junto con el cambio climático producen la pérdida de especies y de servicios ecosistémicos. La manera en que las especies forman redes de interacciones determina su estabilidad y resistencia ante los disturbios. En este proyecto, proponemos estudiar las redes de interacción ecológicas incorporando los distintos tipos de interacción (tróficas, mutualistas y competitivas), los disturbios como el cambio de temperatura y la fragmentación del hábitat, que ensamblan las redes de interacción a diferentes escalas, desde la de comunidades locales a la biogeográfica. Acoplado a esto, investigaremos la fragmentación de uno de los ambientes terrestres más importantes, los bosques, a escala global, para producir señales de alerta temprana con respecto a la pérdida de biodiversidad.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

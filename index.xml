@@ -5,9 +5,9 @@
     <link>https://lsaravia.github.io/</link>
       <atom:link href="https://lsaravia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo A. Saravia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.</copyright><lastBuildDate>Sun, 09 Feb 2020 23:53:14 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/img/bio-photo.jpg</url>
+      <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
       <title>Leonardo A. Saravia</title>
       <link>https://lsaravia.github.io/</link>
     </image>
@@ -54,16 +54,11 @@ iterative procedures.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract1.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_EcoFract1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_EcoFract1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;The spatial distribution of low canopy areas (less than 15m) in a rainforest in Panama (BCI) where clusters of many different sizes can be observed&lt;/p&gt;
 
 
@@ -78,16 +73,11 @@ iterative procedures.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_EcoFract2.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_EcoFract2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_EcoFract2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;deterministic-fractals&#34;&gt;Deterministic fractals&lt;/h2&gt;
@@ -109,16 +99,11 @@ with half the side length of the starting triangle.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_sierpinsky.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_sierpinsky.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_sierpinsky.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;deterministic-fractals-1&#34;&gt;Deterministic fractals 1&lt;/h2&gt;
@@ -139,16 +124,11 @@ replaced by the other two sides of an equilateral triangle of length 1/3.&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Koch.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Koch.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Koch.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;The curve occupies a definite space, but its length $L$ goes to infinity.&lt;/p&gt;
 &lt;p&gt;We can compute $L_n$ at different steps $n$&lt;/p&gt;
 &lt;p&gt;$L_0=1$&lt;/p&gt;
@@ -189,16 +169,11 @@ some neighborhood.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_CA.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_CA.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_CA.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;exercise-play-with-1d-ca&#34;&gt;Exercise: play with 1D CA&lt;/h2&gt;
@@ -246,16 +221,11 @@ segment.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_RandSierp.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_RandSierp.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_RandSierp.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;statistical-self-similarity&#34;&gt;Statistical self similarity&lt;/h2&gt;
@@ -309,16 +279,11 @@ the plot shows the cumulative distribution $N(&amp;gt;n)$ against biomass&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Biomass.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Biomass.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Biomass.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;Scaling in the cumulative biomass distribution of all organisms in lake Konstanz (from Gaedke 1992).&lt;/p&gt;
 &lt;p&gt;For a scaling law $N(n) \propto n^{-r}$ we get $N(&amp;gt;n) \propto n^{-r+1}$&lt;/p&gt;
 &lt;/li&gt;
@@ -449,16 +414,11 @@ part of the object will be counted&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1a.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Molamola1a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Molamola1a.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mola-mola-swimming&#34;&gt;Mola mola swimming&lt;/h2&gt;
@@ -478,16 +438,11 @@ part of the object will be counted&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C1_Molamola1b.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C1_Molamola1b.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C1_Molamola1b.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;lower D during daylight&lt;/em&gt; suggest individuals move in more directed manner.&lt;/p&gt;
@@ -554,7 +509,7 @@ Taylor &amp;amp; Francis.&lt;/p&gt;
 &lt;p&gt;R is a language and environment for statistical computing and graphics.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Extracted from &lt;a href=&#34;http://nicercode.github.io/intro/&#34;&gt;http://nicercode.github.io/intro/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Extracted from &lt;a href=&#34;http://nicercode.github.io/intro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://nicercode.github.io/intro/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Writing code is fast becoming a key - if not the most important - skill for
 doing research in the 21st century. As scientists, we live in extraordinary times.
@@ -577,7 +532,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install R for windows&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/bin/windows/base/&#34;&gt;http://cran.r-project.org/bin/windows/base/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/bin/windows/base/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.r-project.org/bin/windows/base/&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install R for Linux (ubuntu)&lt;/p&gt;
@@ -588,7 +543,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Install &lt;em&gt;RStudio&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rstudio.com/ide/download/desktop&#34;&gt;http://www.rstudio.com/ide/download/desktop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rstudio.com/ide/download/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.rstudio.com/ide/download/desktop&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;getting-started-with-rstudio&#34;&gt;Getting started with RStudio&lt;/h2&gt;
@@ -633,14 +588,14 @@ many, many more ‘clicks’.&lt;/p&gt;
 
   [1] 16
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See ?Arithmetic for more information, you can also get there by ?&amp;ldquo;+&amp;rdquo; (note the quotes)&lt;/p&gt;
+&lt;p&gt;See ?Arithmetic for more information, you can also get there by ?&amp;quot;+&amp;quot; (note the quotes)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The usual sort of comparison operators are available:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  1 == 1  # equality (note two equals signs, read as &amp;quot;is equal to&amp;quot;)
 
   [1] TRUE
-		
+
 
   1 != 2  # inequality (read as &amp;quot;is not equal to&amp;quot;)
 
@@ -663,7 +618,7 @@ many, many more ‘clicks’.&lt;/p&gt;
 
   [1] TRUE
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See ?Comparison for more information (you can also get there by help(&amp;ldquo;==&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;See ?Comparison for more information (you can also get there by help(&amp;quot;==&amp;quot;).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Really small numbers get a scientific notation:&lt;/p&gt;
@@ -1006,32 +961,32 @@ It is more common that functions will than that they won’t.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
+&lt;pre&gt;&lt;code&gt;	1 + 1/4 + 1/9 + 1/16 # starting to get tedious to type
 
-    [1] 1.424
+	[1] 1.424
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    squares &amp;lt;- (1:100)^2
-    sum(1/squares)
+&lt;pre&gt;&lt;code&gt;	squares &amp;lt;- (1:100)^2
+	sum(1/squares)
 
-    [1] 1.635
+	[1] 1.635
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    sum(1 / (1:10000)^2)
+&lt;pre&gt;&lt;code&gt;	sum(1 / (1:10000)^2)
 
-    [1] 1.645
+	[1] 1.645
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;    x &amp;lt;- sum(1 / (1:10000)^2)
-    sqrt(x * 6)
+&lt;pre&gt;&lt;code&gt;	x &amp;lt;- sum(1 / (1:10000)^2)
+	sqrt(x * 6)
 
-    [1] 3.141
+	[1] 3.141
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;data-frames&#34;&gt;Data frames&lt;/h2&gt;
 &lt;p&gt;Let us remember the power law&lt;/p&gt;
@@ -1131,7 +1086,7 @@ It is more common that functions will than that they won’t.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;We can define a function to calculate this using a variable&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  cumPowerL &amp;lt;- function(x) {
-      sum(pl[pl$r &amp;gt;=x,]$L)
+  	sum(pl[pl$r &amp;gt;=x,]$L)
 
   }
 
@@ -1243,16 +1198,11 @@ strictly greater than its topological dimension.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C2_RandomWalk.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C2_RandomWalk.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C2_RandomWalk.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;li&gt;
@@ -1268,9 +1218,9 @@ strictly greater than its topological dimension.&lt;/p&gt;
 &lt;p&gt;Fractal properties in time series can be analyzed by means of Hurst&amp;rsquo;s Rescaled Range Analysis&lt;/p&gt;
 &lt;p&gt;Let us consider a time series that can be: the number of extinctions of a group of organism or a particular population or the discharge of a river, etc.&lt;/p&gt;
 &lt;p&gt;$X_i$ with $i=1,2,3,&amp;hellip;,T$&lt;/p&gt;
-&lt;p&gt;The average of $X_i$ over $T$ time steps will be $&amp;lt; X &amp;gt;_T = \left( \sum_{i} X_t \right)/T$&lt;/p&gt;
+&lt;p&gt;The average of $X_i$ over $T$ time steps will be $&amp;lt; X &amp;gt;&lt;em&gt;T = \left( \sum&lt;/em&gt;{i} X_t \right)/T$&lt;/p&gt;
 &lt;p&gt;The departure from the average over a t-year time horizont is given by:&lt;/p&gt;
-&lt;p&gt;$$X(t,T) = \sum_{i=1}^{t} [X_i - &amp;lt; X &amp;gt;_T ] = \left( \sum_{i=1}^{T} X_i \right) - t &amp;lt; X &amp;gt;_T$$&lt;/p&gt;
+&lt;p&gt;$$X(t,T) = \sum_{i=1}^{t} [X_i - &amp;lt; X &amp;gt;&lt;em&gt;T ] = \left( \sum&lt;/em&gt;{i=1}^{T} X_i \right) - t &amp;lt; X &amp;gt;_T$$&lt;/p&gt;
 &lt;p&gt;$X(t,T)$ is usually calculated dividing the time series in $M$ segments of size $T$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1531,16 +1481,11 @@ dimension. Instead an infinite spectrum of dimensions must be introduced.&lt;/p&
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Clouds.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_Clouds.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_Clouds.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1574,16 +1519,11 @@ will scale as:&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_BoxCounting.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/center&gt; 
 &lt;h2 id=&#34;the-generalized-dimensions&#34;&gt;The generalized dimensions&lt;/h2&gt;
 &lt;ul&gt;
@@ -1602,7 +1542,7 @@ so-called correlation dimension of order $q$ or also called Renyi entropies.&lt;
 &lt;h2 id=&#34;generalized-dimensions-1&#34;&gt;Generalized dimensions 1&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;It can be shown that the inequality $D_q&amp;rsquo; \leq D_q$ holds for $q&amp;rsquo; \geq q$&lt;/p&gt;
+&lt;p&gt;It can be shown that the inequality $D_q&#39; \leq D_q$ holds for $q&#39; \geq q$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The sum&lt;/p&gt;
@@ -1611,7 +1551,7 @@ so-called correlation dimension of order $q$ or also called Renyi entropies.&lt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Varying q allows to measure the non-homogeneity of the pattern. The moments with larger $q$
-will be dominated by the densest boxes.  For $q&amp;lt;0$ will come from small $p_i$&#39;s.&lt;/p&gt;
+will be dominated by the densest boxes.  For $q&amp;lt;0$ will come from small $p_i$&amp;rsquo;s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Alternatively we can think that for $q&amp;gt;0$, $D_q$ reflects the scaling of the large fluctuations
@@ -1637,16 +1577,11 @@ and weak singularities.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_BoxCounting.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_BoxCounting.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_BoxCounting.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1680,16 +1615,11 @@ using the generalized dimension function $D_q$ and the mass exponent function $\
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;../figs/C3_Cladoceran.png&#34; &gt;
-&lt;img data-src=&#34;../figs/C3_Cladoceran.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../figs/C3_Cladoceran.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
   &lt;/center&gt; 
 &lt;p&gt;both functions indicate that the successive displacements of male D. australis have weaker multifractal properties. This is consistent with and generalizes previous results showing a decrease in the complexity of behavioral sequences under stressful conditions for a range of organisms.&lt;/p&gt;
 &lt;/li&gt;
@@ -1756,10 +1686,10 @@ repeat the procedure using a range of $r$ values. This range is determined by th
 &lt;p&gt;Calculate $M_q(r_1)$ store the result.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Do this for all $r$&#39;s in the range.&lt;/p&gt;
+&lt;p&gt;Do this for all $r$&amp;rsquo;s in the range.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Now we have all $r$&#39;s and $M_q(r)$ to calculate $\tau_q$ by regression&lt;/p&gt;
+&lt;p&gt;Now we have all $r$&amp;rsquo;s and $M_q(r)$ to calculate $\tau_q$ by regression&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Repeat 3. - 7. for all the $q$s&lt;/p&gt;
@@ -1770,7 +1700,7 @@ repeat the procedure using a range of $r$ values. This range is determined by th
 &lt;p&gt;If somebody want to do this in R as a final project, we cant talk later.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We will use an open source software mfSBA available at &lt;a href=&#34;http://github/lsaravia/mfsba&#34;&gt;http://github/lsaravia/mfsba&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will use an open source software mfSBA available at &lt;a href=&#34;http://github/lsaravia/mfsba&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github/lsaravia/mfsba&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;using-mfsba&#34;&gt;Using mfSBA&lt;/h2&gt;
@@ -1803,7 +1733,7 @@ we need to know how to use mfSBA&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;qFile&lt;/td&gt;
-&lt;td&gt;A file that indicates the $q$&#39;s range&lt;/td&gt;
+&lt;td&gt;A file that indicates the $q$&amp;rsquo;s range&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;minBox&lt;/td&gt;
@@ -1831,7 +1761,7 @@ we need to know how to use mfSBA&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;mfSBA can use tif files but I can&amp;rsquo;t make it work in windows so we will use
 its own format that is called &amp;ldquo;sed&amp;rdquo;. Sed files are text files with a matrix structure.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  s &amp;lt;- &amp;quot;./mfSBA K1_laSelva.sed q.sed 2 512 20 S&amp;quot;
+&lt;pre&gt;&lt;code&gt;	s &amp;lt;- &amp;quot;./mfSBA K1_laSelva.sed q.sed 2 512 20 S&amp;quot;
 
   system(s)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1847,7 +1777,7 @@ its own format that is called &amp;ldquo;sed&amp;rdquo;. Sed files are text file
 to express $D_q$ that we will not use.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;t.file&lt;/strong&gt; has $\log( M_q(r))$ and the box sizes used, useful to check the validity of
 the regression.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;s.file&lt;/strong&gt; has $\tau_q$, $\alpha$ and $f(\alpha)$, the $R^2$&#39;s and standard deviations, so we will use mostly this file.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;s.file&lt;/strong&gt; has $\tau_q$, $\alpha$ and $f(\alpha)$, the $R^2$&amp;rsquo;s and standard deviations, so we will use mostly this file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  sf &amp;lt;- read.table(&amp;quot;s.K1_laSelva.sed&amp;quot;, header=T)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
@@ -1863,15 +1793,15 @@ the regression.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;A possible answer:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  readDq &amp;lt;- function(sname) {
-	
-      pp &amp;lt;- read.table(sname, header=T)
+
+  	pp &amp;lt;- read.table(sname, header=T)
 
       pp$Dq  &amp;lt;- with(pp,ifelse(q==1,alfa,Tau/(q-1)))
-	    
+
       pp$SD.Dq  &amp;lt;- with(pp,ifelse(q==1,SD.alfa,abs(SD.Tau/(q-1))))
-	    
+
       pp$R.Dq &amp;lt;- with(pp,ifelse(q==1,R.alfa,R.Tau))
-	    
+
       return(pp[,c(&amp;quot;q&amp;quot;,&amp;quot;Tau,&amp;quot;SD.Tau&amp;quot;,&amp;quot;Dq&amp;quot;,&amp;quot;SD.Dq&amp;quot;,&amp;quot;R.Dq&amp;quot;)])
   }
 &lt;/code&gt;&lt;/pre&gt;
@@ -1886,7 +1816,7 @@ the regression.&lt;/p&gt;
   require(ggplot2)
 
   pp &amp;lt;- ggplot(dq, aes(x=R.Dq)) + geom_histogram()
-	 
+
   pp
 
   range(dq$R.Dq)
@@ -1909,9 +1839,9 @@ the regression.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  lm0 &amp;lt;- lm(V3~logBox,data=tf)
 
   summary(lm0)
-	
+
   require(car)
-	
+
   dwt(lm0)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
@@ -2017,16 +1947,11 @@ spatial landscape.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;..![]%28figs/C4_FirePercol.png&#34; &gt;
-&lt;img data-src=&#34;..![]%28figs/C4_FirePercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;..![]%28figs/C4_FirePercol.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/center&gt;  
 &lt;ul&gt;
@@ -2076,7 +2001,7 @@ ecosystem collapse&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Here there is an example of a phase transition. A string of 150 has been used and  $\mu=0.5$. The
 triangles indicate the probability that active particles are observed after $10^3$ steps. A sharp transition
-can be observed at the critical probability of infection $\mu_c=0.5&amp;rdquo;. The insets are space-time diagrams at
+can be observed at the critical probability of infection $\mu_c=0.5&amp;quot;. The insets are space-time diagrams at
 different points in the parameter space.
 &lt;center&gt;
 
@@ -2092,16 +2017,11 @@ different points in the parameter space.
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;..figs/C4_InfectPercol.png&#34; &gt;
-&lt;img data-src=&#34;..figs/C4_InfectPercol.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;..figs/C4_InfectPercol.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;self-organization&#34;&gt;Self-organization&lt;/h2&gt;
@@ -2393,12 +2313,125 @@ $\lambda$ or recuperation with probability $\mu$&lt;/li&gt;
     </item>
     
     <item>
+      <title>Example Talk</title>
+      <link>https://lsaravia.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
+      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
+      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://lsaravia.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stochastic Network Interaction Model (SNIM) Tutorial</title>
       <link>https://lsaravia.github.io/post/snim-tutorial/</link>
       <pubDate>Sun, 09 Feb 2020 23:53:14 -0300</pubDate>
       <guid>https://lsaravia.github.io/post/snim-tutorial/</guid>
       <description>&lt;p&gt;This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the &lt;strong&gt;B&lt;/strong&gt; model of the paper &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I read it long ago and for many years I wanted to make a version of it, finally, I did it.&lt;/p&gt;
-&lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, to install it you need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
+&lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, to install it you need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
 &lt;p&gt;Then the description of the model from &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is the following&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The second model again involves a set of S (possible) species plus empty sites (pseudospecies
@@ -2468,16 +2501,18 @@ out &amp;lt;- run_snim_plot(&amp;quot;simul.cfg&amp;quot;,&amp;quot;model3.par&a
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;model3.png&#34; &gt;
-&lt;img data-src=&#34;model3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/snim-tutorial/model3_hud9959c067c95d4fb62b3a05f597402e7_633286_63c09b6fc482cccc47486605b403e521.webp 400w,
+               /post/snim-tutorial/model3_hud9959c067c95d4fb62b3a05f597402e7_633286_ec2529ce2d085ccdcee036d3e53a24c6.webp 760w,
+               /post/snim-tutorial/model3_hud9959c067c95d4fb62b3a05f597402e7_633286_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://lsaravia.github.io/post/snim-tutorial/model3_hud9959c067c95d4fb62b3a05f597402e7_633286_63c09b6fc482cccc47486605b403e521.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;One nice addition to this plot is to add an annimation with the R package &lt;code&gt;gganimate&lt;/code&gt;, I only changed the &lt;code&gt;nEvals = 100&lt;/code&gt; in the simulation parameters file, and made another run of the model, then plot with the &lt;code&gt;out&lt;/code&gt; dataframe,&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;require(gganimate)
 
@@ -2499,22 +2534,19 @@ ggplot(filter(out,Species!=0), aes(x = Time, y = Density,colour=Species)) +
 
 
 
-&lt;figure&gt;
 
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;SNIManimation3Species.gif&#34; &gt;
-&lt;img data-src=&#34;SNIManimation3Species.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://lsaravia.github.io/post/snim-tutorial/SNIManimation3Species.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;p&gt;Have fun!&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Sole, R. V, Alonso, D. &amp;amp; Mckane, A. (2002). Self-organized instability in complex ecosystems. Philos. Trans. R. Soc. Lond. B. Biol. Sci., 357, 667–681 &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sole, R. V, Alonso, D. &amp;amp; Mckane, A. (2002). Self-organized instability in complex ecosystems. Philos. Trans. R. Soc. Lond. B. Biol. Sci., 357, 667–681 &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -2587,8 +2619,8 @@ de cambio global.&lt;/p&gt;
       <link>https://lsaravia.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; | &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
@@ -2608,7 +2640,7 @@ de cambio global.&lt;/p&gt;
 &lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
@@ -2633,15 +2665,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -2662,6 +2694,7 @@ Three
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;/aside&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
@@ -2684,12 +2717,12 @@ Three
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-image=&#34;/img/boards.jpg&#34;
+      data-background-image=&#34;/media/boards.jpg&#34;
   &gt;
 
 &lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
 {{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
 {{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
@@ -2705,17 +2738,9 @@ Three
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://spectrum.chat/academic&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Ecological Network Assembly: How the Regional Metaweb Influences Local Food Webs</title>
-      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -2773,12 +2798,12 @@ Three
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/post/stochastic-network-interaction-model/</guid>
       <description>&lt;h1 id=&#34;snim&#34;&gt;SNIM&lt;/h1&gt;
-&lt;p&gt;This is a C++11 implementation of a stochastic multispecies model. The model has multiple applications to investigate the relationship between ecological interactions (competition, predation) and diversity. It involves a discrete definition of individuals belonging to a given set of species. The dynamics are essentially probabilistic at the microscopic scale, but it leads to recognizable macroscopic patterns both in space and time. The model in is actual version is spatially implicit but a spatially explicit version is planned (never did it). You can find the source code at: &lt;a href=&#34;https://github.com/lsaravia/snim&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a C++11 implementation of a stochastic multispecies model. The model has multiple applications to investigate the relationship between ecological interactions (competition, predation) and diversity. It involves a discrete definition of individuals belonging to a given set of species. The dynamics are essentially probabilistic at the microscopic scale, but it leads to recognizable macroscopic patterns both in space and time. The model in is actual version is spatially implicit but a spatially explicit version is planned (never did it). You can find the source code at: &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A more complete definition of the model can be found in:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Sole, R. V, Alonso, D. &amp;amp; Mckane, A. (2002). Self-organized instability in complex ecosystems. Philos. Trans. R. Soc. Lond. B. Biol. Sci., 357, 667–681 &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sole, R. V, Alonso, D. &amp;amp; Mckane, A. (2002). Self-organized instability in complex ecosystems. Philos. Trans. R. Soc. Lond. B. Biol. Sci., 357, 667–681 &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;And check this presentation to see an application of the model &lt;a href=&#34;https://www.doi.org/10.13140/RG.2.2.17020.33929&#34;&gt;https://www.doi.org/10.13140/RG.2.2.17020.33929&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And check this presentation to see an application of the model &lt;a href=&#34;https://www.doi.org/10.13140/RG.2.2.17020.33929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.doi.org/10.13140/RG.2.2.17020.33929&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -2788,148 +2813,6 @@ Three
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Percolation and scaling in ecology</title>
-      <link>https://lsaravia.github.io/post/2015-12-26/</link>
-      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2015-12-26/</guid>
-      <description>&lt;p&gt;Scaling is a central theme in ecology, well this is my opinion, but there are others that think like me, for example Brian Enquist, that organized a symposium for the 100th anniversary of the Ecological Society of America &lt;a href=&#34;https://brianjenquist.wordpress.com/2015/02/02/scaling-in-ecology-and-the-esa-100th-anniversary-symposium-on-a-focus-on-scaling-for-the-next-100-years&#34;&gt;Scaling in Ecology&lt;/a&gt;. He mentioned that two of the most influential papers from ESA were about scaling:  &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.2307/1941447&#34;&gt;Simon Levin The Problem of Pattern and Scale in Ecology&lt;/a&gt; and &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/03-9000&#34;&gt;J.H. Brown The Metabolic Theory of Ecology&lt;/a&gt;. But why some
-processes permeate through scales and others do not; scaling is important because it implies something that crosses scales, did you ever heard the phrase: think globally act locally. Our new preprint analyzes what happens when &lt;a href=&#34;https://peerj.com/preprints/1589/&#34;&gt;one species percolates through the landscape&lt;/a&gt;&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;Think globally, act locally has been extensively used in environmental campaigns about earth health; and it is precisely about scaling, about the spread of something trough scales: local actions that have a global effect. In fact we don&amp;rsquo;t know which are the effect of most local actions on a global scale, this is a social issue that is very interesting and is in the line of the plenary talk given by Simon Levin (which I knew by twitter thanks to @DrEmilySKlein)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dr Levin: So the challenge is - how do we look towards sustainability? Can we look up macroscopic patterns and emergent properties? #ESA100&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dr Levin: Collective action is possible if you build up from smaller scales and individual actions #ESA100&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;@DrEmilySKlein &lt;a href=&#34;https://twitter.com/DrEmilySKlein&#34;&gt;https://twitter.com/DrEmilySKlein&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;@DrEmilySKlein: Dr Levin: Linking these ideas of econom theory,scales,individual action,possibility of collective action = imp for managing Commons #ESA100&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I wanted to talk about percolation, percolation is something you can experience when you filter coffee, soluble substances in coffee grains pass through the filter and make the beverage that we drink. The theory about percolation has expanded from the fluid of liquid in porous media to a lot of different fields including biology and ecology. There are excellent introductions in the context of ecology like this: &lt;a href=&#34;http://beata.web.elte.hu/Scaling-Chapter.pdf&#34;&gt;Survival of species in patchy landscapes: percolation in space and time&lt;/a&gt; even some lectures by well a known author in the field &lt;a href=&#34;http://havlin.biu.ac.il/course3.php&#34;&gt;Shlomo Havlin&lt;/a&gt;. Basically percolation is a threshold phenomena: it happens when, due to a local interaction (I mean the connection between two neighbours), some kind of message or process spreads to all scales, and this happens suddenly at a critical point.&lt;/p&gt;
-&lt;p&gt;I started to study this in the context of community ecology: can you think about what happens if one species percolates? there is a patch of one species that connects the landscape. What are the consequences for diversity?, when we can observe percolation in a community?&lt;/p&gt;
-&lt;p&gt;I made a spatial model to study the transition between neutral and niche communities &lt;a href=&#34;https://github.com/lsaravia/Neutral&#34;&gt;https://github.com/lsaravia/Neutral&lt;/a&gt;, when the community has no interactions it has a neutral dynamics. But if individuals start to have competitive interactions, best competitors start to replace bad ones and with increasing intensity of competition there is a point were one species percolates, spreads from side to side of the simulation arena. This is a critical point because there is a sudden change in the proportion of this species and as a consequence it produces a biodiversity collapse.  Here is an animation of the transition:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;neuU32_256R0.0029.gif&#34; &gt;
-&lt;img data-src=&#34;neuU32_256R0.0029.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;What happens in this animation:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;When a species patch spreads from one side to the other of the landscape it percolates, and I change the color of the other accompanying species in the animation, so the image becomes bi-color: the pink pixels are the accompanying species and the brown pixels the percolating species.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The size of the biggest (&lt;strong&gt;Size&lt;/strong&gt;) patch that will be the spanning patch goes from 0.14% &amp;mdash;in proportion of the landscape&amp;mdash; to approximately 0.60%.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Shannon diversity (&lt;strong&gt;H&lt;/strong&gt;) drops from 1.75 to 1.45&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The richness (&lt;strong&gt;S&lt;/strong&gt;) keeps more or less the same&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Percolation has a low probability to happen in a purely neutral model, in my model has a zero probability but that depends on the metacommunity&amp;rsquo;s species abundance distribution, because on the long term the local community tend to be equal to the metacommunity in species abundances. When the community have a small probability of competitive interactions percolation is the rule. In the previous animation the probability of a competitive displacement between two interacting individuals was 0.0011, so it is very low.&lt;/p&gt;
-&lt;p&gt;This kind of critical behavior should be observed when climatic conditions or stress change, thus I am looking for data on communities that change its competitive behavior when suffer some stress to validate that this happens in real communities.&lt;/p&gt;
-&lt;p&gt;One interesting thing about this critical transition is that happens well before the communities start to loss cover, or before there is any habitat loss, so we could have an early warning signal detecting percolation.&lt;/p&gt;
-&lt;p&gt;More about this in our preprint &lt;a href=&#34;https://peerj.com/preprints/1589/&#34;&gt;Biodiversity collapse in a phase transition between neutral and niche communities&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    This was published as &lt;a href=&#34;https://lsaravia.github.io/publication/saravia-2018/&#34;&gt;Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Biodiversity is not always top-down regulated</title>
-      <link>https://lsaravia.github.io/post/2015-09-27/</link>
-      <pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2015-09-27/</guid>
-      <description>&lt;p&gt;One can think of different ways that biodiversity can be regulated in the framework of food-webs or more generally networks of interactions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Top-down: the effect of predation, hervibory, parasitism&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Botton-up: food/nutrients&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Disturbance:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In a more microscopic way could also have stabilizing influence or not&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Trophic interactions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Competitive or negative interactions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mutualistic or positive interactions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;No interactions (Neutral)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Environment-species interactions&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- more --&gt;
-&lt;h2 id=&#34;hypothesis-the-diversity-of-interaction-types-have-influence-on-the-community-stability&#34;&gt;Hypothesis: The Diversity of Interaction Types have influence on the Community Stability&lt;/h2&gt;
-&lt;p&gt;The community structure effect on population dynamics may not be correctly evaluated in the absence of interaction type-mixing information&lt;/p&gt;
-&lt;p&gt;However, empirical data on hybrid community interaction webs are limited.&lt;/p&gt;
-&lt;p&gt;A possible test of our hypothesis is to compare the composition of interaction types between different communities under varying levels of disturbance. An ecosystem under more-intensive disturbance is expected to have a more stabilizing composition of interaction types.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Mougi A, Kondoh M. Diversity of Interaction Types and Ecological Community Stability. Science (80- ). 2012;337: 349–351. doi:10.1126/science.1220529&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Terborgh JW. Toward a trophic theory of species diversity. Proc Natl Acad Sci. 2015;112: 11415–11422. doi:10.1073/pnas.1501070112&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reed DC, Rassweiler A, Carr MH, Cavanaugh KC, Malone DP, Siegel DA. Wave disturbance overwhelms top-down and bottom-up control of primary production in California kelp forests. Ecology. 2011;92: 2108–2116. doi:10.1890/11-0377.1&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Carrara F, Giometto A, Seymour M, Rinaldo A, Altermatt F. Inferring species interactions in ecological communities: a comparison of methods at different levels of complexity. Methods Ecol Evol. 2015;6: 895–906. doi:10.1111/2041-210X.12363&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Kéfi S, Berlow EL, Wieters EA, Navarrete SA, Petchey OL, Wood SA, et al. More than a meal… integrating non-feeding interactions into food webs. Ecol Lett. Blackwell Publishing Ltd; 2012;15: 291–300. doi:10.1111/j.1461-0248.2011.01732.x&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
     </item>
     
     <item>
@@ -2957,63 +2840,6 @@ processes permeate through scales and others do not; scaling is important becaus
     </item>
     
     <item>
-      <title>Metacommunities or self organization principles</title>
-      <link>https://lsaravia.github.io/post/2014-11-30/</link>
-      <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2014-11-30/</guid>
-      <description>&lt;p&gt;I am thinking of writing in Spanish because Spanish is my mother language, but there seem to be not many people writing about ecological science in Spanish. In the end, I started to think in English and then write in English, so the next one should be in Spanish, who knows.&lt;/p&gt;
-&lt;p&gt;I have a sensation about metacommunity theory, it divides things too much. Each of the concepts in the following image tries to keep different processes in its own box.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://pegejournalclub.files.wordpress.com/2014/11/metacommunity_types.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
-The metacomunity concepts from Logue et al. (2011). &lt;em&gt;NM&lt;/em&gt;: Neutral Model, &lt;em&gt;PD&lt;/em&gt;: Patch Dynamics, &lt;em&gt;ME&lt;/em&gt;: Mass Effect, and &lt;em&gt;SS&lt;/em&gt;: Species-Sorting.&amp;rsquo;&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;But everything is intermingled in nature and when you try, and you have to try hard, to separate processes, and this is the way that our mind works, you end up with a headache. I think it is nice to have different, clearly drawn, separated and independent things, just like ingredients to cook your own metacommunity. But when you start to work with them you realize that everything is interconnected or worse it is interdependent. Logue et al. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; think in the same way saying that &amp;ldquo;this classification is not directly operational because it is difficult to link mechanisms to a single paradigm and because natural assemblages are structured by a combination of processes ascribed to different paradigms&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;This is why I like the neutral theory of biodiversity &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, there is a citation of Hubbell in each post of my blog, I think I like it. Species or mechanisms related to the biology of the species doesn&amp;rsquo;t matter here, is the same if you have any &amp;ldquo;entity&amp;rdquo; that follows the basic assumptions &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. You have the belief that everything is connected through a couple of numbers like $\Theta$ that controls all, you can sit turn the knob to a desired $\Theta$ number and watch the community. But it is not like that because community assembly is not well described by neutral theory.&lt;/p&gt;
-&lt;p&gt;Thus self organization comes to rescue. Why self organization is interesting? &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Because it searches for a principle, or a few principles that assemble the community as it is. This is a conceptual change, a different point of view from metacommunity and neutral theory, because they assume near equilibrium communities. Besides equilibrium and non-equilibrium could be a matter of scale, what we are searching in self organization are principles that transmit and connect things through scales. That is self organization principles drive community assembly connecting space, and offer opportunities to other processes to build up and feedback. So you can search for self-organization principles in your community or metacommunity but you are more or less alone, maybe you already fill alone, because you don&amp;rsquo;t have nice boxes to put different processes. This is why our mind like boxes, to not feel alone. I think I am building an interesting psychological theory here.&lt;/p&gt;
-&lt;p&gt;I read and stole the image from &lt;a href=&#34;http://pegejournalclub.wordpress.com/2014/11/17/the-metacommunity-concept-a-framework-for-multi-scale-community-ecology/&#34;&gt;PEGE Journal Club&lt;/a&gt;, a great blog!&lt;/p&gt;
-&lt;p&gt;I have yet to discuss some points about spatial dynamics raised by Schimtz &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;journal.pbio.1000378.g001.png&#34; &gt;
-&lt;img data-src=&#34;journal.pbio.1000378.g001.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;What I like about this is that generalizes patches. The problem with patch dynamics is that different species can have different patch scales, and then is difficult to integrate them all. With a self organizing principle patches will emerge or not depending on the internal dynamics and external constraints. The question is if there exist such a general set of few self-organizing principles, one of these would be the activation-inhibition mentioned by Schmitz &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Logue, J.B., Mouquet, N., Peter, H., Hillebrand, H., 2011. Empirical approaches to metacommunities: a review and comparison with theory. Trends Ecol. Evol. 26, 482–491. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Hubbell SP (2005) Neutral theory in community ecology and the hypothesis of functional equivalence. Funct Ecol 19: 166–172. doi:10.1111/j.0269-8463.2005.00965.x. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Schmitz OJ (2010) Spatial Dynamics and Ecosystem Functioning. PLoS Biol 8(5): e1000378. doi:10.1371/journal.pbio.1000378 &lt;a href=&#34;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1000378&#34;&gt;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1000378&lt;/a&gt; &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
       <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
       <link>https://lsaravia.github.io/publication/saravia-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
@@ -3030,164 +2856,6 @@ The metacomunity concepts from Logue et al. (2011). &lt;em&gt;NM&lt;/em&gt;: Neu
     </item>
     
     <item>
-      <title>A protocol towards a general theory of community ecology</title>
-      <link>https://lsaravia.github.io/post/2013-11-30/</link>
-      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2013-11-30/</guid>
-      <description>&lt;p&gt;Definitive answers are scarce in biology &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; but if we want the advance of ecological knowledge we should reach a point where we have a theory we can trust and can be used for prediction.&lt;/p&gt;
-&lt;p&gt;Besides that the use of experimental micro/mesocosmos has been criticized I advocate for its use in testing and generating ecological theory, using the following steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Do a experimental microcosm with a temporal and spatial homogeneous environment&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Extend the experiment until the community reach steady state&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fit or compare with any community model of your taste&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;These were the 3 basic steps, but the fourth is the critical one:&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Publish all the raw data in an open repository&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;If we have, different views, different theories, different models, all we need to reach such a theory is contrast it with data, data is the fundamental piece here like genetic variability is to evolutionary theory, natural selection can not operate if there is nothing to select. The same happens to an ecologist, we can not select the model/theory if we don&amp;rsquo;t have data and it&amp;rsquo;s not enough with all the data one investigator can obtain in all its lifetime.&lt;/p&gt;
-&lt;p&gt;I emphasize another point: the steady-state assumption. I think it&amp;rsquo;s very important because most models/theories assume a steady-state, and much of the experimental microcosms studies don&amp;rsquo;t give enough information to assume that the systems is in steady-state or not.&lt;/p&gt;
-&lt;p&gt;I agree that steady-state should not be the most important thing if we want to emulate a natural system, but it is very important to test a model/theory. You can&amp;rsquo;t compare steady versus transient states, so a basis for comparison between experimental systems is that they reach a steady state. Criteria for steady-state in ecological communities can be that the Shannon entropy of the system remains bounded to small fluctuations around a fixed value &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;So the next step is:&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Contrast all data with several models/theories using a rich set of predictions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I mean not only test eg species abundance distributions (SAD)&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;, but use more than one pattern like in pattern-oriented modelling framework. It&amp;rsquo;s not bad to test only the SAD but a general theory should make more predictions than that.&lt;/p&gt;
-&lt;p&gt;The next step would be to translate the selected model/theory to natural systems, in which I expect the data will come from mostly observational studies, like LTER sites or NEON in the future.&lt;/p&gt;
-&lt;p&gt;This sounds almost like my research plan, but it will only work if other people take similar steps.&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Hubbell SP (2005) Neutral theory in community ecology and the hypothesis of functional equivalence. Funct Ecol 19: 166–172. doi:10.1111/j.0269-8463.2005.00965.x. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://oikosjournal.wordpress.com/2013/11/22/the-typical-ecological-answer-it-depends/&#34;&gt;http://oikosjournal.wordpress.com/2013/11/22/the-typical-ecological-answer-it-depends/&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Keymer JE, Marquet PA, Johnson AR (1998) Pattern Formation in a Patch Occupancy Metapopulation Model: a Cellular Automata Approach. J Theor Biol 194: 79–90. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Nekola JC, Brown JH (2007) The wealth of species: ecological communities, complex systems and the legacy of Frank Preston. Ecol Lett 10: 188–196. doi:10.1111/j.1461-0248.2006.01003.x. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The neutral bomb</title>
-      <link>https://lsaravia.github.io/post/2012-08-19/</link>
-      <pubDate>Sun, 19 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2012-08-19/</guid>
-      <description>&lt;p&gt;This is not a sex bomb, but who knows. A couple of weeks ago I was
-giving a talk at the &lt;a href=&#34;http://www.famaf.unc.edu.ar/%7Ebiomat/escuela12/index.php&#34;&gt;Escuela Argentina de Matemática y
-Biología&lt;/a&gt;
-about &lt;a href=&#34;http://dx.doi.org/10.6084/m9.figshare.93530&#34;&gt;neutral and non-neutral models in
-ecology&lt;/a&gt;. I was pointed to
-the paper of  &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534712000365&#34;&gt;Clark 2012 The coherence problem with the Unified Neutral
-Theory of Biodiversity&lt;/a&gt;
-with the commentary: the neutral theory is uninformative.&lt;/p&gt;
-&lt;p&gt;And the paper basically says that neutral models or neutral theory is based on
-ignorance and that they are incoherent.&lt;/p&gt;
-&lt;p&gt;I think this is very interesting, but I disagree, here I review the last
-four points of the article:&lt;/p&gt;
-&lt;p&gt;(i) Incoherence: Neutral models assume all individuals are equal then go
-on and predict things like SADs and SARs, what is this telling us about
-the niche? The individuals are all equal, the species can have different
-effective probabilities to reach a place, different densities, but there
-is no niche. In this sense it can be thought as a null model for niches,
-other kinds of null models for niche can be constructed and maybe they
-are better, but I don&amp;rsquo;t see incoherence.  Competition and niche are not
-the only things relevant to coexistence of species.&lt;/p&gt;
-&lt;p&gt;(ii) Ignorance: I am sure we are ignorant about nature, but assuming
-that all individuals are equal is not equal probability and equal
-probability is not a null model for sameness. Anyway the equivalence of
-individuals is certainly not ignorance is an assumption.&lt;/p&gt;
-&lt;p&gt;(iii)Victory: There are no victories here, but models or theories to
-explain nature patterns and we need to confront them with data in
-several ways, and much better in several ways at the same time.&lt;/p&gt;
-&lt;p&gt;(iv)Applying neutral models in conservation: you have to be careful to
-apply a model to conservation practices, neutral or not neutral does not
-matter at all. Models are not reality, always have simplifications,
-aproximations, or assumptions and we can select which is better for our
-problem (see &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534703003458&#34;&gt;Model selection in ecology and
-evolution&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The real issue I think is a matter of scale: which are the microscale
-processes that determine macroscale patterns. If niche models predicts
-the same patterns that neutral models and both are consistent with real
-data (see &lt;a href=&#34;http://www.pnas.org/content/107/36/15821.abstract&#34;&gt;Niche and neutral models predict asymptotically
-equivalent&amp;hellip;&lt;/a&gt;) a
-parsimonious interpretation is that we don&amp;rsquo;t need niche. But if real
-data does not match the model we do need to add more complexities.&lt;/p&gt;
-&lt;p&gt;I think that neutral models are usefull both intellectually and
-practically, more about this in &lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0169534712000948&#34;&gt;Neutrality without incoherence: a
-response to Clark&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Come together</title>
-      <link>https://lsaravia.github.io/post/2012-06-28/</link>
-      <pubDate>Thu, 28 Jun 2012 07:51:00 -0700</pubDate>
-      <guid>https://lsaravia.github.io/post/2012-06-28/</guid>
-      <description>&lt;p&gt;Aggregation of objects is widespread phenomena in several sciences and
-of course in biology and ecology. Two cases I found and seem interesting
-to me are: the aggregation  in niche space: &lt;a href=&#34;http://iopscience.iop.org/1742-5468/2010/05/P05005/&#34;&gt;The clumping transition in
-niche competition&lt;/a&gt;,
-and the aggregation in neutral models: &lt;a href=&#34;http://pre.aps.org/abstract/PRE/v68/i6/e061912&#34;&gt;Clustering in neutral
-ecology&lt;/a&gt;.\&lt;/p&gt;
-&lt;p&gt;This seems to depend only on the discreteness and finiteness of the
-objects and space. And in both cases the clumps have sizes distributed
-as power laws.&lt;br&gt;
-Furthermore when you have aggregation &lt;a href=&#34;http://www.nature.com/nature/journal/v335/n6189/abs/335405a0.html&#34;&gt;is possible that you will find
-multifractals&lt;/a&gt;,
-so is very possible that multifractals are widespread on ecological and
-biological phenomena.&lt;/p&gt;
-&lt;p&gt;All this introduction is because my article in Oikos is available as
-early view:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.20423.x/abstract&#34;&gt;Multifractal growth in periphyton
-communities&lt;/a&gt;\&lt;/p&gt;
-&lt;p&gt;And I added some new kind of measures to the &lt;a href=&#34;https://github.com/lsaravia/mfsba&#34;&gt;multifractal estimation
-package&lt;/a&gt; oriented to estimate
-multifractals in spatial species distributions, they are not like the
-ones published by &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/18707410&#34;&gt;Borda-de-Agua in American Naturalist&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;They are simpler, I think: the first is the multifractal spectra of the most
-abundant species, and the second is a little bit more complex, it
-requires two steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Assign the number 1 to the most abundant specie, the number two to
-the second most abundant and so on, so the result is a surface with
-higher numbers assigned to the most rare species.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Estimate the multifractal spectrum.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I did these to characterize species distribution in a model that is a mix of neutral spatially
-explicit and &lt;a href=&#34;http://www.esajournals.org/doi/abs/10.2307/1939377&#34;&gt;Tillman&amp;rsquo;s model&lt;/a&gt; that I am
-analysing here:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.6084/m9.figshare.91381&#34;&gt;Spatial patterns and diversity in multi-species models of succession&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The spatially explicit model was published as &lt;a href=&#34;https://lsaravia.github.io/publication/saravia-2018/&#34;&gt;Biodiversity collapse and early warning indicators in a spatial phase transition between neutral and niche communities&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Multifractal Growth in Periphyton Communities</title>
       <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
@@ -3196,153 +2864,11 @@ analysing here:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Why don&#39;t you take a bath?</title>
-      <link>https://lsaravia.github.io/post/2012-05-22/</link>
-      <pubDate>Tue, 22 May 2012 18:46:00 -0700</pubDate>
-      <guid>https://lsaravia.github.io/post/2012-05-22/</guid>
-      <description>&lt;p&gt;I had a hard day, lots of data, many papers, many ideas crossing my mind, all ended in confusion, nothing was clear.&lt;/p&gt;
-&lt;p&gt;I went home and my wife said why do not you take a bath?&lt;/p&gt;
-&lt;p&gt;Under the shower, soaping me, suddenly, everything was fixed in my head.&lt;/p&gt;
-&lt;p&gt;But this always happens to me, the best ideas come while I am taking a shower.&lt;/p&gt;
-&lt;p&gt;It looks like someone did the experiment and found the same:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.nature.com/news/why-great-ideas-come-when-you-aren-t-trying-1.10678&#34;&gt;Why greater ideas come when you are not trying?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(Went to bath)
-&amp;hellip;
-(I come back from the bath)&lt;/p&gt;
-&lt;p&gt;The problem is that sometimes an hour passes and I am still under the shower, and I realize that because my fingers get wrinkled.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to reach the elite of most highly cited ecologists</title>
-      <link>https://lsaravia.github.io/post/2012-05-13/</link>
-      <pubDate>Sun, 13 May 2012 19:14:00 -0700</pubDate>
-      <guid>https://lsaravia.github.io/post/2012-05-13/</guid>
-      <description>&lt;p&gt;Ok, nobody&amp;rsquo;s gonna tell you that.&lt;/p&gt;
-&lt;p&gt;But I was about to drink a relaxing glass of black wine and reading some papers, the rest of the world was sleeping.
-And I found this: &lt;a href=&#34;https://link.springer.com/article/10.1007/s11192-010-0234-4&#34;&gt;&amp;ldquo;Characterizing a scientific elite: the social
-characteristics of the most highly cited scientists in environmental
-science and ecology&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I like things that are not exactly as supposed to be.&lt;/p&gt;
-&lt;p&gt;How to be a successful scientist, I don&amp;rsquo;t know. I don&amp;rsquo;t even know if it&amp;rsquo;s
-important to be successful. But the really important thing is to enjoy
-life. Maybe they, the successful ones, they only do that.&lt;/p&gt;
-&lt;p&gt;So I enjoyed my wine and went to sleep.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
       <link>https://lsaravia.github.io/publication/saravia-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>A poster like a flower</title>
-      <link>https://lsaravia.github.io/post/2011-11-16/</link>
-      <pubDate>Wed, 16 Nov 2011 05:34:00 -0800</pubDate>
-      <guid>https://lsaravia.github.io/post/2011-11-16/</guid>
-      <description>&lt;p&gt;These are my ideas about self-publishing a poster. There are tons of
-places on the Internet about how to write the best poster, but I think
-that most of them don&amp;rsquo;t apply their guidelines for its own publication,
-I mean the web page where the guidelines are published.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A poster should have three levels:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;A visual level: the visual impact, something attractive like a flower for its pollinator. This is like a
-commercial advertisement. Look at your poster from a distance and then you will have an idea of what I&amp;rsquo;m saying.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Headings and order: this is a closer look, after you feel attracted you begin to read the big letters and
-feel the organization. You would like to be oriented, like on a guided tour.
-Numbers in headings and the balance of graphics and text will be
-important at this stage.\&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The scientific message: So you are sipping my nectar, only the most important things have to be written but enough to be understandable. In case of doubt, less is better, open spaces improve readability.\&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;That&amp;rsquo;s all folks. I borrowed many things from &lt;a href=&#34;https://projects.ncsu.edu/project/posters/&#34;&gt;this site&lt;/a&gt;.
-I think it&amp;rsquo;s the best among the ones I could find on the subject.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The poetry of winning an award</title>
-      <link>https://lsaravia.github.io/post/2011-11-11/</link>
-      <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/2011-11-11/</guid>
-      <description>&lt;p&gt;I went to Chile with a wining sensation in my mind. And I won.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Best poster award BIOMAT 2011 - Chile&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe src=&#34;https://widgets.figshare.com/articles/91381/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;But I wasn&amp;rsquo;t there when it was announced because I went to the house of
-Pablo Neruda and bought some presents for my family, anyway it was a
-magic afternoon.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://4.bp.blogspot.com/-qDSAo-Zg6nc/Tsf5VWYAZ7I/AAAAAAAAAbQ/G9yWmXxc3RM/s320/CaracolaAzul1024.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Disentangling the Drivers of beta Diversity Along Latitudinal and Elevational Gradients (updated)</title>
-      <link>https://lsaravia.github.io/post/2011-10-25/</link>
-      <pubDate>Tue, 25 Oct 2011 21:21:00 -0700</pubDate>
-      <guid>https://lsaravia.github.io/post/2011-10-25/</guid>
-      <description>&lt;p&gt;Roughly, this &lt;a href=&#34;http://www.sciencemag.org/content/333/6050/1755.abstract&#34;&gt;science
-paper&lt;/a&gt; suggest
-that gamma diversity can explain the latitudinal/altitudinal variations
-in beta diversity so there is no need to invoke different local assembly
-mechanisms, they use two extensive data sets (One of them is
-&lt;a href=&#34;http://ecologicaldata.org/wiki/alwyn-h-gentry-forest-transect-dataset-0&#34;&gt;here&lt;/a&gt;
-). It seems to me that almost the same thing is formulated in the
-Hubbell&amp;rsquo;s neutral theory, local alfa diversity is determined by
-metacommunity (regional or gamma) diversity so beta diversity will also
-be determined by gamma diversity. In fact an expression for beta
-diversity under the neutral model was derived and it was found
-&lt;a href=&#34;http://www.sciencemag.org/content/295/5555/666&#34;&gt;inconsistent with
-data&lt;/a&gt;. But different
-measures of beta diversity were used.&lt;/p&gt;
-&lt;p&gt;Therefore we can use the same dataset to estimate the neutral theory
-parameters and do simulations to obtain beta diversity (a confidence
-envelope). If we reject neutral theory,  the same results were obtained
-previously with other data sets, so we have to discuss why. If we don&amp;rsquo;t
-reject neutral theory, maybe that is more interesting, also we have to
-discuss why.&lt;/p&gt;
-&lt;p&gt;We can use the methods of:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.esajournals.org/doi/abs/10.1890/07-0049.1?journalCode=ecol&#34;&gt;&lt;em&gt;Estimating Parameters of Neutral Communities: From One Single Large to
-Several Small Samples. Ecology, 88(10),
-2482-2488.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is an open possibility for collaborations so tell me if you like
-the idea and want to work with it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First post</title>
-      <link>https://lsaravia.github.io/post/2011-10-19/</link>
-      <pubDate>Wed, 19 Oct 2011 20:07:00 -0700</pubDate>
-      <guid>https://lsaravia.github.io/post/2011-10-19/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t know exactly why I chose this name for this blog, it was the
-first thing that came to my mind when I thought about my own science
-blog. I had blogs about poetry and short stories (in Spanish) but this
-is a new challenge it was slowly forged inside me from some time ago,
-this last step was inspired by a note about open science by &lt;a href=&#34;http://dcxl.cdlib.org/?p=205&#34;&gt;Carly
-Strasser&lt;/a&gt; and by the &lt;a href=&#34;http://oikosjournal.wordpress.com/&#34;&gt;Oikos
-blog&lt;/a&gt;, that was the first blog about
-ecology I met. So I am a ecologist interested in biodiversity usually
-working with models and data, I will try post the things that go through
-my head in the process of making and learning open science. Posting will
-be in English but sometimes I will post in Spanish so in any case we
-have big brother&amp;rsquo;s help of google translation. One more thing, I googled
-the name of the blog and this note about &lt;a href=&#34;http://www.sviokla.com/ideas/blue-water-thinking/&#34;&gt;blue water
-thinking&lt;/a&gt; appeared, I
-will reproduce the first phrase. Here we go:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;The true sign of intelligence is not knowledge but imagination. –Albert
-Einstein&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
     <item>
@@ -3382,6 +2908,14 @@ Einstein&lt;/em&gt;&lt;/li&gt;
       <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lsaravia.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
