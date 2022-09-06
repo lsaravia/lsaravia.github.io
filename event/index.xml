@@ -5,12 +5,20 @@
     <link>https://lsaravia.github.io/event/</link>
       <atom:link href="https://lsaravia.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 04:30:00 -0300</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
       <title>Events</title>
       <link>https://lsaravia.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Critical transitions and early warnings in global forest - FBAS 2022 - China</title>
+      <link>https://lsaravia.github.io/talk/critical-transitions-and-early-warnings-in-global-forest-fbas-2022-china/</link>
+      <pubDate>Wed, 07 Sep 2022 04:30:00 -0300</pubDate>
+      <guid>https://lsaravia.github.io/talk/critical-transitions-and-early-warnings-in-global-forest-fbas-2022-china/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Global Tipping Points Forest Wildfires</title>
