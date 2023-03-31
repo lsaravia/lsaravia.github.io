@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/</link>
       <atom:link href="https://lsaravia.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo A. Saravia</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 04:30:00 -0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu3e1e249f9bb16ad7098ee3e18ddcd9d5_20828_512x512_fill_lanczos_center_3.png</url>
       <title>Leonardo A. Saravia</title>
@@ -2313,6 +2313,14 @@ $\lambda$ or recuperation with probability $\mu$&lt;/li&gt;
     </item>
     
     <item>
+      <title>The emergence of scale-free fires in Australia</title>
+      <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
+      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Critical transitions and early warnings in global forest - FBAS 2022 - China</title>
       <link>https://lsaravia.github.io/talk/critical-transitions-and-early-warnings-in-global-forest-fbas-2022-china/</link>
       <pubDate>Wed, 07 Sep 2022 04:30:00 -0300</pubDate>
@@ -2633,14 +2641,6 @@ at the metaweb spatial and temporal scales.&lt;/p&gt;
       <link>https://lsaravia.github.io/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The emergence of scale-free fires in Australia</title>
-      <link>https://lsaravia.github.io/publication/nicoletti-2021/</link>
-      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/nicoletti-2021/</guid>
       <description></description>
     </item>
     
