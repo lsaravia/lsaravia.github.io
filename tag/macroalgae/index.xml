@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macroalgae | EcoComplex</title>
+    <link>http://localhost:1313/tag/macroalgae/</link>
+      <atom:link href="http://localhost:1313/tag/macroalgae/index.xml" rel="self" type="application/rss+xml" />
+    <description>Macroalgae</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Macroalgae</title>
+      <link>http://localhost:1313/tag/macroalgae/</link>
+    </image>
+    
+    <item>
+      <title>Production and Biomass of Seaweeds in Newly Ice-Free Areas: Implications for Coastal Processes in a Changing Antarctic Environment</title>
+      <link>http://localhost:1313/publication/quartino-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/quartino-2020/</guid>
+      <description>&lt;p&gt;The Antarctic rocky coasts are mainly colonized by extensive macroalgal
+communities, which play key roles as food resource, habitat and refuge for many benthic and
+pelagic organisms. Due to climate warming, Antarctic marine ecosystems are being affected
+by glacier retreat opening new habitats, e.g. newly ice-free areas that can be colonized by
+macroalgae. As a consequence, primary production and fate of macroalgae are changing in
+these new polar environments. In these ecosystems, the carbon production, especially from
+large brown algae, is an important food source to the benthic invertebrate communities mainly
+when other resources are scarce. Thus, in new areas colonized by macroalgae, the trophic
+structure and biogeochemical fluxes can vary considerably. Moreover, when seaweeds die or are removed by water movement, ice scouring or storms, they are detached, fragmented and
+degraded, incorporating and releasing particulate and dissolved organic matter to the coastal
+food webs, i.e. they support a large fraction of the secondary production of the benthos. The
+present chapter is a review of the knowledge of seaweed biomass and production in the
+coastal Antarctic ecosystem opening a discussion on the role of these organisms as main
+energy sources in e.g., small fjords and glacier influenced sites, impacted by recent climatic
+change.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

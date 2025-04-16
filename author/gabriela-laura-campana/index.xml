@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gabriela Laura Campana | EcoComplex</title>
+    <link>http://localhost:1313/author/gabriela-laura-campana/</link>
+      <atom:link href="http://localhost:1313/author/gabriela-laura-campana/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gabriela Laura Campana</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Gabriela Laura Campana</title>
+      <link>http://localhost:1313/author/gabriela-laura-campana/</link>
+    </image>
+    
+    <item>
+      <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
+      <link>http://localhost:1313/publication/marcias-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/marcias-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

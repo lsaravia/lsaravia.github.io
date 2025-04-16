@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Santiago Doyle | EcoComplex</title>
+    <link>http://localhost:1313/author/santiago-doyle/</link>
+      <atom:link href="http://localhost:1313/author/santiago-doyle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Santiago Doyle</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Santiago Doyle</title>
+      <link>http://localhost:1313/author/santiago-doyle/</link>
+    </image>
+    
+    <item>
+      <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
+      <link>http://localhost:1313/publication/marina-2018/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power Laws and Critical Fragmentation in Global Forests</title>
+      <link>http://localhost:1313/publication/saravia-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-2018-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

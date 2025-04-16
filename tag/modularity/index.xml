@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modularity | EcoComplex</title>
+    <link>http://localhost:1313/tag/modularity/</link>
+      <atom:link href="http://localhost:1313/tag/modularity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Modularity</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Modularity</title>
+      <link>http://localhost:1313/tag/modularity/</link>
+    </image>
+    
+    <item>
+      <title>Network Analysis Can Detect Changes In Food Web Stability Produced By Bottom Trawl Fishery In Patagonia</title>
+      <link>http://localhost:1313/publication/funes-2022/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/funes-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
+      <link>http://localhost:1313/publication/saravia-2019/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

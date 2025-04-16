@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marleen De Troch | EcoComplex</title>
+    <link>http://localhost:1313/author/marleen-de-troch/</link>
+      <atom:link href="http://localhost:1313/author/marleen-de-troch/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marleen De Troch</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Marleen De Troch</title>
+      <link>http://localhost:1313/author/marleen-de-troch/</link>
+    </image>
+    
+    <item>
+      <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
+      <link>http://localhost:1313/publication/saravia-2019/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
+      <link>http://localhost:1313/publication/marina-2018/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leonardo Ariel Saravia | EcoComplex</title>
+    <link>http://localhost:1313/author/leonardo-ariel-saravia/</link>
+      <atom:link href="http://localhost:1313/author/leonardo-ariel-saravia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Leonardo Ariel Saravia</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Leonardo Ariel Saravia</title>
+      <link>http://localhost:1313/author/leonardo-ariel-saravia/</link>
+    </image>
+    
+    <item>
+      <title>Multifractal Growth in Periphyton Communities</title>
+      <link>http://localhost:1313/publication/saravia-2012-a/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-2012-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algunas Cuestiones Sobre El Espacio En Ecología. Modelos, Datos y Aplicaciones</title>
+      <link>http://localhost:1313/publication/saravia-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F Momo | EcoComplex</title>
+    <link>http://localhost:1313/author/f-momo/</link>
+      <atom:link href="http://localhost:1313/author/f-momo/index.xml" rel="self" type="application/rss+xml" />
+    <description>F Momo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>F Momo</title>
+      <link>http://localhost:1313/author/f-momo/</link>
+    </image>
+    
+    <item>
+      <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
+      <link>http://localhost:1313/publication/falco-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/falco-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Periphyton Dynamics in Running Water</title>
+      <link>http://localhost:1313/publication/saravia-1998/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saravia-1998/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

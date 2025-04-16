@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Old Posts | EcoComplex</title>
+    <link>http://localhost:1313/tag/old-posts/</link>
+      <atom:link href="http://localhost:1313/tag/old-posts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Old Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Old Posts</title>
+      <link>http://localhost:1313/tag/old-posts/</link>
+    </image>
+    
+    <item>
+      <title>Stochastic Network Interaction Model</title>
+      <link>http://localhost:1313/post/stochastic-network-interaction-model/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/stochastic-network-interaction-model/</guid>
+      <description>&lt;h1 id=&#34;snim&#34;&gt;SNIM&lt;/h1&gt;
+&lt;p&gt;This is a C++11 implementation of a stochastic multispecies model. The model has multiple applications to investigate the relationship between ecological interactions (competition, predation) and diversity. It involves a discrete definition of individuals belonging to a given set of species. The dynamics are essentially probabilistic at the microscopic scale, but it leads to recognizable macroscopic patterns both in space and time. The model in is actual version is spatially implicit but a spatially explicit version is planned (never did it). You can find the source code at: &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A more complete definition of the model can be found in:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sole, R. V, Alonso, D. &amp;amp; Mckane, A. (2002). Self-organized instability in complex ecosystems. Philos. Trans. R. Soc. Lond. B. Biol. Sci., 357, 667–681 &lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://royalsocietypublishing.org/doi/10.1098/rstb.2001.0992&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And check this presentation to see an application of the model &lt;a href=&#34;https://www.doi.org/10.13140/RG.2.2.17020.33929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.doi.org/10.13140/RG.2.2.17020.33929&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
