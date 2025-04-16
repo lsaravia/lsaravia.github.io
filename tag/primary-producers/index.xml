@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primary Producers | EcoComplex</title>
-    <link>http://localhost:1313/tag/primary-producers/</link>
-      <atom:link href="http://localhost:1313/tag/primary-producers/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/primary-producers/</link>
+      <atom:link href="https://example.com/tag/primary-producers/index.xml" rel="self" type="application/rss+xml" />
     <description>Primary Producers</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Primary Producers</title>
-      <link>http://localhost:1313/tag/primary-producers/</link>
+      <link>https://example.com/tag/primary-producers/</link>
     </image>
     
     <item>
       <title>Productores primarios bentónicos en el ecosistema costero antártico - consecuencias del cambio climático (PICT)</title>
-      <link>http://localhost:1313/project/pict2019/</link>
+      <link>https://example.com/project/pict2019/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pict2019/</guid>
+      <guid>https://example.com/project/pict2019/</guid>
       <description>&lt;p&gt;Las algas bentónicas antárticas son importantes productores primarios, comprenden a los grupos de micro y
 macroalgas que viven asociadas al fondo del mar y cumplen un papel esencial en los ecosistemas marinos. En la
 Antártida, el microfitobentos se encuentra principalmente dominado por diatomeas (Zacher et al. 2007,

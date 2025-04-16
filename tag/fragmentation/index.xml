@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fragmentation | EcoComplex</title>
-    <link>http://localhost:1313/tag/fragmentation/</link>
-      <atom:link href="http://localhost:1313/tag/fragmentation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/fragmentation/</link>
+      <atom:link href="https://example.com/tag/fragmentation/index.xml" rel="self" type="application/rss+xml" />
     <description>Fragmentation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Fragmentation</title>
-      <link>http://localhost:1313/tag/fragmentation/</link>
+      <link>https://example.com/tag/fragmentation/</link>
     </image>
     
     <item>
       <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
-      <link>http://localhost:1313/publication/saravia-2024/</link>
+      <link>https://example.com/publication/saravia-2024/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2024/</guid>
+      <guid>https://example.com/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redes de interacciones Ecologicas, la influencia del cambio global y la degradación del hábitat</title>
-      <link>http://localhost:1313/project/ungs2019/</link>
+      <link>https://example.com/project/ungs2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ungs2019/</guid>
+      <guid>https://example.com/project/ungs2019/</guid>
       <description>&lt;p&gt;La explotación y la degradación de los hábitats naturales junto con el cambio climático producen la pérdida de especies y de servicios ecosistémicos. La manera en que las especies forman redes de interacciones determina su estabilidad y resistencia ante los disturbios. En este proyecto, proponemos estudiar las redes de interacción ecológicas incorporando los distintos tipos de interacción (tróficas, mutualistas y competitivas), los disturbios como el cambio de temperatura y la fragmentación del hábitat, que ensamblan las redes de interacción a diferentes escalas, desde la de comunidades locales a la biogeográfica. Acoplado a esto, investigaremos la fragmentación de uno de los ambientes terrestres más importantes, los bosques, a escala global, para producir señales de alerta temprana con respecto a la pérdida de biodiversidad.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>http://localhost:1313/publication/saravia-2018-a/</link>
+      <link>https://example.com/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2018-a/</guid>
+      <guid>https://example.com/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     

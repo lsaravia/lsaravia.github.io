@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Extinctions | EcoComplex</title>
-    <link>http://localhost:1313/tag/extinctions/</link>
-      <atom:link href="http://localhost:1313/tag/extinctions/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/extinctions/</link>
+      <atom:link href="https://example.com/tag/extinctions/index.xml" rel="self" type="application/rss+xml" />
     <description>Extinctions</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Extinctions</title>
-      <link>http://localhost:1313/tag/extinctions/</link>
+      <link>https://example.com/tag/extinctions/</link>
     </image>
     
     <item>
       <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
-      <link>http://localhost:1313/publication/cordone-2018/</link>
+      <link>https://example.com/publication/cordone-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cordone-2018/</guid>
+      <guid>https://example.com/publication/cordone-2018/</guid>
       <description></description>
     </item>
     

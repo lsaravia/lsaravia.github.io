@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R. Sahade | EcoComplex</title>
-    <link>http://localhost:1313/author/r.-sahade/</link>
-      <atom:link href="http://localhost:1313/author/r.-sahade/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/author/r.-sahade/</link>
+      <atom:link href="https://example.com/author/r.-sahade/index.xml" rel="self" type="application/rss+xml" />
     <description>R. Sahade</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
       <title>R. Sahade</title>
-      <link>http://localhost:1313/author/r.-sahade/</link>
+      <link>https://example.com/author/r.-sahade/</link>
     </image>
     
     <item>
       <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
-      <link>http://localhost:1313/publication/pasotti-2015/</link>
+      <link>https://example.com/publication/pasotti-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pasotti-2015/</guid>
+      <guid>https://example.com/publication/pasotti-2015/</guid>
       <description></description>
     </item>
     
