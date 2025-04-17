@@ -5,7 +5,7 @@
     <link>https://example.com/author/iara-rodriguez/</link>
       <atom:link href="https://example.com/author/iara-rodriguez/index.xml" rel="self" type="application/rss+xml" />
     <description>Iara Rodriguez</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/author/iara-rodriguez/Avatar_hu_fb1acf8c1fbacdf9.jpg</url>
       <title>Iara Rodriguez</title>
@@ -15,8 +15,16 @@
     <item>
       <title>Iara Rodriguez</title>
       <link>https://example.com/author/iara-rodriguez/</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://example.com/author/iara-rodriguez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
+      <link>https://example.com/publication/rodriguez-2024/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/rodriguez-2024/</guid>
       <description></description>
     </item>
     

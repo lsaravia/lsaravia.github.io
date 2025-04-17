@@ -2,8 +2,8 @@
   "name": "EcoComplex",
   "short_name": "EcoComplex",
   "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "theme_color": "#707070",
+  "background_color": "#707070",
   "icons": [{
     "src": "/media/icon_hu_2c0f7c3d1007352d.png",
     "sizes": "192x192",

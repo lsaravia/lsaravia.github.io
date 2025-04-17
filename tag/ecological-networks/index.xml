@@ -5,12 +5,20 @@
     <link>https://example.com/tag/ecological-networks/</link>
       <atom:link href="https://example.com/tag/ecological-networks/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecological Networks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Ecological Networks</title>
       <link>https://example.com/tag/ecological-networks/</link>
     </image>
+    
+    <item>
+      <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
+      <link>https://example.com/publication/rodriguez-2024/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/rodriguez-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
@@ -208,6 +216,14 @@ at the metaweb spatial and temporal scales.&lt;/p&gt;
       <link>https://example.com/publication/funes-2022/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/funes-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
+      <link>https://example.com/publication/rodriguez2022/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/rodriguez2022/</guid>
       <description></description>
     </item>
     
