@@ -66,6 +66,30 @@
     <lastmod>2025-01-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/publication/delafuente-2025/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/forest-fire/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/invasion/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication-type/preprint/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/author/rebeca-de-la-fuente/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/stochastic-models/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/tag/ecological-networks/</loc>
     <lastmod>2024-11-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -215,10 +239,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/github/</loc>
-    <lastmod>2022-02-10T15:12:09-03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/stochastic-models/</loc>
     <lastmod>2022-02-10T15:12:09-03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
