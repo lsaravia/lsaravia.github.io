@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | EcoComplex</title>
-    <link>https://lsaravia.github.io/publication-type/article-journal/</link>
-      <atom:link href="https://lsaravia.github.io/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication-type/article-journal/</link>
+      <atom:link href="http://localhost:1313/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Article-Journal</title>
-      <link>https://lsaravia.github.io/publication-type/article-journal/</link>
+      <link>http://localhost:1313/publication-type/article-journal/</link>
     </image>
     
     <item>
       <title>Modelling Amazon fire regimes under climate change scenarios</title>
-      <link>https://lsaravia.github.io/publication/saravia-amazonas-2025/</link>
+      <link>http://localhost:1313/publication/saravia-amazonas-2025/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-amazonas-2025/</guid>
+      <guid>http://localhost:1313/publication/saravia-amazonas-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
-      <link>https://lsaravia.github.io/publication/rodriguez-2024/</link>
+      <link>http://localhost:1313/publication/rodriguez-2024/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez-2024/</guid>
+      <guid>http://localhost:1313/publication/rodriguez-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
-      <link>https://lsaravia.github.io/publication/saravia-2024/</link>
+      <link>http://localhost:1313/publication/saravia-2024/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2024/</guid>
+      <guid>http://localhost:1313/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The emergence of scale-free fires in Australia</title>
-      <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
+      <link>http://localhost:1313/publication/nicoletti-2023/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
+      <guid>http://localhost:1313/publication/nicoletti-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
-      <link>https://lsaravia.github.io/publication/marina-2022/</link>
+      <link>http://localhost:1313/publication/marina-2022/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
+      <guid>http://localhost:1313/publication/marina-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
+      <link>http://localhost:1313/publication/rodriguez2022/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
+      <guid>http://localhost:1313/publication/rodriguez2022/</guid>
       <description></description>
     </item>
     

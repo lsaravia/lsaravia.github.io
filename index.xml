@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EcoComplex</title>
-    <link>https://lsaravia.github.io/</link>
-      <atom:link href="https://lsaravia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>EcoComplex</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>EcoComplex</title>
-      <link>https://lsaravia.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>XII Jornadas Nacionales de Ciencias del Mar.</title>
-      <link>https://lsaravia.github.io/event/jornadasnacscimar2025/</link>
+      <link>http://localhost:1313/event/jornadasnacscimar2025/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/event/jornadasnacscimar2025/</guid>
+      <guid>http://localhost:1313/event/jornadasnacscimar2025/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Sesión temática &#34;Redes Tróficas&#34; en las XII Jornadas Nacionales de Ciencias del Mar</title>
-      <link>https://lsaravia.github.io/post/25-12-01-redes-jncm/</link>
+      <link>http://localhost:1313/post/25-12-01-redes-jncm/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/25-12-01-redes-jncm/</guid>
+      <guid>http://localhost:1313/post/25-12-01-redes-jncm/</guid>
       <description>&lt;p&gt;Nos encontramos ante la mayor crisis ecológica de la historia de la humanidad. La
 acelerada pérdida de biodiversidad no solo afecta a las especies de manera individual,
 sino que también tiene repercusiones a nivel ecosistémico. Las especies no existen en
@@ -56,89 +56,89 @@ la comprensión de las redes ecológicas y su papel en los ecosistemas.&lt;/p&gt
     
     <item>
       <title>Modelling Amazon fire regimes under climate change scenarios</title>
-      <link>https://lsaravia.github.io/publication/saravia-amazonas-2025/</link>
+      <link>http://localhost:1313/publication/saravia-amazonas-2025/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-amazonas-2025/</guid>
+      <guid>http://localhost:1313/publication/saravia-amazonas-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamics of Invasion in Forest-Fire Models</title>
-      <link>https://lsaravia.github.io/publication/delafuente-2025/</link>
+      <link>http://localhost:1313/publication/delafuente-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/delafuente-2025/</guid>
+      <guid>http://localhost:1313/publication/delafuente-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
-      <link>https://lsaravia.github.io/publication/rodriguez-2024/</link>
+      <link>http://localhost:1313/publication/rodriguez-2024/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez-2024/</guid>
+      <guid>http://localhost:1313/publication/rodriguez-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
-      <link>https://lsaravia.github.io/publication/saravia-2024/</link>
+      <link>http://localhost:1313/publication/saravia-2024/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2024/</guid>
+      <guid>http://localhost:1313/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
-      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
+      <link>http://localhost:1313/publication/kortsch-2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
+      <guid>http://localhost:1313/publication/kortsch-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The emergence of scale-free fires in Australia</title>
-      <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
+      <link>http://localhost:1313/publication/nicoletti-2023/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
+      <guid>http://localhost:1313/publication/nicoletti-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
-      <link>https://lsaravia.github.io/publication/marina-2022/</link>
+      <link>http://localhost:1313/publication/marina-2022/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
+      <guid>http://localhost:1313/publication/marina-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://lsaravia.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>People</title>
-      <link>https://lsaravia.github.io/people/</link>
+      <link>http://localhost:1313/people/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/people/</guid>
+      <guid>http://localhost:1313/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tour</title>
-      <link>https://lsaravia.github.io/tour/</link>
+      <link>http://localhost:1313/tour/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/tour/</guid>
+      <guid>http://localhost:1313/tour/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PICT 2020 - Estudio de los bosques a nivel global: cambios de estado y alertas tempranas</title>
-      <link>https://lsaravia.github.io/project/estudio-bosques-globales/</link>
+      <link>http://localhost:1313/project/estudio-bosques-globales/</link>
       <pubDate>Thu, 01 Sep 2022 17:01:41 -0300</pubDate>
-      <guid>https://lsaravia.github.io/project/estudio-bosques-globales/</guid>
+      <guid>http://localhost:1313/project/estudio-bosques-globales/</guid>
       <description>&lt;h2 id=&#34;resumen&#34;&gt;Resumen&lt;/h2&gt;
 &lt;p&gt;Uno de los cambios más importantes producidos por el hombre en el planeta es el reemplazo de las áreas de bosque con paisajes dominados por las actividades humanas. Este reemplazo produce la deforestación y constituye una de las principales causas de extinciones en el antropoceno. Una forma de entender los efectos de la deforestación es estudiar los fragmentos o parches de bosques, ya que la dinámica de estos parches es muy importante para el funcionamiento del bosque como un ecosistema.
 La mayoría de las investigaciones sobre este tema estudian los parches a una escala local o regional, analizando la influencia de los tamaños, forma y cantidad de parches en la biodiversidad y en las funciones ecosistémicas. La disponibilidad de datos de cobertura de bosques a nivel global como también conjuntos de datos climáticos con la misma extensión ha permitido el estudio de la distribución de bosques a nivel planetario.
@@ -150,9 +150,9 @@ Nuestro objetivo es estudiar las posible transiciones de los ecosistemas de bosq
     
     <item>
       <title>What Determines Food Web Structure?</title>
-      <link>https://lsaravia.github.io/post/what-determines-food-web-structure2022/</link>
+      <link>http://localhost:1313/post/what-determines-food-web-structure2022/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/what-determines-food-web-structure2022/</guid>
+      <guid>http://localhost:1313/post/what-determines-food-web-structure2022/</guid>
       <description>&lt;p&gt;In nature species interact among each other in many ways. The most
 common and studied interaction is that between a predator and its prey.
 A food web can be defined as a network of interactions that describes
@@ -189,7 +189,7 @@ https://en.wikipedia.org/w/index.php?curid=11746362&#34; srcset=&#34;
                /post/what-determines-food-web-structure2022/Red_mangrove-everglades_natl_park_hu_da98d9a7e789d1b4.webp 400w,
                /post/what-determines-food-web-structure2022/Red_mangrove-everglades_natl_park_hu_ad4b6c5b8662215.webp 760w,
                /post/what-determines-food-web-structure2022/Red_mangrove-everglades_natl_park_hu_31a17bf82386ad8f.webp 1200w&#34;
-               src=&#34;https://lsaravia.github.io/post/what-determines-food-web-structure2022/Red_mangrove-everglades_natl_park_hu_da98d9a7e789d1b4.webp&#34;
+               src=&#34;http://localhost:1313/post/what-determines-food-web-structure2022/Red_mangrove-everglades_natl_park_hu_da98d9a7e789d1b4.webp&#34;
                width=&#34;760&#34;
                height=&#34;571&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -236,7 +236,7 @@ https://commons.wikimedia.org/w/index.php?curid=4044745&#34; srcset=&#34;
                /post/what-determines-food-web-structure2022/Long_Pond_lake_hu_c5c9e8b72aa2e7d3.webp 400w,
                /post/what-determines-food-web-structure2022/Long_Pond_lake_hu_65ec33ce776dd55c.webp 760w,
                /post/what-determines-food-web-structure2022/Long_Pond_lake_hu_87bc619efdc8dc38.webp 1200w&#34;
-               src=&#34;https://lsaravia.github.io/post/what-determines-food-web-structure2022/Long_Pond_lake_hu_c5c9e8b72aa2e7d3.webp&#34;
+               src=&#34;http://localhost:1313/post/what-determines-food-web-structure2022/Long_Pond_lake_hu_c5c9e8b72aa2e7d3.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -296,7 +296,7 @@ present&#34; srcset=&#34;
                /post/what-determines-food-web-structure2022/MetaWebAssemblyModelFigure_hu_7404c140bcd4c18f.webp 400w,
                /post/what-determines-food-web-structure2022/MetaWebAssemblyModelFigure_hu_36e6b25c2e1e6c26.webp 760w,
                /post/what-determines-food-web-structure2022/MetaWebAssemblyModelFigure_hu_59d1cd3763f5669.webp 1200w&#34;
-               src=&#34;https://lsaravia.github.io/post/what-determines-food-web-structure2022/MetaWebAssemblyModelFigure_hu_7404c140bcd4c18f.webp&#34;
+               src=&#34;http://localhost:1313/post/what-determines-food-web-structure2022/MetaWebAssemblyModelFigure_hu_7404c140bcd4c18f.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -319,39 +319,39 @@ network properties that we as ecologists commonly use to shed light on
 this aspect might be a by-product of the assembly process already driven
 at the metaweb spatial and temporal scales.&lt;/p&gt;
 &lt;p&gt;More info:
-&lt;a href=&#34;https://lsaravia.github.io/publication/saravia-2019/&#34;&gt;Check the complete publication here&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/publication/saravia-2019/&#34;&gt;Check the complete publication here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Network Analysis Can Detect Changes In Food Web Stability Produced By Bottom Trawl Fishery In Patagonia</title>
-      <link>https://lsaravia.github.io/publication/funes-2022/</link>
+      <link>http://localhost:1313/publication/funes-2022/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
+      <guid>http://localhost:1313/publication/funes-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
+      <link>http://localhost:1313/publication/rodriguez2022/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
+      <guid>http://localhost:1313/publication/rodriguez2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
+      <link>http://localhost:1313/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
+      <guid>http://localhost:1313/publication/saravia-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stochastic Network Interaction Model (SNIM) Tutorial</title>
-      <link>https://lsaravia.github.io/post/snim-tutorial/</link>
+      <link>http://localhost:1313/post/snim-tutorial/</link>
       <pubDate>Sun, 09 Feb 2020 23:53:14 -0300</pubDate>
-      <guid>https://lsaravia.github.io/post/snim-tutorial/</guid>
+      <guid>http://localhost:1313/post/snim-tutorial/</guid>
       <description>&lt;p&gt;This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the &lt;strong&gt;B&lt;/strong&gt; model of the paper &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I read it long ago and for many years I wanted to make a version of it, finally, I did it.&lt;/p&gt;
 &lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, to install it you need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
 &lt;p&gt;Then the description of the model from &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is the following&lt;/p&gt;
@@ -430,7 +430,7 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
                /post/snim-tutorial/model3_hu_b32a73f3fea7cea1.webp 400w,
                /post/snim-tutorial/model3_hu_c8340833e340e986.webp 760w,
                /post/snim-tutorial/model3_hu_dc90963ab3f1fcb9.webp 1200w&#34;
-               src=&#34;https://lsaravia.github.io/post/snim-tutorial/model3_hu_b32a73f3fea7cea1.webp&#34;
+               src=&#34;http://localhost:1313/post/snim-tutorial/model3_hu_b32a73f3fea7cea1.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -463,7 +463,7 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
-           src=&#34;https://lsaravia.github.io/post/snim-tutorial/SNIManimation3Species.gif&#34;
+           src=&#34;http://localhost:1313/post/snim-tutorial/SNIManimation3Species.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
@@ -481,9 +481,9 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
     
     <item>
       <title>Production and Biomass of Seaweeds in Newly Ice-Free Areas: Implications for Coastal Processes in a Changing Antarctic Environment</title>
-      <link>https://lsaravia.github.io/publication/quartino-2020/</link>
+      <link>http://localhost:1313/publication/quartino-2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/quartino-2020/</guid>
+      <guid>http://localhost:1313/publication/quartino-2020/</guid>
       <description>&lt;p&gt;The Antarctic rocky coasts are mainly colonized by extensive macroalgal
 communities, which play key roles as food resource, habitat and refuge for many benthic and
 pelagic organisms. Due to climate warming, Antarctic marine ecosystems are being affected
@@ -504,9 +504,9 @@ change.&lt;/p&gt;
     
     <item>
       <title>Productores primarios bentónicos en el ecosistema costero antártico - consecuencias del cambio climático (PICT)</title>
-      <link>https://lsaravia.github.io/project/pict2019/</link>
+      <link>http://localhost:1313/project/pict2019/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/project/pict2019/</guid>
+      <guid>http://localhost:1313/project/pict2019/</guid>
       <description>&lt;p&gt;Las algas bentónicas antárticas son importantes productores primarios, comprenden a los grupos de micro y
 macroalgas que viven asociadas al fondo del mar y cumplen un papel esencial en los ecosistemas marinos. En la
 Antártida, el microfitobentos se encuentra principalmente dominado por diatomeas (Zacher et al. 2007,
@@ -542,58 +542,58 @@ de cambio global.&lt;/p&gt;
     
     <item>
       <title>Redes de interacciones Ecologicas, la influencia del cambio global y la degradación del hábitat</title>
-      <link>https://lsaravia.github.io/project/ungs2019/</link>
+      <link>http://localhost:1313/project/ungs2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/project/ungs2019/</guid>
+      <guid>http://localhost:1313/project/ungs2019/</guid>
       <description>&lt;p&gt;La explotación y la degradación de los hábitats naturales junto con el cambio climático producen la pérdida de especies y de servicios ecosistémicos. La manera en que las especies forman redes de interacciones determina su estabilidad y resistencia ante los disturbios. En este proyecto, proponemos estudiar las redes de interacción ecológicas incorporando los distintos tipos de interacción (tróficas, mutualistas y competitivas), los disturbios como el cambio de temperatura y la fragmentación del hábitat, que ensamblan las redes de interacción a diferentes escalas, desde la de comunidades locales a la biogeográfica. Acoplado a esto, investigaremos la fragmentación de uno de los ambientes terrestres más importantes, los bosques, a escala global, para producir señales de alerta temprana con respecto a la pérdida de biodiversidad.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
-      <link>https://lsaravia.github.io/publication/saravia-2018/</link>
+      <link>http://localhost:1313/publication/saravia-2018/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2018/</guid>
+      <guid>http://localhost:1313/publication/saravia-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://lsaravia.github.io/publication/marina-2018/</link>
+      <link>http://localhost:1313/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture of Marine Food Webs: To Be or Not Be a ‘Small-World’</title>
-      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
+      <link>http://localhost:1313/publication/marina-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
+      <guid>http://localhost:1313/publication/marina-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
-      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
+      <link>http://localhost:1313/publication/cordone-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
+      <guid>http://localhost:1313/publication/cordone-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
+      <link>http://localhost:1313/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
+      <guid>http://localhost:1313/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stochastic Network Interaction Model</title>
-      <link>https://lsaravia.github.io/post/stochastic-network-interaction-model/</link>
+      <link>http://localhost:1313/post/stochastic-network-interaction-model/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/post/stochastic-network-interaction-model/</guid>
+      <guid>http://localhost:1313/post/stochastic-network-interaction-model/</guid>
       <description>&lt;h1 id=&#34;snim&#34;&gt;SNIM&lt;/h1&gt;
 &lt;p&gt;This is a C++11 implementation of a stochastic multispecies model. The model has multiple applications to investigate the relationship between ecological interactions (competition, predation) and diversity. It involves a discrete definition of individuals belonging to a given set of species. The dynamics are essentially probabilistic at the microscopic scale, but it leads to recognizable macroscopic patterns both in space and time. The model in is actual version is spatially implicit but a spatially explicit version is planned (never did it). You can find the source code at: &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A more complete definition of the model can be found in:&lt;/p&gt;
@@ -606,113 +606,113 @@ de cambio global.&lt;/p&gt;
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
+      <link>http://localhost:1313/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
+      <guid>http://localhost:1313/publication/marcias-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A New Method to Analyse Species Abundances in Space Using Generalized Dimensions</title>
-      <link>https://lsaravia.github.io/publication/saravia-2015-a/</link>
+      <link>http://localhost:1313/publication/saravia-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2015-a/</guid>
+      <guid>http://localhost:1313/publication/saravia-2015-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
-      <link>https://lsaravia.github.io/publication/pasotti-2015/</link>
+      <link>http://localhost:1313/publication/pasotti-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/pasotti-2015/</guid>
+      <guid>http://localhost:1313/publication/pasotti-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
-      <link>https://lsaravia.github.io/publication/falco-2015/</link>
+      <link>http://localhost:1313/publication/falco-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/falco-2015/</guid>
+      <guid>http://localhost:1313/publication/falco-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
-      <link>https://lsaravia.github.io/publication/saravia-2014/</link>
+      <link>http://localhost:1313/publication/saravia-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2014/</guid>
+      <guid>http://localhost:1313/publication/saravia-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the Phytoplankton Bloom in Coastal Waters of Southern King George Island (Antarctica) in January 2010: An Exceptional Feature?</title>
-      <link>https://lsaravia.github.io/publication/schloss-2014/</link>
+      <link>http://localhost:1313/publication/schloss-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/schloss-2014/</guid>
+      <guid>http://localhost:1313/publication/schloss-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Growth in Periphyton Communities</title>
-      <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>
+      <link>http://localhost:1313/publication/saravia-2012-a/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2012-a/</guid>
+      <guid>http://localhost:1313/publication/saravia-2012-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
-      <link>https://lsaravia.github.io/publication/saravia-2012/</link>
+      <link>http://localhost:1313/publication/saravia-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
+      <guid>http://localhost:1313/publication/saravia-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algunas Cuestiones Sobre El Espacio En Ecología. Modelos, Datos y Aplicaciones</title>
-      <link>https://lsaravia.github.io/publication/saravia-2009/</link>
+      <link>http://localhost:1313/publication/saravia-2009/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2009/</guid>
+      <guid>http://localhost:1313/publication/saravia-2009/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Importance of Transients&#39; Dynamics in Spatially Extended Populations.</title>
-      <link>https://lsaravia.github.io/publication/saravia-2000/</link>
+      <link>http://localhost:1313/publication/saravia-2000/</link>
       <pubDate>Thu, 07 Sep 2000 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2000/</guid>
+      <guid>http://localhost:1313/publication/saravia-2000/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
-      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
+      <link>http://localhost:1313/publication/saravia-1999/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
+      <guid>http://localhost:1313/publication/saravia-1999/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Periphyton Dynamics in Running Water</title>
-      <link>https://lsaravia.github.io/publication/saravia-1998/</link>
+      <link>http://localhost:1313/publication/saravia-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-1998/</guid>
+      <guid>http://localhost:1313/publication/saravia-1998/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
-      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
+      <link>http://localhost:1313/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
+      <guid>http://localhost:1313/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://lsaravia.github.io/admin/config.yml</link>
+      <link>http://localhost:1313/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/admin/config.yml</guid>
+      <guid>http://localhost:1313/admin/config.yml</guid>
       <description></description>
     </item>
     

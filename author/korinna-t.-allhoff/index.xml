@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Korinna T. Allhoff | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/korinna-t.-allhoff/</link>
-      <atom:link href="https://lsaravia.github.io/author/korinna-t.-allhoff/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/korinna-t.-allhoff/</link>
+      <atom:link href="http://localhost:1313/author/korinna-t.-allhoff/index.xml" rel="self" type="application/rss+xml" />
     <description>Korinna T. Allhoff</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Korinna T. Allhoff</title>
-      <link>https://lsaravia.github.io/author/korinna-t.-allhoff/</link>
+      <link>http://localhost:1313/author/korinna-t.-allhoff/</link>
     </image>
     
     <item>
       <title>Modelling Amazon fire regimes under climate change scenarios</title>
-      <link>https://lsaravia.github.io/publication/saravia-amazonas-2025/</link>
+      <link>http://localhost:1313/publication/saravia-amazonas-2025/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-amazonas-2025/</guid>
+      <guid>http://localhost:1313/publication/saravia-amazonas-2025/</guid>
       <description></description>
     </item>
     

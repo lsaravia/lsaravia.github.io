@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forest Fragmentation | EcoComplex</title>
-    <link>https://lsaravia.github.io/tag/forest-fragmentation/</link>
-      <atom:link href="https://lsaravia.github.io/tag/forest-fragmentation/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/forest-fragmentation/</link>
+      <atom:link href="http://localhost:1313/tag/forest-fragmentation/index.xml" rel="self" type="application/rss+xml" />
     <description>Forest Fragmentation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Forest Fragmentation</title>
-      <link>https://lsaravia.github.io/tag/forest-fragmentation/</link>
+      <link>http://localhost:1313/tag/forest-fragmentation/</link>
     </image>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
+      <link>http://localhost:1313/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
+      <guid>http://localhost:1313/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     

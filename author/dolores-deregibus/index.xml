@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dolores Deregibus | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/dolores-deregibus/</link>
-      <atom:link href="https://lsaravia.github.io/author/dolores-deregibus/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/dolores-deregibus/</link>
+      <atom:link href="http://localhost:1313/author/dolores-deregibus/index.xml" rel="self" type="application/rss+xml" />
     <description>Dolores Deregibus</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Dolores Deregibus</title>
-      <link>https://lsaravia.github.io/author/dolores-deregibus/</link>
+      <link>http://localhost:1313/author/dolores-deregibus/</link>
     </image>
     
     <item>
       <title>Production and Biomass of Seaweeds in Newly Ice-Free Areas: Implications for Coastal Processes in a Changing Antarctic Environment</title>
-      <link>https://lsaravia.github.io/publication/quartino-2020/</link>
+      <link>http://localhost:1313/publication/quartino-2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/quartino-2020/</guid>
+      <guid>http://localhost:1313/publication/quartino-2020/</guid>
       <description>&lt;p&gt;The Antarctic rocky coasts are mainly colonized by extensive macroalgal
 communities, which play key roles as food resource, habitat and refuge for many benthic and
 pelagic organisms. Due to climate warming, Antarctic marine ecosystems are being affected
@@ -37,17 +37,17 @@ change.&lt;/p&gt;
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://lsaravia.github.io/publication/marina-2018/</link>
+      <link>http://localhost:1313/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
+      <link>http://localhost:1313/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
+      <guid>http://localhost:1313/publication/marcias-2016/</guid>
       <description></description>
     </item>
     
