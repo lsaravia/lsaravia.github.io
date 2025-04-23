@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>L Saravia | EcoComplex</title>
-    <link>http://localhost:1313/author/l-saravia/</link>
-      <atom:link href="http://localhost:1313/author/l-saravia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/l-saravia/</link>
+      <atom:link href="https://lsaravia.github.io/author/l-saravia/index.xml" rel="self" type="application/rss+xml" />
     <description>L Saravia</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>L Saravia</title>
-      <link>http://localhost:1313/author/l-saravia/</link>
+      <link>https://lsaravia.github.io/author/l-saravia/</link>
     </image>
     
     <item>
       <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
-      <link>http://localhost:1313/publication/falco-2015/</link>
+      <link>https://lsaravia.github.io/publication/falco-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/falco-2015/</guid>
+      <guid>https://lsaravia.github.io/publication/falco-2015/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 | EcoComplex</title>
-    <link>http://localhost:1313/publication-type/6/</link>
-      <atom:link href="http://localhost:1313/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/publication-type/6/</link>
+      <atom:link href="https://lsaravia.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>6</title>
-      <link>http://localhost:1313/publication-type/6/</link>
+      <link>https://lsaravia.github.io/publication-type/6/</link>
     </image>
     
     <item>
       <title>Production and Biomass of Seaweeds in Newly Ice-Free Areas: Implications for Coastal Processes in a Changing Antarctic Environment</title>
-      <link>http://localhost:1313/publication/quartino-2020/</link>
+      <link>https://lsaravia.github.io/publication/quartino-2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/quartino-2020/</guid>
+      <guid>https://lsaravia.github.io/publication/quartino-2020/</guid>
       <description>&lt;p&gt;The Antarctic rocky coasts are mainly colonized by extensive macroalgal
 communities, which play key roles as food resource, habitat and refuge for many benthic and
 pelagic organisms. Due to climate warming, Antarctic marine ecosystems are being affected

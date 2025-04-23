@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Irene Ruth Schloss | EcoComplex</title>
-    <link>http://localhost:1313/author/irene-ruth-schloss/</link>
-      <atom:link href="http://localhost:1313/author/irene-ruth-schloss/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/irene-ruth-schloss/</link>
+      <atom:link href="https://lsaravia.github.io/author/irene-ruth-schloss/index.xml" rel="self" type="application/rss+xml" />
     <description>Irene Ruth Schloss</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Irene Ruth Schloss</title>
-      <link>http://localhost:1313/author/irene-ruth-schloss/</link>
+      <link>https://lsaravia.github.io/author/irene-ruth-schloss/</link>
     </image>
     
     <item>
       <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>http://localhost:1313/publication/rodriguez2022/</link>
+      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/rodriguez2022/</guid>
+      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
       <description></description>
     </item>
     

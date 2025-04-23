@@ -2,165 +2,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | EcoComplex</title>
-    <link>http://localhost:1313/publication-type/2/</link>
-      <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/publication-type/2/</link>
+      <atom:link href="https://lsaravia.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>2</title>
-      <link>http://localhost:1313/publication-type/2/</link>
+      <link>https://lsaravia.github.io/publication-type/2/</link>
     </image>
     
     <item>
       <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
-      <link>http://localhost:1313/publication/kortsch-2023/</link>
+      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kortsch-2023/</guid>
+      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>http://localhost:1313/publication/saravia-2019/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2019/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
-      <link>http://localhost:1313/publication/saravia-2018/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>http://localhost:1313/publication/marina-2018/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/marina-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture of Marine Food Webs: To Be or Not Be a ‘Small-World’</title>
-      <link>http://localhost:1313/publication/marina-2018-a/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/marina-2018-a/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
-      <link>http://localhost:1313/publication/cordone-2018/</link>
+      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cordone-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>http://localhost:1313/publication/saravia-2018-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2018-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>http://localhost:1313/publication/marcias-2016/</link>
+      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/marcias-2016/</guid>
+      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A New Method to Analyse Species Abundances in Space Using Generalized Dimensions</title>
-      <link>http://localhost:1313/publication/saravia-2015-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2015-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2015-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
-      <link>http://localhost:1313/publication/pasotti-2015/</link>
+      <link>https://lsaravia.github.io/publication/pasotti-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pasotti-2015/</guid>
+      <guid>https://lsaravia.github.io/publication/pasotti-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
-      <link>http://localhost:1313/publication/falco-2015/</link>
+      <link>https://lsaravia.github.io/publication/falco-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/falco-2015/</guid>
+      <guid>https://lsaravia.github.io/publication/falco-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
-      <link>http://localhost:1313/publication/saravia-2014/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the Phytoplankton Bloom in Coastal Waters of Southern King George Island (Antarctica) in January 2010: An Exceptional Feature?</title>
-      <link>http://localhost:1313/publication/schloss-2014/</link>
+      <link>https://lsaravia.github.io/publication/schloss-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/schloss-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/schloss-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Growth in Periphyton Communities</title>
-      <link>http://localhost:1313/publication/saravia-2012-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2012-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2012-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
-      <link>http://localhost:1313/publication/saravia-2012/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2012/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Importance of Transients&#39; Dynamics in Spatially Extended Populations.</title>
-      <link>http://localhost:1313/publication/saravia-2000/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2000/</link>
       <pubDate>Thu, 07 Sep 2000 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2000/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2000/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
-      <link>http://localhost:1313/publication/saravia-1999/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-1999/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Periphyton Dynamics in Running Water</title>
-      <link>http://localhost:1313/publication/saravia-1998/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1998/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
-      <link>http://localhost:1313/publication/ruxton-1998/</link>
+      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ruxton-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     

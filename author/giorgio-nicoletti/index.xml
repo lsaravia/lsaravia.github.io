@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Giorgio Nicoletti | EcoComplex</title>
-    <link>http://localhost:1313/author/giorgio-nicoletti/</link>
-      <atom:link href="http://localhost:1313/author/giorgio-nicoletti/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/giorgio-nicoletti/</link>
+      <atom:link href="https://lsaravia.github.io/author/giorgio-nicoletti/index.xml" rel="self" type="application/rss+xml" />
     <description>Giorgio Nicoletti</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Giorgio Nicoletti</title>
-      <link>http://localhost:1313/author/giorgio-nicoletti/</link>
+      <link>https://lsaravia.github.io/author/giorgio-nicoletti/</link>
     </image>
     
     <item>
       <title>The emergence of scale-free fires in Australia</title>
-      <link>http://localhost:1313/publication/nicoletti-2023/</link>
+      <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/nicoletti-2023/</guid>
+      <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
       <description></description>
     </item>
     

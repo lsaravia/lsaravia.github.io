@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Piotto | EcoComplex</title>
-    <link>http://localhost:1313/author/maria-piotto/</link>
-      <atom:link href="http://localhost:1313/author/maria-piotto/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/maria-piotto/</link>
+      <atom:link href="https://lsaravia.github.io/author/maria-piotto/index.xml" rel="self" type="application/rss+xml" />
     <description>Maria Piotto</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/author/maria-piotto/avatar_hu_eaf9f1319ed22c34.jpg</url>
+      <url>https://lsaravia.github.io/author/maria-piotto/avatar_hu_eaf9f1319ed22c34.jpg</url>
       <title>Maria Piotto</title>
-      <link>http://localhost:1313/author/maria-piotto/</link>
+      <link>https://lsaravia.github.io/author/maria-piotto/</link>
     </image>
     
     <item>
       <title>Maria Piotto</title>
-      <link>http://localhost:1313/author/maria-piotto/</link>
+      <link>https://lsaravia.github.io/author/maria-piotto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/author/maria-piotto/</guid>
+      <guid>https://lsaravia.github.io/author/maria-piotto/</guid>
       <description></description>
     </item>
     
