@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eugenia Moreira | EcoComplex</title>
-    <link>https://example.com/author/eugenia-moreira/</link>
-      <atom:link href="https://example.com/author/eugenia-moreira/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/eugenia-moreira/</link>
+      <atom:link href="https://lsaravia.github.io/author/eugenia-moreira/index.xml" rel="self" type="application/rss+xml" />
     <description>Eugenia Moreira</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Eugenia Moreira</title>
-      <link>https://example.com/author/eugenia-moreira/</link>
+      <link>https://lsaravia.github.io/author/eugenia-moreira/</link>
     </image>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://example.com/publication/marina-2018/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marina-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
       <description></description>
     </item>
     

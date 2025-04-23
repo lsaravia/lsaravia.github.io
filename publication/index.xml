@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | EcoComplex</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/publication/</link>
+      <atom:link href="https://lsaravia.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://lsaravia.github.io/publication/</link>
     </image>
     
     <item>
       <title>Modelling Amazon fire regimes under climate change scenarios</title>
-      <link>https://example.com/publication/saravia-amazonas-2025/</link>
+      <link>https://lsaravia.github.io/publication/saravia-amazonas-2025/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-amazonas-2025/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-amazonas-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamics of Invasion in Forest-Fire Models</title>
-      <link>https://example.com/publication/delafuente-2025/</link>
+      <link>https://lsaravia.github.io/publication/delafuente-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/delafuente-2025/</guid>
+      <guid>https://lsaravia.github.io/publication/delafuente-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
-      <link>https://example.com/publication/rodriguez-2024/</link>
+      <link>https://lsaravia.github.io/publication/rodriguez-2024/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/rodriguez-2024/</guid>
+      <guid>https://lsaravia.github.io/publication/rodriguez-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
-      <link>https://example.com/publication/saravia-2024/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2024/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2024/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
-      <link>https://example.com/publication/kortsch-2023/</link>
+      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kortsch-2023/</guid>
+      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The emergence of scale-free fires in Australia</title>
-      <link>https://example.com/publication/nicoletti-2023/</link>
+      <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/nicoletti-2023/</guid>
+      <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
-      <link>https://example.com/publication/marina-2022/</link>
+      <link>https://lsaravia.github.io/publication/marina-2022/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marina-2022/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network Analysis Can Detect Changes In Food Web Stability Produced By Bottom Trawl Fishery In Patagonia</title>
-      <link>https://example.com/publication/funes-2022/</link>
+      <link>https://lsaravia.github.io/publication/funes-2022/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/funes-2022/</guid>
+      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>https://example.com/publication/rodriguez2022/</link>
+      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/rodriguez2022/</guid>
+      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>https://example.com/publication/saravia-2019/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2019/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Production and Biomass of Seaweeds in Newly Ice-Free Areas: Implications for Coastal Processes in a Changing Antarctic Environment</title>
-      <link>https://example.com/publication/quartino-2020/</link>
+      <link>https://lsaravia.github.io/publication/quartino-2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/quartino-2020/</guid>
+      <guid>https://lsaravia.github.io/publication/quartino-2020/</guid>
       <description>&lt;p&gt;The Antarctic rocky coasts are mainly colonized by extensive macroalgal
 communities, which play key roles as food resource, habitat and refuge for many benthic and
 pelagic organisms. Due to climate warming, Antarctic marine ecosystems are being affected
@@ -117,145 +117,145 @@ change.&lt;/p&gt;
     
     <item>
       <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
-      <link>https://example.com/publication/saravia-2018/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://example.com/publication/marina-2018/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marina-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture of Marine Food Webs: To Be or Not Be a ‘Small-World’</title>
-      <link>https://example.com/publication/marina-2018-a/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marina-2018-a/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
-      <link>https://example.com/publication/cordone-2018/</link>
+      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/cordone-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>https://example.com/publication/saravia-2018-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2018-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>https://example.com/publication/marcias-2016/</link>
+      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marcias-2016/</guid>
+      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A New Method to Analyse Species Abundances in Space Using Generalized Dimensions</title>
-      <link>https://example.com/publication/saravia-2015-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2015-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2015-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
-      <link>https://example.com/publication/pasotti-2015/</link>
+      <link>https://lsaravia.github.io/publication/pasotti-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/pasotti-2015/</guid>
+      <guid>https://lsaravia.github.io/publication/pasotti-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
-      <link>https://example.com/publication/falco-2015/</link>
+      <link>https://lsaravia.github.io/publication/falco-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/falco-2015/</guid>
+      <guid>https://lsaravia.github.io/publication/falco-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
-      <link>https://example.com/publication/saravia-2014/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the Phytoplankton Bloom in Coastal Waters of Southern King George Island (Antarctica) in January 2010: An Exceptional Feature?</title>
-      <link>https://example.com/publication/schloss-2014/</link>
+      <link>https://lsaravia.github.io/publication/schloss-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/schloss-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/schloss-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Growth in Periphyton Communities</title>
-      <link>https://example.com/publication/saravia-2012-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2012-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2012-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
-      <link>https://example.com/publication/saravia-2012/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2012/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algunas Cuestiones Sobre El Espacio En Ecología. Modelos, Datos y Aplicaciones</title>
-      <link>https://example.com/publication/saravia-2009/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2009/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2009/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2009/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Importance of Transients&#39; Dynamics in Spatially Extended Populations.</title>
-      <link>https://example.com/publication/saravia-2000/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2000/</link>
       <pubDate>Thu, 07 Sep 2000 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2000/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2000/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
-      <link>https://example.com/publication/saravia-1999/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-1999/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Periphyton Dynamics in Running Water</title>
-      <link>https://example.com/publication/saravia-1998/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1998/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
-      <link>https://example.com/publication/ruxton-1998/</link>
+      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/ruxton-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     

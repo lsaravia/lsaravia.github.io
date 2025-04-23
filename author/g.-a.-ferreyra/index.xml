@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>G. A. Ferreyra | EcoComplex</title>
-    <link>https://example.com/author/g.-a.-ferreyra/</link>
-      <atom:link href="https://example.com/author/g.-a.-ferreyra/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/g.-a.-ferreyra/</link>
+      <atom:link href="https://lsaravia.github.io/author/g.-a.-ferreyra/index.xml" rel="self" type="application/rss+xml" />
     <description>G. A. Ferreyra</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>G. A. Ferreyra</title>
-      <link>https://example.com/author/g.-a.-ferreyra/</link>
+      <link>https://lsaravia.github.io/author/g.-a.-ferreyra/</link>
     </image>
     
     <item>
       <title>On the Phytoplankton Bloom in Coastal Waters of Southern King George Island (Antarctica) in January 2010: An Exceptional Feature?</title>
-      <link>https://example.com/publication/schloss-2014/</link>
+      <link>https://lsaravia.github.io/publication/schloss-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/schloss-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/schloss-2014/</guid>
       <description></description>
     </item>
     

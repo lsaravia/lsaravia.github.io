@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leonardo A. Saravia | EcoComplex</title>
-    <link>https://example.com/author/leonardo-a.-saravia/</link>
-      <atom:link href="https://example.com/author/leonardo-a.-saravia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/leonardo-a.-saravia/</link>
+      <atom:link href="https://lsaravia.github.io/author/leonardo-a.-saravia/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo A. Saravia</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Leonardo A. Saravia</title>
-      <link>https://example.com/author/leonardo-a.-saravia/</link>
+      <link>https://lsaravia.github.io/author/leonardo-a.-saravia/</link>
     </image>
     
     <item>
       <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
-      <link>https://example.com/publication/saravia-2018/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A New Method to Analyse Species Abundances in Space Using Generalized Dimensions</title>
-      <link>https://example.com/publication/saravia-2015-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2015-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2015-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
-      <link>https://example.com/publication/saravia-2012/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2012/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Importance of Transients&#39; Dynamics in Spatially Extended Populations.</title>
-      <link>https://example.com/publication/saravia-2000/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2000/</link>
       <pubDate>Thu, 07 Sep 2000 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2000/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2000/</guid>
       <description></description>
     </item>
     

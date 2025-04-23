@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leonardo a Saravia | EcoComplex</title>
-    <link>https://example.com/author/leonardo-a-saravia/</link>
-      <atom:link href="https://example.com/author/leonardo-a-saravia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/leonardo-a-saravia/</link>
+      <atom:link href="https://lsaravia.github.io/author/leonardo-a-saravia/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo a Saravia</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Leonardo a Saravia</title>
-      <link>https://example.com/author/leonardo-a-saravia/</link>
+      <link>https://lsaravia.github.io/author/leonardo-a-saravia/</link>
     </image>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://example.com/publication/marina-2018/</link>
+      <link>https://lsaravia.github.io/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/marina-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
-      <link>https://example.com/publication/cordone-2018/</link>
+      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/cordone-2018/</guid>
+      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power Laws and Critical Fragmentation in Global Forests</title>
-      <link>https://example.com/publication/saravia-2018-a/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2018-a/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
-      <link>https://example.com/publication/saravia-2014/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2014/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
-      <link>https://example.com/publication/saravia-1999/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-1999/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
-      <link>https://example.com/publication/ruxton-1998/</link>
+      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/ruxton-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     

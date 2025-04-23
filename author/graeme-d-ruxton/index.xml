@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graeme D Ruxton | EcoComplex</title>
-    <link>https://example.com/author/graeme-d-ruxton/</link>
-      <atom:link href="https://example.com/author/graeme-d-ruxton/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/graeme-d-ruxton/</link>
+      <atom:link href="https://lsaravia.github.io/author/graeme-d-ruxton/index.xml" rel="self" type="application/rss+xml" />
     <description>Graeme D Ruxton</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1998 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Graeme D Ruxton</title>
-      <link>https://example.com/author/graeme-d-ruxton/</link>
+      <link>https://lsaravia.github.io/author/graeme-d-ruxton/</link>
     </image>
     
     <item>
       <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
-      <link>https://example.com/publication/ruxton-1998/</link>
+      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/ruxton-1998/</guid>
+      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     

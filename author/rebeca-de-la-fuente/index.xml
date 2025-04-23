@@ -2,27 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rebeca de la Fuente | EcoComplex</title>
-    <link>https://example.com/author/rebeca-de-la-fuente/</link>
-      <atom:link href="https://example.com/author/rebeca-de-la-fuente/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
+      <atom:link href="https://lsaravia.github.io/author/rebeca-de-la-fuente/index.xml" rel="self" type="application/rss+xml" />
     <description>Rebeca de la Fuente</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://example.com/author/rebeca-de-la-fuente/Avatar_hu_a1ec0c4c4ac931ac.jpg</url>
+      <url>https://lsaravia.github.io/author/rebeca-de-la-fuente/Avatar_hu_a1ec0c4c4ac931ac.jpg</url>
       <title>Rebeca de la Fuente</title>
-      <link>https://example.com/author/rebeca-de-la-fuente/</link>
+      <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
     </image>
     
     <item>
       <title>Rebeca de la Fuente</title>
-      <link>https://example.com/author/rebeca-de-la-fuente/</link>
+      <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/author/rebeca-de-la-fuente/</guid>
+      <guid>https://lsaravia.github.io/author/rebeca-de-la-fuente/</guid>
       <description></description>
-    </item>
-    
-  </channel>
-</rss>
-description></description>
     </item>
     
   </channel>

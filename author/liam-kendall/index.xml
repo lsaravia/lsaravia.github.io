@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liam Kendall | EcoComplex</title>
-    <link>https://example.com/author/liam-kendall/</link>
-      <atom:link href="https://example.com/author/liam-kendall/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/liam-kendall/</link>
+      <atom:link href="https://lsaravia.github.io/author/liam-kendall/index.xml" rel="self" type="application/rss+xml" />
     <description>Liam Kendall</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Liam Kendall</title>
-      <link>https://example.com/author/liam-kendall/</link>
+      <link>https://lsaravia.github.io/author/liam-kendall/</link>
     </image>
     
     <item>
       <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
-      <link>https://example.com/publication/kortsch-2023/</link>
+      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/kortsch-2023/</guid>
+      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
       <description></description>
     </item>
     

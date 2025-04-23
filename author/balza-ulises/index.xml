@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Balza, Ulises | EcoComplex</title>
-    <link>https://example.com/author/balza-ulises/</link>
-      <atom:link href="https://example.com/author/balza-ulises/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/balza-ulises/</link>
+      <atom:link href="https://lsaravia.github.io/author/balza-ulises/index.xml" rel="self" type="application/rss+xml" />
     <description>Balza, Ulises</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Balza, Ulises</title>
-      <link>https://example.com/author/balza-ulises/</link>
+      <link>https://lsaravia.github.io/author/balza-ulises/</link>
     </image>
     
     <item>
       <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
-      <link>https://example.com/publication/saravia-2024/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2024/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/saravia-2024/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
