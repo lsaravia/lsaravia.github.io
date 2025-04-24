@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dalal Hanna | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/dalal-hanna/</link>
+      <atom:link href="https://lsaravia.github.io/author/dalal-hanna/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dalal Hanna</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Dalal Hanna</title>
+      <link>https://lsaravia.github.io/author/dalal-hanna/</link>
+    </image>
+    
+    <item>
+      <title>A Multi-Realm Perspective on Applying Potential Tipping Points to Environmental Decision-Making</title>
+      <link>https://lsaravia.github.io/publication/harper-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/harper-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

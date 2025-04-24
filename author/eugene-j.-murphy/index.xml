@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eugene J. Murphy | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/eugene-j.-murphy/</link>
+      <atom:link href="https://lsaravia.github.io/author/eugene-j.-murphy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eugene J. Murphy</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Eugene J. Murphy</title>
+      <link>https://lsaravia.github.io/author/eugene-j.-murphy/</link>
+    </image>
+    
+    <item>
+      <title>Southern Ocean Food Web Modelling: Progress, Prognoses, and Future Priorities for Research and Policy Makers</title>
+      <link>https://lsaravia.github.io/publication/mc-cormack-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/mc-cormack-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

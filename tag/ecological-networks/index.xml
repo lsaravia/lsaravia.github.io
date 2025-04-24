@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/tag/ecological-networks/</link>
       <atom:link href="https://lsaravia.github.io/tag/ecological-networks/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecological Networks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Ecological Networks</title>
@@ -13,26 +13,10 @@
     </image>
     
     <item>
-      <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
-      <link>https://lsaravia.github.io/publication/rodriguez-2024/</link>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez-2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
-      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
-      <link>https://lsaravia.github.io/publication/marina-2022/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
+      <title>Network Analysis Suggests Changes in Food Web Stability Produced by Bottom Trawl Fishery in Patagonia</title>
+      <link>https://lsaravia.github.io/publication/funes-2022/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
       <description></description>
     </item>
     
@@ -212,22 +196,6 @@ at the metaweb spatial and temporal scales.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Network Analysis Can Detect Changes In Food Web Stability Produced By Bottom Trawl Fishery In Patagonia</title>
-      <link>https://lsaravia.github.io/publication/funes-2022/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
       <link>https://lsaravia.github.io/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
@@ -365,6 +333,14 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Seaweeds in the Antarctic Marine Coastal Food Web</title>
+      <link>https://lsaravia.github.io/publication/momo-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/momo-2020/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liliana Beatriz Falco | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/liliana-beatriz-falco/</link>
+      <atom:link href="https://lsaravia.github.io/author/liliana-beatriz-falco/index.xml" rel="self" type="application/rss+xml" />
+    <description>Liliana Beatriz Falco</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Liliana Beatriz Falco</title>
+      <link>https://lsaravia.github.io/author/liliana-beatriz-falco/</link>
+    </image>
+    
+    <item>
+      <title>Trophic Resources of the Edaphic Microarthropods: A Worldwide Review of the Empirical Evidence</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rosana V. Sandler | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/rosana-v.-sandler/</link>
+      <atom:link href="https://lsaravia.github.io/author/rosana-v.-sandler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rosana V. Sandler</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/author/rosana-v.-sandler/Avatar_hu_65120b442efd3c65.jpg</url>
+      <title>Rosana V. Sandler</title>
+      <link>https://lsaravia.github.io/author/rosana-v.-sandler/</link>
+    </image>
+    
+    <item>
+      <title>Rosana V. Sandler</title>
+      <link>https://lsaravia.github.io/author/rosana-v.-sandler/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/author/rosana-v.-sandler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Size Spectra of the Edaphic Fauna of Typical Argiudol Soils of the Rolling Pampa Region, Argentina</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023-a/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecoindicators: An R Package for the Identification of Indicator Taxonomic Units</title>
+      <link>https://lsaravia.github.io/publication/duhour-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/duhour-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Algorithm for the Identification of Indicator Taxonomic Units and Their Use in Analyses of Ecosystem State</title>
+      <link>https://lsaravia.github.io/publication/dela-vega-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/dela-vega-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/publication-type/article-journal/</link>
       <atom:link href="https://lsaravia.github.io/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Article-Journal</title>
@@ -13,50 +13,290 @@
     </image>
     
     <item>
-      <title>Modelling Amazon fire regimes under climate change scenarios</title>
-      <link>https://lsaravia.github.io/publication/saravia-amazonas-2025/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-amazonas-2025/</guid>
+      <title>Modelling Amazon Fire Regimes under Climate Change Scenarios</title>
+      <link>https://lsaravia.github.io/publication/saravia-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Response of Trophic Interaction Networks to Multiple Stressors along a Large-Scale Latitudinal Range in the Southern Hemisphere</title>
+      <link>https://lsaravia.github.io/publication/marina-2024-b/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glacial Melt Impacts Carbon Flows in an Antarctic Benthic Food Web</title>
+      <link>https://lsaravia.github.io/publication/braeckman-2024/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/braeckman-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Insights into the Weddell Sea Ecosystem Applying a Quantitative Network Approach</title>
+      <link>https://lsaravia.github.io/publication/marina-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Potter Cove&#39;s Heavyweights: Estimation of Species&#39; Interaction Strength of an Antarctic Food Web</title>
       <link>https://lsaravia.github.io/publication/rodriguez-2024/</link>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/rodriguez-2024/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Why there are more species in several small patches versus few large patches: A multispecies modelling approach</title>
+      <title>Why There Are More Species in Several Small Patches versus Few Large Patches: A Multispecies Modelling Approach</title>
       <link>https://lsaravia.github.io/publication/saravia-2024/</link>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/saravia-2024/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The emergence of scale-free fires in Australia</title>
+      <title>Size Spectra of the Edaphic Fauna of Typical Argiudol Soils of the Rolling Pampa Region, Argentina</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023-a/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Multi-Realm Perspective on Applying Potential Tipping Points to Environmental Decision-Making</title>
+      <link>https://lsaravia.github.io/publication/harper-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/harper-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecoindicators: An R Package for the Identification of Indicator Taxonomic Units</title>
+      <link>https://lsaravia.github.io/publication/duhour-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/duhour-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trophic Resources of the Edaphic Microarthropods: A Worldwide Review of the Empirical Evidence</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexandrium Catenella Dynamics and Paralytic Shellfish Toxins Distribution along the Beagle Channel (Southern Patagonia)</title>
+      <link>https://lsaravia.github.io/publication/schloss-2023/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/schloss-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Emergence of Scale-Free Fires in Australia</title>
       <link>https://lsaravia.github.io/publication/nicoletti-2023/</link>
-      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/nicoletti-2023/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
+      <title>Landscape Composition and Pollinator Traits Interact to Influence Pollination Success in an Individual-Based Model</title>
+      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45$^∘$ y 62$^∘$ S</title>
       <link>https://lsaravia.github.io/publication/marina-2022/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Marine food webs are more complex but less stable in sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) regions</title>
-      <link>https://lsaravia.github.io/publication/rodriguez2022/</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez2022/</guid>
+      <title>An Algorithm for the Identification of Indicator Taxonomic Units and Their Use in Analyses of Ecosystem State</title>
+      <link>https://lsaravia.github.io/publication/dela-vega-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/dela-vega-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Analysis Suggests Changes in Food Web Stability Produced by Bottom Trawl Fishery in Patagonia</title>
+      <link>https://lsaravia.github.io/publication/funes-2022/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine Food Webs Are More Complex but Less Stable in Sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) Regions</title>
+      <link>https://lsaravia.github.io/publication/rodriguez-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/rodriguez-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatiotemporal Distribution of Paralytic Shellfish Poisoning (PSP) Toxins in Beagle Channel (South America) during 2005 -- 2017</title>
+      <link>https://lsaravia.github.io/publication/cadaillon-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/cadaillon-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecological Network Assembly: How the Regional Metaweb Influences Local Food Webs</title>
+      <link>https://lsaravia.github.io/publication/saravia-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Southern Ocean Food Web Modelling: Progress, Prognoses, and Future Priorities for Research and Policy Makers</title>
+      <link>https://lsaravia.github.io/publication/mc-cormack-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/mc-cormack-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Green vs Brown Food Web: Effects of Habitat Type on Multidimensional Stability Proxies for a Highly-Resolved Antarctic Food Web</title>
+      <link>https://lsaravia.github.io/publication/cordone-2020/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/cordone-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biodiversity Collapse and Early Warning Indicators in a Spatial Phase Transition between Neutral and Niche Communities</title>
+      <link>https://lsaravia.github.io/publication/saravia-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
+      <link>https://lsaravia.github.io/publication/marina-2018/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture of Marine Food Webs: To Be or Not Be a `Small-World&#39;</title>
+      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Macroalgae Loss in an Antarctic Marine Food Web: Applying Extinction Thresholds to Food Web Studies</title>
+      <link>https://lsaravia.github.io/publication/cordone-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/cordone-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power Laws and Critical Fragmentation in Global Forests</title>
+      <link>https://lsaravia.github.io/publication/saravia-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
+      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New Method to Analyse Species Abundances in Space Using Generalized Dimensions</title>
+      <link>https://lsaravia.github.io/publication/saravia-2015-a/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2015-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
+      <link>https://lsaravia.github.io/publication/pasotti-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/pasotti-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mfSBA: Multifractal Analysis of Spatial Patterns in Ecological Communities [v2; Ref Status: Indexed, http://f1000r.es/347]</title>
+      <link>https://lsaravia.github.io/publication/saravia-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Phytoplankton Bloom in Coastal Waters of Southern King George Island (Antarctica) in January 2010: An Exceptional Feature?</title>
+      <link>https://lsaravia.github.io/publication/schloss-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/schloss-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multifractal Growth in Periphyton Communities</title>
+      <link>https://lsaravia.github.io/publication/saravia-2012-a/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2012-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multifractal Spatial Patterns and Diversity in an Ecological Succession</title>
+      <link>https://lsaravia.github.io/publication/saravia-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Importance of Transients&#39; Dynamics in Spatially Extended Populations.</title>
+      <link>https://lsaravia.github.io/publication/saravia-2000/</link>
+      <pubDate>Fri, 01 Sep 2000 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2000/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Periphyton Dynamics in Running Water</title>
+      <link>https://lsaravia.github.io/publication/saravia-1998/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-1998/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Need for Biological Realism in the Updating of Cellular Automata Models</title>
+      <link>https://lsaravia.github.io/publication/ruxton-1998/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/ruxton-1998/</guid>
       <description></description>
     </item>
     

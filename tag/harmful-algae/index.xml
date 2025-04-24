@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harmful Algae | EcoComplex</title>
+    <link>https://lsaravia.github.io/tag/harmful-algae/</link>
+      <atom:link href="https://lsaravia.github.io/tag/harmful-algae/index.xml" rel="self" type="application/rss+xml" />
+    <description>Harmful Algae</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Harmful Algae</title>
+      <link>https://lsaravia.github.io/tag/harmful-algae/</link>
+    </image>
+    
+    <item>
+      <title>Spatiotemporal Distribution of Paralytic Shellfish Poisoning (PSP) Toxins in Beagle Channel (South America) during 2005 -- 2017</title>
+      <link>https://lsaravia.github.io/publication/cadaillon-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/cadaillon-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

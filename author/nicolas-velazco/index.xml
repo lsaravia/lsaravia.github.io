@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/author/nicolas-velazco/</link>
       <atom:link href="https://lsaravia.github.io/author/nicolas-velazco/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicolás Velazco</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/author/nicolas-velazco/Avatar_hu_cba026fda59a6581.jpg</url>
       <title>Nicolás Velazco</title>
@@ -15,8 +15,32 @@
     <item>
       <title>Nicolás Velazco</title>
       <link>https://lsaravia.github.io/author/nicolas-velazco/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/author/nicolas-velazco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Size Spectra of the Edaphic Fauna of Typical Argiudol Soils of the Rolling Pampa Region, Argentina</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023-a/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trophic Resources of the Edaphic Microarthropods: A Worldwide Review of the Empirical Evidence</title>
+      <link>https://lsaravia.github.io/publication/velazco-2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/velazco-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Algorithm for the Identification of Indicator Taxonomic Units and Their Use in Analyses of Ecosystem State</title>
+      <link>https://lsaravia.github.io/publication/dela-vega-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/dela-vega-2022/</guid>
       <description></description>
     </item>
     

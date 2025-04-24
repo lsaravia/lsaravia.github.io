@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuela Funes | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/manuela-funes/</link>
+      <atom:link href="https://lsaravia.github.io/author/manuela-funes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manuela Funes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Manuela Funes</title>
+      <link>https://lsaravia.github.io/author/manuela-funes/</link>
+    </image>
+    
+    <item>
+      <title>The Response of Trophic Interaction Networks to Multiple Stressors along a Large-Scale Latitudinal Range in the Southern Hemisphere</title>
+      <link>https://lsaravia.github.io/publication/marina-2024-b/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Analysis Suggests Changes in Food Web Stability Produced by Bottom Trawl Fishery in Patagonia</title>
+      <link>https://lsaravia.github.io/publication/funes-2022/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/funes-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

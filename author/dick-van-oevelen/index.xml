@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dick Van Oevelen | EcoComplex</title>
+    <link>https://lsaravia.github.io/author/dick-van-oevelen/</link>
+      <atom:link href="https://lsaravia.github.io/author/dick-van-oevelen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dick Van Oevelen</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Dick Van Oevelen</title>
+      <link>https://lsaravia.github.io/author/dick-van-oevelen/</link>
+    </image>
+    
+    <item>
+      <title>Glacial Melt Impacts Carbon Flows in an Antarctic Benthic Food Web</title>
+      <link>https://lsaravia.github.io/publication/braeckman-2024/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/braeckman-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

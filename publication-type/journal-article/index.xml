@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal-Article | EcoComplex</title>
+    <link>https://lsaravia.github.io/publication-type/journal-article/</link>
+      <atom:link href="https://lsaravia.github.io/publication-type/journal-article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal-Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Journal-Article</title>
+      <link>https://lsaravia.github.io/publication-type/journal-article/</link>
+    </image>
+    
+    <item>
+      <title>Earthworm Assemblages in Different Intensity of Agricultural Uses and Their Relation to Edaphic Variables</title>
+      <link>https://lsaravia.github.io/publication/falco-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/falco-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
+      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

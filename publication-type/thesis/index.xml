@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis | EcoComplex</title>
+    <link>https://lsaravia.github.io/publication-type/thesis/</link>
+      <atom:link href="https://lsaravia.github.io/publication-type/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Thesis</title>
+      <link>https://lsaravia.github.io/publication-type/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Algunas Cuestiones Sobre El Espacio En Ecología. Modelos, Datos y Aplicaciones</title>
+      <link>https://lsaravia.github.io/publication/saravia-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/author/tomas-ignacio-marina/</link>
       <atom:link href="https://lsaravia.github.io/author/tomas-ignacio-marina/index.xml" rel="self" type="application/rss+xml" />
     <description>Tomás Ignacio Marina</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Tomás Ignacio Marina</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
-      <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45° y 62° S</title>
+      <title>The Response of Trophic Interaction Networks to Multiple Stressors along a Large-Scale Latitudinal Range in the Southern Hemisphere</title>
+      <link>https://lsaravia.github.io/publication/marina-2024-b/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Una revisión de los efectos de los cambios ambientales antropogénicos en las interacciones tróficas de 4 ecosistemas marinos entre los 45$^∘$ y 62$^∘$ S</title>
       <link>https://lsaravia.github.io/publication/marina-2022/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/marina-2022/</guid>
       <description></description>
     </item>

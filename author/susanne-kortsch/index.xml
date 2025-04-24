@@ -5,7 +5,7 @@
     <link>https://lsaravia.github.io/author/susanne-kortsch/</link>
       <atom:link href="https://lsaravia.github.io/author/susanne-kortsch/index.xml" rel="self" type="application/rss+xml" />
     <description>Susanne Kortsch</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Susanne Kortsch</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
-      <title>Landscape composition and pollinator traits interact to influence pollination success in an individual-based model</title>
+      <title>The Response of Trophic Interaction Networks to Multiple Stressors along a Large-Scale Latitudinal Range in the Southern Hemisphere</title>
+      <link>https://lsaravia.github.io/publication/marina-2024-b/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Insights into the Weddell Sea Ecosystem Applying a Quantitative Network Approach</title>
+      <link>https://lsaravia.github.io/publication/marina-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/marina-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landscape Composition and Pollinator Traits Interact to Influence Pollination Success in an Individual-Based Model</title>
       <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netlogo Model for Assessing Landscape, Network Structure, Pollinators Niche and Behavior, in Plant-Pollinator Networks.</title>
+      <link>https://lsaravia.github.io/publication/saravia-2022-a/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2022-a/</guid>
       <description></description>
     </item>
     
