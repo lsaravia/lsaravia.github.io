@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rebeca de la Fuente | EcoComplex</title>
+    <title>Rebeca De La Fuente | EcoComplex</title>
     <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
       <atom:link href="https://lsaravia.github.io/author/rebeca-de-la-fuente/index.xml" rel="self" type="application/rss+xml" />
-    <description>Rebeca de la Fuente</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <description>Rebeca De La Fuente</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/author/rebeca-de-la-fuente/Avatar_hu_a1ec0c4c4ac931ac.jpg</url>
-      <title>Rebeca de la Fuente</title>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Rebeca De La Fuente</title>
       <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
     </image>
     
     <item>
-      <title>Rebeca de la Fuente</title>
-      <link>https://lsaravia.github.io/author/rebeca-de-la-fuente/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/author/rebeca-de-la-fuente/</guid>
+      <title>Dynamics of Invasion in Forest-Fire Models</title>
+      <link>https://lsaravia.github.io/publication/delafuente-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/delafuente-2025/</guid>
       <description></description>
-    </item>
-    
-  </channel>
-</rss>
-description></description>
     </item>
     
   </channel>
