@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>María Liliana Quartino | EcoComplex</title>
+    <title>Maria Liliana Quartino | EcoComplex</title>
     <link>https://lsaravia.github.io/author/maria-liliana-quartino/</link>
       <atom:link href="https://lsaravia.github.io/author/maria-liliana-quartino/index.xml" rel="self" type="application/rss+xml" />
-    <description>María Liliana Quartino</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <description>Maria Liliana Quartino</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
-      <title>María Liliana Quartino</title>
+      <title>Maria Liliana Quartino</title>
       <link>https://lsaravia.github.io/author/maria-liliana-quartino/</link>
     </image>
     
     <item>
-      <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://lsaravia.github.io/publication/marina-2018/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <title>Glacial Melt Impacts Carbon Flows in an Antarctic Benthic Food Web</title>
+      <link>https://lsaravia.github.io/publication/braeckman-2024/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/braeckman-2024/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
+  </channel>
+</rss>
+    <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
       <link>https://lsaravia.github.io/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>

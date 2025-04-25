@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software | EcoComplex</title>
+    <link>https://lsaravia.github.io/publication-type/software/</link>
+      <atom:link href="https://lsaravia.github.io/publication-type/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <title>Software</title>
+      <link>https://lsaravia.github.io/publication-type/software/</link>
+    </image>
+    
+    <item>
+      <title>Meweasmo R-package: MEta-WEb ASsembly MOdels</title>
+      <link>https://lsaravia.github.io/publication/saravia-2022-b/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2022-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netlogo Model for Assessing Landscape, Network Structure, Pollinators Niche and Behavior, in Plant-Pollinator Networks.</title>
+      <link>https://lsaravia.github.io/publication/saravia-2022-a/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://lsaravia.github.io/publication/saravia-2022-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
