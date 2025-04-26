@@ -201,8 +201,8 @@ at the metaweb spatial and temporal scales.&lt;/p&gt;
       <pubDate>Sun, 09 Feb 2020 23:53:14 -0300</pubDate>
       <guid>https://lsaravia.github.io/post/snim-tutorial/</guid>
       <description>&lt;p&gt;This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the &lt;strong&gt;B&lt;/strong&gt; model of the paper &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I read it long ago and for many years I wanted to make a version of it, finally, I did it.&lt;/p&gt;
-&lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;, to install it you need to clone it using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README will be enough.&lt;/p&gt;
-&lt;p&gt;Then the description of the model from &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is the following&lt;/p&gt;
+&lt;p&gt;You can find the source code here &lt;a href=&#34;https://github.com/lsaravia/snim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/lsaravia/snim&lt;/a&gt;. To install it, clone the repository using &lt;code&gt;git clone&lt;/code&gt; or download and compile it, following the instructions in the README.&lt;/p&gt;
+&lt;p&gt;The model description from &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is the following:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The second model again involves a set of S (possible) species plus empty sites (pseudospecies
 labelled 0). This set (the species pool) $\Omega(S)$ is then a discrete set:&lt;/p&gt;
@@ -218,9 +218,15 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 &lt;p&gt;(iii) Interaction: the same rule as in model A is used, but here the probability of success $P_{ij}$ is weighted by the coefficients of the interaction matrix. Here we use&lt;/p&gt;
 &lt;p&gt;$P_{ij} = \pi[\Omega_{ij} - \Omega_{ji}]$&lt;/p&gt;
 &lt;p&gt;where $\pi[x]=x$ when $x &amp;gt; 0$ and zero otherwise. This probability of an interaction occurring in the system between species $i$ and $j$ is a measure of the interaction strength linking interacting species.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;So I&amp;rsquo;ll demonstrate how to use it from &lt;em&gt;R&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Then the fun part is to make simulations, for that we need the parameters: there is an species parameter file and a simulation parameter file.&lt;/p&gt;
-&lt;p&gt;The structure of the species parameter file is in the following example:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;using-snim-from-r&#34;&gt;Using SNIM from R&lt;/h2&gt;
+&lt;p&gt;Once installed, you can easily run simulations from R.&lt;/p&gt;
+&lt;p&gt;First, the model requires two input files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;species parameter file&lt;/strong&gt; (&lt;code&gt;.par&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;simulation parameter file&lt;/strong&gt; (&lt;code&gt;.cfg&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;example-species-parameter-file&#34;&gt;Example: Species Parameter File&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Model parameters example 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3 10000                  # 3 species, total habitat 10000
@@ -235,10 +241,14 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;0.0 0.0 3.0 2.0
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;4.0 0.0 0.0 0.0
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2.0 0.0 0.5 0.0
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The lines that start with &amp;lsquo;#&amp;rsquo; are comments, then the first 3 lines define the general parameters.&lt;/p&gt;
-&lt;p&gt;The  first row define a total amount of habitat in our simulation, then the number of species.&lt;/p&gt;
-&lt;p&gt;Species can migrate from the outside, this asumes that the habitat is sorrounded by a regional or bigger community that is the source of individuals. Then the 2nd. row is the immigration rate vector. Species can go locally extinct or death, we assume that they don&amp;rsquo;t live forever. And finally the &amp;lsquo;omega&amp;rsquo; or interaction matrix, the first column are the intrinsic growth rate of species, and the first row is a special species: the empty space.&lt;/p&gt;
-&lt;p&gt;Then we need the simulation parameters, this is a simple example&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First line:&lt;/strong&gt; Number of species and total habitat size.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Second line:&lt;/strong&gt; Immigration rates for each species.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third line:&lt;/strong&gt; Extinction rates for each species.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Following lines:&lt;/strong&gt; Omega interaction matrix (including intrinsic growth rates and interactions).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;example-simulation-parameter-file&#34;&gt;Example: Simulation Parameter File&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Simulation parameters example 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rndSeed = 0				# 0 means a random rndSeed
@@ -246,7 +256,9 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tau     = 0.01          # Integration step
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iniCond = 1000          # Initial condition of abundance of species 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        # if only one number is specified all the species will have the same initial conditions
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So to run from &amp;lsquo;RStats&amp;rsquo; there is a set of functions included, and we need to set a global variable with the binary of the model. If we call &lt;code&gt;simul.cfg&lt;/code&gt; to the simulation file, and &lt;code&gt;model3.par&lt;/code&gt; to the parameters file the following code will run the model&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;running-the-model-from-r&#34;&gt;Running the Model from R&lt;/h2&gt;
+&lt;p&gt;A set of R functions are included. First, set a global variable pointing to the SNIM binary. Then, run the simulation:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Global path to the binary of SNIM model&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;snimBin&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;~/Dropbox/cpp/CaNew/snim/dist/Release/GNU-Linux/snim&amp;#34;&lt;/span&gt;
@@ -284,7 +296,9 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
-&lt;p&gt;One nice addition to this plot is to add an annimation with the R package &lt;code&gt;gganimate&lt;/code&gt;, I only changed the &lt;code&gt;nEvals = 100&lt;/code&gt; in the simulation parameters file, and made another run of the model, then plot with the &lt;code&gt;out&lt;/code&gt; dataframe,&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;animating-the-dynamics-with-gganimate&#34;&gt;Animating the Dynamics with &lt;code&gt;gganimate&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;An animation of the species densities can be created. First, set a shorter simulation (&lt;code&gt;nEvals = 100&lt;/code&gt;), run the model again, and use:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gganimate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;filter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Species&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Density&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Species&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; 

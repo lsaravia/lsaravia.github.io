@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 25, 2025 --><html lang="en-us" >
+<!-- Last Published: April 26, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -802,7 +802,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    3 min read
   </span>
   
 
@@ -831,8 +831,8 @@
 
     <div class="article-style">
       <p>This is a beautifully simple ecological network model that can simulate predator-prey and competitive multispecies dynamics. This is the <strong>B</strong> model of the paper <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, I read it long ago and for many years I wanted to make a version of it, finally, I did it.</p>
-<p>You can find the source code here <a href="https://github.com/lsaravia/snim" target="_blank" rel="noopener">https://github.com/lsaravia/snim</a>, to install it you need to clone it using <code>git clone</code> or download and compile it, following the instructions in the README will be enough.</p>
-<p>Then the description of the model from <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> is the following</p>
+<p>You can find the source code here <a href="https://github.com/lsaravia/snim" target="_blank" rel="noopener">https://github.com/lsaravia/snim</a>. To install it, clone the repository using <code>git clone</code> or download and compile it, following the instructions in the README.</p>
+<p>The model description from <sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> is the following:</p>
 <blockquote>
 <p>The second model again involves a set of S (possible) species plus empty sites (pseudospecies
 labelled 0). This set (the species pool) $\Omega(S)$ is then a discrete set:</p>
@@ -848,9 +848,15 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 <p>(iii) Interaction: the same rule as in model A is used, but here the probability of success $P_{ij}$ is weighted by the coefficients of the interaction matrix. Here we use</p>
 <p>$P_{ij} = \pi[\Omega_{ij} - \Omega_{ji}]$</p>
 <p>where $\pi[x]=x$ when $x &gt; 0$ and zero otherwise. This probability of an interaction occurring in the system between species $i$ and $j$ is a measure of the interaction strength linking interacting species.</p></blockquote>
-<p>So I&rsquo;ll demonstrate how to use it from <em>R</em></p>
-<p>Then the fun part is to make simulations, for that we need the parameters: there is an species parameter file and a simulation parameter file.</p>
-<p>The structure of the species parameter file is in the following example:</p>
+<hr>
+<h2 id="using-snim-from-r">Using SNIM from R</h2>
+<p>Once installed, you can easily run simulations from R.</p>
+<p>First, the model requires two input files:</p>
+<ul>
+<li>A <strong>species parameter file</strong> (<code>.par</code>)</li>
+<li>A <strong>simulation parameter file</strong> (<code>.cfg</code>)</li>
+</ul>
+<h3 id="example-species-parameter-file">Example: Species Parameter File</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Model parameters example 
 </span></span><span class="line"><span class="cl">#
 </span></span><span class="line"><span class="cl">3 10000                  # 3 species, total habitat 10000
@@ -865,10 +871,14 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 </span></span><span class="line"><span class="cl">0.0 0.0 3.0 2.0
 </span></span><span class="line"><span class="cl">4.0 0.0 0.0 0.0
 </span></span><span class="line"><span class="cl">2.0 0.0 0.5 0.0
-</span></span></code></pre></div><p>The lines that start with &lsquo;#&rsquo; are comments, then the first 3 lines define the general parameters.</p>
-<p>The  first row define a total amount of habitat in our simulation, then the number of species.</p>
-<p>Species can migrate from the outside, this asumes that the habitat is sorrounded by a regional or bigger community that is the source of individuals. Then the 2nd. row is the immigration rate vector. Species can go locally extinct or death, we assume that they don&rsquo;t live forever. And finally the &lsquo;omega&rsquo; or interaction matrix, the first column are the intrinsic growth rate of species, and the first row is a special species: the empty space.</p>
-<p>Then we need the simulation parameters, this is a simple example</p>
+</span></span></code></pre></div><p><strong>Explanation:</strong></p>
+<ul>
+<li><strong>First line:</strong> Number of species and total habitat size.</li>
+<li><strong>Second line:</strong> Immigration rates for each species.</li>
+<li><strong>Third line:</strong> Extinction rates for each species.</li>
+<li><strong>Following lines:</strong> Omega interaction matrix (including intrinsic growth rates and interactions).</li>
+</ul>
+<h3 id="example-simulation-parameter-file">Example: Simulation Parameter File</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Simulation parameters example 
 </span></span><span class="line"><span class="cl">#
 </span></span><span class="line"><span class="cl">rndSeed = 0				# 0 means a random rndSeed
@@ -876,7 +886,9 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
 </span></span><span class="line"><span class="cl">tau     = 0.01          # Integration step
 </span></span><span class="line"><span class="cl">iniCond = 1000          # Initial condition of abundance of species 
 </span></span><span class="line"><span class="cl">                        # if only one number is specified all the species will have the same initial conditions
-</span></span></code></pre></div><p>So to run from &lsquo;RStats&rsquo; there is a set of functions included, and we need to set a global variable with the binary of the model. If we call <code>simul.cfg</code> to the simulation file, and <code>model3.par</code> to the parameters file the following code will run the model</p>
+</span></span></code></pre></div><hr>
+<h2 id="running-the-model-from-r">Running the Model from R</h2>
+<p>A set of R functions are included. First, set a global variable pointing to the SNIM binary. Then, run the simulation:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="c1"># Global path to the binary of SNIM model</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#</span>
 </span></span><span class="line"><span class="cl"><span class="n">snimBin</span> <span class="o">&lt;-</span> <span class="s">&#34;~/Dropbox/cpp/CaNew/snim/dist/Release/GNU-Linux/snim&#34;</span>
@@ -914,7 +926,9 @@ to occur. Let us call $ A,B \in \Omega(S )$ two given spcies present at a given 
                loading="lazy" data-zoomable /></div>
   </div></figure>
 
-<p>One nice addition to this plot is to add an annimation with the R package <code>gganimate</code>, I only changed the <code>nEvals = 100</code> in the simulation parameters file, and made another run of the model, then plot with the <code>out</code> dataframe,</p>
+<hr>
+<h2 id="animating-the-dynamics-with-gganimate">Animating the Dynamics with <code>gganimate</code></h2>
+<p>An animation of the species densities can be created. First, set a shorter simulation (<code>nEvals = 100</code>), run the model again, and use:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">require</span><span class="p">(</span><span class="n">gganimate</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="nf">filter</span><span class="p">(</span><span class="n">out</span><span class="p">,</span><span class="n">Species</span><span class="o">!=</span><span class="m">0</span><span class="p">),</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">Time</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">Density</span><span class="p">,</span><span class="n">colour</span><span class="o">=</span><span class="n">Species</span><span class="p">))</span> <span class="o">+</span> 
