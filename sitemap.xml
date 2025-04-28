@@ -10,8 +10,32 @@
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://lsaravia.github.io/tag/biodiversity/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/habitat-fragmentation/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://lsaravia.github.io/post/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/post/25-04-28-fragmentation/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/multispecies-models/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/neutral-theory/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/spatially-explicit-models/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/post/25-12-01-redes-jncm/</loc>
@@ -95,10 +119,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/tag/stochastic-models/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tags/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -206,31 +226,11 @@
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lsaravia.github.io/tag/biodiversity/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/habitat-fragmentation/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lsaravia.github.io/tag/marine-food-web/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lsaravia.github.io/tag/multispecies-models/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/neutral-theory/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lsaravia.github.io/publication/rodriguez-2024/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/spatially-explicit-models/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -711,58 +711,22 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/tag/ecological-network-assembly/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/publication/saravia-2022/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/author/fernando-r.-momo/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/food-web-structure/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/author/marleen-de-troch/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/metaweb/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/modularity/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/motif/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/author/nadiah-p.-kristensen/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/network-assembly-model/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/null-models/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/topological-roles/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lsaravia.github.io/tag/trophic-coherence/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/publication/saravia-2019/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/author/fernando-r.-momo/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/food-web-structure/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/author/marleen-de-troch/</loc>
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -770,11 +734,23 @@
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://lsaravia.github.io/tag/modularity/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://lsaravia.github.io/tag/motifs/</loc>
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://lsaravia.github.io/author/nadiah-p.-kristensen/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://lsaravia.github.io/tag/qss-stability/</loc>
+    <lastmod>2021-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tag/topological-roles/</loc>
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -1383,6 +1359,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lsaravia.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lsaravia.github.io/categories/</loc>
