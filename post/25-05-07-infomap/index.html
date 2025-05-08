@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 8, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.a563777c44273a7884c4a4f8b08855ed.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Leonardo A. Saravia" />
+
+
+
+
+
+  
+
+<meta name="description" content="This post introduces how to calculate and assess modularity in food web networks using the multiweb R package. We illustrate this with the Potter Cove food web (included in the package as netData[[23]]) and show how to run Infomap, compare implementations, and apply network randomization routines.
+You need to install infomap" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/post/25-05-07-infomap/" />
+<link rel="canonical" href="https://lsaravia.github.io/post/25-05-07-infomap/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu_ad8d018f894aa781.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_dd2682ad1f98d564.png" />
+
+<meta name="theme-color" content="#707070" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@GetResearchDev" />
+  <meta property="twitter:creator" content="@GetResearchDev" />
+<meta property="twitter:image" content="https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="EcoComplex" />
+<meta property="og:url" content="https://lsaravia.github.io/post/25-05-07-infomap/" />
+<meta property="og:title" content="Using Infomap for Food Web Modularity | EcoComplex" />
+<meta property="og:description" content="This post introduces how to calculate and assess modularity in food web networks using the multiweb R package. We illustrate this with the Potter Cove food web (included in the package as netData[[23]]) and show how to run Infomap, compare implementations, and apply network randomization routines.
+You need to install infomap" /><meta property="og:image" content="https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2025-05-07T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2025-05-07T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lsaravia.github.io/post/25-05-07-infomap/"
+  },
+  "headline": "Using Infomap for Food Web Modularity",
+  
+  "datePublished": "2025-05-07T00:00:00Z",
+  "dateModified": "2025-05-07T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Leonardo A. Saravia"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "EcoComplex",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lsaravia.github.io/media/icon_hu_2c0f7c3d1007352d.png"
+    }
+  },
+  "description": "\u003cp\u003eThis post introduces how to calculate and assess modularity in food web networks using the \u003ccode\u003emultiweb\u003c/code\u003e R package. We illustrate this with the Potter Cove food web (included in the package as \u003ccode\u003enetData[[23]]\u003c/code\u003e) and show how to run Infomap, compare implementations, and apply network randomization routines.\nYou need to install infomap\u003c/p\u003e"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Using Infomap for Food Web Modularity | EcoComplex</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="05770b3908ece1a53d1c4400f396733e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.4fef3e534144e9903491f0cc6527eccd.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">EcoComplex</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">EcoComplex</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/tour"><span>Tour</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>News</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people"><span>People</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/event"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/tags"><span>Tags</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Using Infomap for Food Web Modularity</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/leonardo-a.-saravia/">Leonardo A. Saravia</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 7, 2025
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>This post introduces how to calculate and assess modularity in food web networks using the <code>multiweb</code> R package. We illustrate this with the Potter Cove food web (included in the package as <code>netData[[23]]</code>) and show how to run Infomap, compare implementations, and apply network randomization routines.
+You need to install infomap</p>
+<p><a href="https://www.mapequation.org/infomap/#Install" target="_blank" rel="noopener">Infomap Installation</a></p>
+<p>and &lsquo;multiweb&rsquo;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">require</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;lsaravia/multiweb&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><hr>
+<h2 id="run-infomap-on-an-empirical-food-web">Run Infomap on an Empirical Food Web</h2>
+<p>We use the <code>run_infomap()</code> function, an interface between R and the external Infomap binary:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">multiweb</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">g</span> <span class="o">&lt;-</span> <span class="n">netData[[23]]</span> <span class="c1"># Potter Cove food web</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">py_infomap0</span> <span class="o">&lt;-</span> <span class="nf">run_infomap</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">output_dir</span> <span class="o">=</span> <span class="s">&#34;.&#34;</span><span class="p">,</span> <span class="n">return_df</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">py_infomap0</span><span class="o">$</span><span class="n">codelength</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">[1] 4.36376
+</span></span></code></pre></div><p>To explore the module membership:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">py_infomap0</span> <span class="o">&lt;-</span> <span class="n">py_infomap0</span><span class="o">$</span><span class="n">communities</span>
+</span></span><span class="line"><span class="cl"><span class="n">py_infomap0</span> <span class="o">%&gt;%</span> <span class="nf">filter</span><span class="p">(</span><span class="n">module</span> <span class="o">==</span> <span class="m">1</span><span class="p">)</span>
+</span></span></code></pre></div><p>Output for module 1:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">  module                       node      flow
+</span></span><span class="line"><span class="cl">1      1 Gobionotothen gibberifrons 0.0162264
+</span></span><span class="line"><span class="cl">2      1          Notothenia rossii 0.0593102
+</span></span><span class="line"><span class="cl">3      1     Harpagifer antarcticus 0.0411967
+</span></span><span class="line"><span class="cl">4      1  Lindbergichthys nudifrons 0.0255800
+</span></span><span class="line"><span class="cl">5      1    Chaenocephalus aceratus 0.1391530
+</span></span><span class="line"><span class="cl">6      1  Parachaenichthys charcoti 0.0024676
+</span></span></code></pre></div><p>Alternatively, retrieve an igraph-compatible object:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">py_infomap</span> <span class="o">&lt;-</span> <span class="nf">run_infomap</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">py_infomap</span><span class="o">$</span><span class="n">codelength</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">IGRAPH clustering infomap, groups: 7, mod: 0.18
+</span></span><span class="line"><span class="cl">+ groups:
+</span></span><span class="line"><span class="cl">  $`1`
+</span></span><span class="line"><span class="cl">  [1] &#34;Gobionotothen gibberifrons&#34; &#34;Notothenia rossii&#34;          &#34;Harpagifer antarcticus&#34;     &#34;Lindbergichthys nudifrons&#34; 
+</span></span><span class="line"><span class="cl">  [5] &#34;Chaenocephalus aceratus&#34;    &#34;Parachaenichthys charcoti&#34; 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$codelength
+</span></span><span class="line"><span class="cl">[1] 4.36376
+</span></span></code></pre></div><h3 id="-a-note-on-cluster_infomap">❗ A Note on <code>cluster_infomap</code></h3>
+<p>The same algorithm is included in <code>igraph</code> as <code>cluster_infomap()</code>, but it produces different results:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">ig_infomap</span> <span class="o">&lt;-</span> <span class="nf">cluster_infomap</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ig_infomap</span><span class="o">$</span><span class="n">codelength</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">IGRAPH clustering infomap, groups: 1, mod: 0
+</span></span><span class="line"><span class="cl">+ groups:
+</span></span><span class="line"><span class="cl">  $`1`
+</span></span><span class="line"><span class="cl">    [1] &#34;Aged detritus&#34;                &#34;Polychaeta&#34;                   &#34;Polynoidae&#34;                   &#34;Gitanopsis squamosa&#34;         
+</span></span><span class="line"><span class="cl">    [5] &#34;Gobionotothen gibberifrons&#34;   &#34;Notothenia rossii&#34;            &#34;Ophionotus victoriae&#34;         &#34;Aequiyoldia eightsii&#34;        
+</span></span><span class="line"><span class="cl">    [9] &#34;Salpidae&#34;                     &#34;Gammaridea&#34;                   &#34;Ostracoda&#34;                    &#34;Oligochaeta&#34;                 
+</span></span><span class="line"><span class="cl">  + ... omitted several groups/vertices
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[1] 5.845473
+</span></span></code></pre></div><p>We validated our results against the Infomap web interface and found that <code>run_infomap()</code> yields consistent and accurate results. We therefore recommend <strong>not using</strong> <code>cluster_infomap()</code> for empirical studies.</p>
+<hr>
+<h2 id="randomizing-networks-for-null-model-comparison">Randomizing Networks for Null Model Comparison</h2>
+<h3 id="1-curveball-randomization">1. Curveball Randomization</h3>
+<p>We can randomize networks using the <strong>curveball algorithm</strong>, which preserves row/column sums (degree sequence):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">gl</span> <span class="o">&lt;-</span> <span class="nf">curve_ball</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">modl</span> <span class="o">&lt;-</span> <span class="nf">calc_modularity</span><span class="p">(</span><span class="n">gl</span><span class="p">,</span> <span class="n">cluster_function</span> <span class="o">=</span> <span class="n">run_infomap</span><span class="p">)</span>
+</span></span></code></pre></div><p>Plotting the distribution of modularity across replicates:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">modl</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">Modularity</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_density</span><span class="p">(</span><span class="n">fill</span> <span class="o">=</span> <span class="s">&#34;skyblue&#34;</span><span class="p">,</span> <span class="n">alpha</span> <span class="o">=</span> <span class="m">0.5</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_vline</span><span class="p">(</span><span class="n">xintercept</span> <span class="o">=</span> <span class="n">py_infomap</span><span class="o">$</span><span class="n">modularity</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="s">&#34;red&#34;</span><span class="p">,</span> <span class="n">linetype</span> <span class="o">=</span> <span class="s">&#34;dashed&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">labs</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s">&#34;Distribution of Modularity under Curveball Randomization&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">x</span> <span class="o">=</span> <span class="s">&#34;Modularity&#34;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&#34;Density&#34;</span><span class="p">)</span> <span class="o">+</span> <span class="nf">theme_bw</span><span class="p">()</span>
+</span></span></code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /post/25-05-07-infomap/infomap_density_plot_hu_76b77e5dd8fff8ac.webp 400w,
+               /post/25-05-07-infomap/infomap_density_plot_hu_67383fcc4f6d06ad.webp 760w,
+               /post/25-05-07-infomap/infomap_density_plot_hu_35803268b439c15b.webp 1200w"
+               src="/post/25-05-07-infomap/infomap_density_plot_hu_76b77e5dd8fff8ac.webp"
+               width="760"
+               height="570"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+<hr>
+<h3 id="2-degree-preserving-shuffling">2. Degree-Preserving Shuffling</h3>
+<p>This routine preserves the in- and out-degree sequence via iterative edge swaps:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">shuffle_network_deg</span><span class="p">(</span><span class="n">input_graph</span><span class="p">,</span> <span class="n">delta</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span>
+</span></span></code></pre></div><p>Where <code>delta</code> is the number of swaps</p>
+<p>We use this in a more systematic way with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">results</span> <span class="o">&lt;</span>– <span class="nf">generate_shuffled_seq</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="n">netData[[29]]</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">  <span class="n">max_delta</span><span class="o">=</span> <span class="m">100</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">modularity_func</span> <span class="o">=</span> <span class="n">run_infomap</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">  <span class="n">shuffle_func</span> <span class="o">=</span> <span class="n">shuffle_network_deg</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>This produces a sequence of 100 networks each with 10 edge swaps using the <code>shuffle_network_deg</code> algorithm</p>
+<p>Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Extract modularity metrics</span>
+</span></span><span class="line"><span class="cl"><span class="n">metrics_df</span> <span class="o">&lt;-</span> <span class="n">result</span><span class="o">$</span><span class="n">Metrics</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add a column identifying the original vs shuffled</span>
+</span></span><span class="line"><span class="cl"><span class="n">metrics_df</span><span class="o">$</span><span class="n">Type</span> <span class="o">&lt;-</span> <span class="nf">ifelse</span><span class="p">(</span><span class="n">metrics_df</span><span class="o">$</span><span class="n">Step</span> <span class="o">==</span> <span class="m">1</span><span class="p">,</span> <span class="s">&#34;Original&#34;</span><span class="p">,</span> <span class="s">&#34;Shuffled&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot modularity over shuffle steps</span>
+</span></span><span class="line"><span class="cl"><span class="nf">ggplot</span><span class="p">(</span><span class="n">metrics_df</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">Step</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">Modularity</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="n">Type</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_point</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">labs</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s">&#34;Modularity over Network Shuffling&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">x</span> <span class="o">=</span> <span class="s">&#34;Shuffle Step&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">y</span> <span class="o">=</span> <span class="s">&#34;Modularity&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">color</span> <span class="o">=</span> <span class="s">&#34;Network Type&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme_bw</span><span class="p">()</span>
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Shuffle Modularity Plot" srcset="
+               /post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp 400w,
+               /post/25-05-07-infomap/degree_shuffling_plot_hu_f3f41e4314fbaae4.webp 760w,
+               /post/25-05-07-infomap/degree_shuffling_plot_hu_8a9964c3843bfc6e.webp 1200w"
+               src="/post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp"
+               width="760"
+               height="570"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><code>run_infomap()</code> wraps the external Infomap binary and gives reliable modularity estimates.</li>
+<li><code>cluster_infomap()</code> (igraph) gives different results than the original app.</li>
+<li>Randomization routines like <code>curve_ball()</code> and <code>shuffle_network_deg()</code> help assess structural significance.</li>
+<li><code>shuffle_network_deg()</code> is useful for increasingly randomize the network in steps but it is slower for a complete
+randomization.</li>
+<li><code>curve_ball()</code> randomize the network in an efficient and unbiased way</li>
+<li>Visualizing modularity distributions is key for interpreting modular structure.</li>
+</ul>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>📦 <a href="https://github.com/lsaravia/multiweb" target="_blank" rel="noopener">multiweb GitHub Repository</a></li>
+<li>📘 <a href="https://www.mapequation.org/infomap/#Install" target="_blank" rel="noopener">Infomap Installation</a></li>
+<li>📄 Strona et al. 2014. <em>Nature Communications</em> 5:4114. <a href="https://doi.org/10.1038/ncomms5114" target="_blank" rel="noopener">https://doi.org/10.1038/ncomms5114</a></li>
+</ul>
+<p>Feel free to reach out or open an issue on GitHub if you&rsquo;d like to contribute!</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/github/">Github</a>
+  
+  <a class="badge badge-light" href="/tag/r-package/">R Package</a>
+  
+  <a class="badge badge-light" href="/tag/food-webs/">Food Webs</a>
+  
+  <a class="badge badge-light" href="/tag/ecological-networks/">Ecological Networks</a>
+  
+  <a class="badge badge-light" href="/tag/modularity/">Modularity</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;t=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Using%20Infomap%20for%20Food%20Web%20Modularity&amp;body=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity%20https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/leonardo-a.-saravia/"><img class="avatar mr-3 avatar-circle" src="/author/leonardo-a.-saravia/Avatar_hu_2cf7cb44211db125.jpg" alt="Leonardo A. Saravia"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/leonardo-a.-saravia/">Leonardo A. Saravia</a></h5>
+      <h6 class="card-subtitle">Professor/Researcher</h6>
+      <p class="card-text">Investigador Independiente CADIC - CONICET, Docente/Investigador de la UNTDF, Doctor en Biología de la UBA. Complex systems. Networks. Global Forest Fragmentation. Open science. R, Julia, Netlogo, C++ &amp; Python.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://bsky.app/profile/larysar.bsky.social" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=FEQ1q5MAAAAJ&amp;hl=es" target="_blank" rel="noopener">
+        <i class="fab fa-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/lsaravia" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Leonardo-Saravia" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2025 Leonardo Saravia. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.5faf09821dbe513ca103e87bafd52766.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ac1b70592543393148c2e6c6ddc1c96a.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
