@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 8, 2025 --><html lang="en-us" >
+<!-- Last Published: May 9, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -965,11 +965,11 @@ You need to install infomap</p>
 <p>We use this in a more systematic way with:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">results</span> <span class="o">&lt;</span>– <span class="nf">generate_shuffled_seq</span><span class="p">(</span>
 </span></span><span class="line"><span class="cl">  <span class="n">netData[[29]]</span><span class="p">,</span> 
-</span></span><span class="line"><span class="cl">  <span class="n">max_delta</span><span class="o">=</span> <span class="m">100</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">max_delta</span><span class="o">=</span> <span class="m">200</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="n">modularity_func</span> <span class="o">=</span> <span class="n">run_infomap</span><span class="p">,</span> 
 </span></span><span class="line"><span class="cl">  <span class="n">shuffle_func</span> <span class="o">=</span> <span class="n">shuffle_network_deg</span>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span></code></pre></div><p>This produces a sequence of 100 networks each with 10 edge swaps using the <code>shuffle_network_deg</code> algorithm</p>
+</span></span></code></pre></div><p>This produces a sequence of 200 networks each with 10 edge swaps using the <code>shuffle_network_deg</code> algorithm</p>
 <p>Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Extract modularity metrics</span>
 </span></span><span class="line"><span class="cl"><span class="n">metrics_df</span> <span class="o">&lt;-</span> <span class="n">result</span><span class="o">$</span><span class="n">Metrics</span>
@@ -1005,16 +1005,17 @@ You need to install infomap</p>
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Shuffle Modularity Plot" srcset="
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp 400w,
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_f3f41e4314fbaae4.webp 760w,
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_8a9964c3843bfc6e.webp 1200w"
-               src="/post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp"
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp 400w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_39b9a43eae37fab9.webp 760w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_a7dfbac453a9ef8f.webp 1200w"
+               src="/post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp"
                width="760"
                height="570"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <hr>
+<p>The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the <code>curve_ball</code> routine (previous graph) and at least in 200 iterations no stabilization of modularity is observed.</p>
 <h2 id="summary">Summary</h2>
 <ul>
 <li><code>run_infomap()</code> wraps the external Infomap binary and gives reliable modularity estimates.</li>

@@ -132,11 +132,11 @@ You need to install infomap&lt;/p&gt;
 &lt;p&gt;We use this in a more systematic way with:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;results&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;– &lt;span class=&#34;nf&#34;&gt;generate_shuffled_seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;netData[[29]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;max_delta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;max_delta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;modularity_func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;run_infomap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;shuffle_func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;shuffle_network_deg&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This produces a sequence of 100 networks each with 10 edge swaps using the &lt;code&gt;shuffle_network_deg&lt;/code&gt; algorithm&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This produces a sequence of 200 networks each with 10 edge swaps using the &lt;code&gt;shuffle_network_deg&lt;/code&gt; algorithm&lt;/p&gt;
 &lt;p&gt;Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Extract modularity metrics&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;metrics_df&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Metrics&lt;/span&gt;
@@ -172,16 +172,17 @@ You need to install infomap&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Shuffle Modularity Plot&#34; srcset=&#34;
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp 400w,
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_f3f41e4314fbaae4.webp 760w,
-               /post/25-05-07-infomap/degree_shuffling_plot_hu_8a9964c3843bfc6e.webp 1200w&#34;
-               src=&#34;https://lsaravia.github.io/post/25-05-07-infomap/degree_shuffling_plot_hu_78b804f52fb7bc2.webp&#34;
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp 400w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_39b9a43eae37fab9.webp 760w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_a7dfbac453a9ef8f.webp 1200w&#34;
+               src=&#34;https://lsaravia.github.io/post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the &lt;code&gt;curve_ball&lt;/code&gt; routine (previous graph) and at least in 200 iterations no stabilization of modularity is observed.&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;run_infomap()&lt;/code&gt; wraps the external Infomap binary and gives reliable modularity estimates.&lt;/li&gt;
