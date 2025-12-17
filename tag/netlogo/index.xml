@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netlogo | EcoComplex</title>
-    <link>https://lsaravia.github.io/tag/netlogo/</link>
-      <atom:link href="https://lsaravia.github.io/tag/netlogo/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/netlogo/</link>
+      <atom:link href="http://localhost:1313/tag/netlogo/index.xml" rel="self" type="application/rss+xml" />
     <description>Netlogo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Netlogo</title>
-      <link>https://lsaravia.github.io/tag/netlogo/</link>
+      <link>http://localhost:1313/tag/netlogo/</link>
     </image>
     
     <item>
       <title>Landscape Composition and Pollinator Traits Interact to Influence Pollination Success in an Individual-Based Model</title>
-      <link>https://lsaravia.github.io/publication/kortsch-2023/</link>
+      <link>http://localhost:1313/publication/kortsch-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/kortsch-2023/</guid>
+      <guid>http://localhost:1313/publication/kortsch-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netlogo Model for Assessing Landscape, Network Structure, Pollinators Niche and Behavior, in Plant-Pollinator Networks.</title>
-      <link>https://lsaravia.github.io/publication/saravia-2022-a/</link>
+      <link>http://localhost:1313/publication/saravia-2022-a/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2022-a/</guid>
+      <guid>http://localhost:1313/publication/saravia-2022-a/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A. Vanreusel | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/a.-vanreusel/</link>
-      <atom:link href="https://lsaravia.github.io/author/a.-vanreusel/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/a.-vanreusel/</link>
+      <atom:link href="http://localhost:1313/author/a.-vanreusel/index.xml" rel="self" type="application/rss+xml" />
     <description>A. Vanreusel</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>A. Vanreusel</title>
-      <link>https://lsaravia.github.io/author/a.-vanreusel/</link>
+      <link>http://localhost:1313/author/a.-vanreusel/</link>
     </image>
     
     <item>
       <title>Benthic Trophic Interactions in an Antarctic Shallow Water Ecosystem Affected by Recent Glacier Retreat</title>
-      <link>https://lsaravia.github.io/publication/pasotti-2015/</link>
+      <link>http://localhost:1313/publication/pasotti-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/pasotti-2015/</guid>
+      <guid>http://localhost:1313/publication/pasotti-2015/</guid>
       <description></description>
     </item>
     

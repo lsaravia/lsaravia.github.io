@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luciana Torre | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/luciana-torre/</link>
-      <atom:link href="https://lsaravia.github.io/author/luciana-torre/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/luciana-torre/</link>
+      <atom:link href="http://localhost:1313/author/luciana-torre/index.xml" rel="self" type="application/rss+xml" />
     <description>Luciana Torre</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Luciana Torre</title>
-      <link>https://lsaravia.github.io/author/luciana-torre/</link>
+      <link>http://localhost:1313/author/luciana-torre/</link>
     </image>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://lsaravia.github.io/publication/marina-2018/</link>
+      <link>http://localhost:1313/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
       <description></description>
     </item>
     

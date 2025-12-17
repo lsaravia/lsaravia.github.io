@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Isla 25 De Mayo/King George Island | EcoComplex</title>
-    <link>https://lsaravia.github.io/tag/isla-25-de-mayo/king-george-island/</link>
-      <atom:link href="https://lsaravia.github.io/tag/isla-25-de-mayo/king-george-island/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/isla-25-de-mayo/king-george-island/</link>
+      <atom:link href="http://localhost:1313/tag/isla-25-de-mayo/king-george-island/index.xml" rel="self" type="application/rss+xml" />
     <description>Isla 25 De Mayo/King George Island</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Isla 25 De Mayo/King George Island</title>
-      <link>https://lsaravia.github.io/tag/isla-25-de-mayo/king-george-island/</link>
+      <link>http://localhost:1313/tag/isla-25-de-mayo/king-george-island/</link>
     </image>
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
+      <link>http://localhost:1313/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
+      <guid>http://localhost:1313/publication/marcias-2016/</guid>
       <description></description>
     </item>
     

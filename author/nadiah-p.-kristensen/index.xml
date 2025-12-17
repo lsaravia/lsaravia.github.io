@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nadiah P. Kristensen | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/nadiah-p.-kristensen/</link>
-      <atom:link href="https://lsaravia.github.io/author/nadiah-p.-kristensen/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/nadiah-p.-kristensen/</link>
+      <atom:link href="http://localhost:1313/author/nadiah-p.-kristensen/index.xml" rel="self" type="application/rss+xml" />
     <description>Nadiah P. Kristensen</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Nadiah P. Kristensen</title>
-      <link>https://lsaravia.github.io/author/nadiah-p.-kristensen/</link>
+      <link>http://localhost:1313/author/nadiah-p.-kristensen/</link>
     </image>
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
+      <link>http://localhost:1313/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
+      <guid>http://localhost:1313/publication/saravia-2019/</guid>
       <description></description>
     </item>
     

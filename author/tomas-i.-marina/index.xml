@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tomás I. Marina | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/tomas-i.-marina/</link>
-      <atom:link href="https://lsaravia.github.io/author/tomas-i.-marina/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/tomas-i.-marina/</link>
+      <atom:link href="http://localhost:1313/author/tomas-i.-marina/index.xml" rel="self" type="application/rss+xml" />
     <description>Tomás I. Marina</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Tomás I. Marina</title>
-      <link>https://lsaravia.github.io/author/tomas-i.-marina/</link>
+      <link>http://localhost:1313/author/tomas-i.-marina/</link>
     </image>
     
     <item>
       <title>New Insights into the Weddell Sea Ecosystem Applying a Quantitative Network Approach</title>
-      <link>https://lsaravia.github.io/publication/marina-2024/</link>
+      <link>http://localhost:1313/publication/marina-2024/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2024/</guid>
+      <guid>http://localhost:1313/publication/marina-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marine Food Webs Are More Complex but Less Stable in Sub-Antarctic (Beagle Channel, Argentina) than in Antarctic (Potter Cove, Antarctic Peninsula) Regions</title>
-      <link>https://lsaravia.github.io/publication/rodriguez-2022/</link>
+      <link>http://localhost:1313/publication/rodriguez-2022/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/rodriguez-2022/</guid>
+      <guid>http://localhost:1313/publication/rodriguez-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
+      <link>http://localhost:1313/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
+      <guid>http://localhost:1313/publication/saravia-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Southern Ocean Food Web Modelling: Progress, Prognoses, and Future Priorities for Research and Policy Makers</title>
-      <link>https://lsaravia.github.io/publication/mc-cormack-2021/</link>
+      <link>http://localhost:1313/publication/mc-cormack-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/mc-cormack-2021/</guid>
+      <guid>http://localhost:1313/publication/mc-cormack-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Green vs Brown Food Web: Effects of Habitat Type on Multidimensional Stability Proxies for a Highly-Resolved Antarctic Food Web</title>
-      <link>https://lsaravia.github.io/publication/cordone-2020/</link>
+      <link>http://localhost:1313/publication/cordone-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/cordone-2020/</guid>
+      <guid>http://localhost:1313/publication/cordone-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seaweeds in the Antarctic Marine Coastal Food Web</title>
-      <link>https://lsaravia.github.io/publication/momo-2020/</link>
+      <link>http://localhost:1313/publication/momo-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/momo-2020/</guid>
+      <guid>http://localhost:1313/publication/momo-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Food Web of Potter Cove (Antarctica): Complexity, Structure and Function</title>
-      <link>https://lsaravia.github.io/publication/marina-2018/</link>
+      <link>http://localhost:1313/publication/marina-2018/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018/</guid>
+      <guid>http://localhost:1313/publication/marina-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Architecture of Marine Food Webs: To Be or Not Be a `Small-World&#39;</title>
-      <link>https://lsaravia.github.io/publication/marina-2018-a/</link>
+      <link>http://localhost:1313/publication/marina-2018-a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/marina-2018-a/</guid>
+      <guid>http://localhost:1313/publication/marina-2018-a/</guid>
       <description></description>
     </item>
     

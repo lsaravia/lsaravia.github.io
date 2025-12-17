@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lucila D Boffi Lissin | EcoComplex</title>
-    <link>https://lsaravia.github.io/author/lucila-d-boffi-lissin/</link>
-      <atom:link href="https://lsaravia.github.io/author/lucila-d-boffi-lissin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/lucila-d-boffi-lissin/</link>
+      <atom:link href="http://localhost:1313/author/lucila-d-boffi-lissin/index.xml" rel="self" type="application/rss+xml" />
     <description>Lucila D Boffi Lissin</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1998 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Lucila D Boffi Lissin</title>
-      <link>https://lsaravia.github.io/author/lucila-d-boffi-lissin/</link>
+      <link>http://localhost:1313/author/lucila-d-boffi-lissin/</link>
     </image>
     
     <item>
       <title>Modelling Periphyton Dynamics in Running Water</title>
-      <link>https://lsaravia.github.io/publication/saravia-1998/</link>
+      <link>http://localhost:1313/publication/saravia-1998/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://lsaravia.github.io/publication/saravia-1998/</guid>
+      <guid>http://localhost:1313/publication/saravia-1998/</guid>
       <description></description>
     </item>
     
