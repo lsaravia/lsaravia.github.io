@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Cynthia Valeria Sanabria | EcoComplex</title>
-    <link>http://localhost:1313/author/maria-cynthia-valeria-sanabria/</link>
-      <atom:link href="http://localhost:1313/author/maria-cynthia-valeria-sanabria/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/author/maria-cynthia-valeria-sanabria/</link>
+      <atom:link href="https://lsaravia.github.io/author/maria-cynthia-valeria-sanabria/index.xml" rel="self" type="application/rss+xml" />
     <description>Maria Cynthia Valeria Sanabria</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Maria Cynthia Valeria Sanabria</title>
-      <link>http://localhost:1313/author/maria-cynthia-valeria-sanabria/</link>
+      <link>https://lsaravia.github.io/author/maria-cynthia-valeria-sanabria/</link>
     </image>
     
     <item>
       <title>Size Spectra of the Edaphic Fauna of Typical Argiudol Soils of the Rolling Pampa Region, Argentina</title>
-      <link>http://localhost:1313/publication/velazco-2023-a/</link>
+      <link>https://lsaravia.github.io/publication/velazco-2023-a/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/velazco-2023-a/</guid>
+      <guid>https://lsaravia.github.io/publication/velazco-2023-a/</guid>
       <description></description>
     </item>
     

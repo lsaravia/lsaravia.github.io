@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Periphyton | EcoComplex</title>
-    <link>http://localhost:1313/tag/periphyton/</link>
-      <atom:link href="http://localhost:1313/tag/periphyton/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/tag/periphyton/</link>
+      <atom:link href="https://lsaravia.github.io/tag/periphyton/index.xml" rel="self" type="application/rss+xml" />
     <description>Periphyton</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Periphyton</title>
-      <link>http://localhost:1313/tag/periphyton/</link>
+      <link>https://lsaravia.github.io/tag/periphyton/</link>
     </image>
     
     <item>
       <title>A Photographic Method for Estimating Chlorophyll in Periphyton on Artificial Substrata</title>
-      <link>http://localhost:1313/publication/saravia-1999/</link>
+      <link>https://lsaravia.github.io/publication/saravia-1999/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-1999/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-1999/</guid>
       <description></description>
     </item>
     

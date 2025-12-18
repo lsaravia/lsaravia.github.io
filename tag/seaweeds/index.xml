@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seaweeds | EcoComplex</title>
-    <link>http://localhost:1313/tag/seaweeds/</link>
-      <atom:link href="http://localhost:1313/tag/seaweeds/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/tag/seaweeds/</link>
+      <atom:link href="https://lsaravia.github.io/tag/seaweeds/index.xml" rel="self" type="application/rss+xml" />
     <description>Seaweeds</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Seaweeds</title>
-      <link>http://localhost:1313/tag/seaweeds/</link>
+      <link>https://lsaravia.github.io/tag/seaweeds/</link>
     </image>
     
     <item>
       <title>Life between Tides: Spatial and Temporal Variations of an Intertidal Macroalgal Community at Potter Peninsula, South Shetland Islands, Antarctica</title>
-      <link>http://localhost:1313/publication/marcias-2016/</link>
+      <link>https://lsaravia.github.io/publication/marcias-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/marcias-2016/</guid>
+      <guid>https://lsaravia.github.io/publication/marcias-2016/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modularity | EcoComplex</title>
-    <link>http://localhost:1313/tag/modularity/</link>
-      <atom:link href="http://localhost:1313/tag/modularity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/tag/modularity/</link>
+      <atom:link href="https://lsaravia.github.io/tag/modularity/index.xml" rel="self" type="application/rss+xml" />
     <description>Modularity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Modularity</title>
-      <link>http://localhost:1313/tag/modularity/</link>
+      <link>https://lsaravia.github.io/tag/modularity/</link>
     </image>
     
     <item>
       <title>Using Infomap for Food Web Modularity</title>
-      <link>http://localhost:1313/post/25-05-07-infomap/</link>
+      <link>https://lsaravia.github.io/post/25-05-07-infomap/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/25-05-07-infomap/</guid>
+      <guid>https://lsaravia.github.io/post/25-05-07-infomap/</guid>
       <description>&lt;p&gt;This post introduces how to calculate and assess modularity in food web networks using the &lt;code&gt;multiweb&lt;/code&gt; R package. We illustrate this with the Potter Cove food web (included in the package as &lt;code&gt;netData[[23]]&lt;/code&gt;) and show how to run Infomap, compare implementations, and apply network randomization routines.
 You need to install infomap&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.mapequation.org/infomap/#Install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infomap Installation&lt;/a&gt;&lt;/p&gt;
@@ -108,7 +108,7 @@ You need to install infomap&lt;/p&gt;
                /post/25-05-07-infomap/infomap_density_plot_hu_76b77e5dd8fff8ac.webp 400w,
                /post/25-05-07-infomap/infomap_density_plot_hu_67383fcc4f6d06ad.webp 760w,
                /post/25-05-07-infomap/infomap_density_plot_hu_35803268b439c15b.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/25-05-07-infomap/infomap_density_plot_hu_76b77e5dd8fff8ac.webp&#34;
+               src=&#34;https://lsaravia.github.io/post/25-05-07-infomap/infomap_density_plot_hu_76b77e5dd8fff8ac.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -120,13 +120,13 @@ You need to install infomap&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;shuffle_network_deg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;input_graph&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;delta&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Where &lt;code&gt;delta&lt;/code&gt; is the number of swaps&lt;/p&gt;
 &lt;p&gt;We use this in a more systematic way with:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;results&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;– &lt;span class=&#34;nf&#34;&gt;generate_shuffled_seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;result&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;– &lt;span class=&#34;nf&#34;&gt;generate_shuffled_seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;netData[[29]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;max_delta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;max_delta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;modularity_func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;run_infomap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;shuffle_func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;shuffle_network_deg&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This produces a sequence of 200 networks each with 10 edge swaps using the &lt;code&gt;shuffle_network_deg&lt;/code&gt; algorithm&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This produces a sequence of 1000 networks each with 10 edge swaps using the &lt;code&gt;shuffle_network_deg&lt;/code&gt; algorithm&lt;/p&gt;
 &lt;p&gt;Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Extract modularity metrics&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;metrics_df&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;result&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Metrics&lt;/span&gt;
@@ -162,17 +162,17 @@ You need to install infomap&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Shuffle Modularity Plot&#34; srcset=&#34;
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp 400w,
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_39b9a43eae37fab9.webp 760w,
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_a7dfbac453a9ef8f.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp&#34;
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_85da60ad7151a31a.webp 400w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_c242fa51cb07024d.webp 760w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_bf083e60ce988ddf.webp 1200w&#34;
+               src=&#34;https://lsaravia.github.io/post/25-05-07-infomap/modularity_shuffling_plot_hu_85da60ad7151a31a.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the &lt;code&gt;curve_ball&lt;/code&gt; routine (previous graph) and at least in 200 iterations no stabilization of modularity is observed.&lt;/p&gt;
+&lt;p&gt;The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the &lt;code&gt;shuffle_network_deg&lt;/code&gt; routine preserving in and out degree the same that &lt;code&gt;curve_ball&lt;/code&gt; (previous graph). As shuffling proceeds, modularity explores a broad range of values spanning the distribution obtained from independently randomized networks (see previous figure). Across 1,000 iterations, no convergence or stabilization of modularity is observed, indicating that modular structure remains highly sensitive to the specific configuration of links generated at each shuffle step.&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;run_infomap()&lt;/code&gt; wraps the external Infomap binary and gives reliable modularity estimates.&lt;/li&gt;
@@ -196,9 +196,9 @@ randomization.&lt;/li&gt;
     
     <item>
       <title>Ecological network assembly: how the regional metaweb influences local food webs</title>
-      <link>http://localhost:1313/publication/saravia-2019/</link>
+      <link>https://lsaravia.github.io/publication/saravia-2019/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saravia-2019/</guid>
+      <guid>https://lsaravia.github.io/publication/saravia-2019/</guid>
       <description></description>
     </item>
     

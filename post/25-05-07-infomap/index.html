@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: December 17, 2025 --><html lang="en-us" >
+<!-- Last Published: December 18, 2025 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -65,7 +65,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -209,7 +209,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.a563777c44273a7884c4a4f8b08855ed.css" />
 
   
   
@@ -279,8 +279,8 @@ You need to install infomap" />
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/25-05-07-infomap/" />
-<link rel="canonical" href="http://localhost:1313/post/25-05-07-infomap/" />
+<link rel="alternate" hreflang="en-us" href="https://lsaravia.github.io/post/25-05-07-infomap/" />
+<link rel="canonical" href="https://lsaravia.github.io/post/25-05-07-infomap/" />
 
 
 
@@ -314,7 +314,7 @@ You need to install infomap" />
 
   <meta property="twitter:site" content="@GetResearchDev" />
   <meta property="twitter:creator" content="@GetResearchDev" />
-<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_4accc2c0008842f9.png" />
+<meta property="twitter:image" content="https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png" />
 
 
 
@@ -322,10 +322,10 @@ You need to install infomap" />
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="EcoComplex" />
-<meta property="og:url" content="http://localhost:1313/post/25-05-07-infomap/" />
+<meta property="og:url" content="https://lsaravia.github.io/post/25-05-07-infomap/" />
 <meta property="og:title" content="Using Infomap for Food Web Modularity | EcoComplex" />
 <meta property="og:description" content="This post introduces how to calculate and assess modularity in food web networks using the multiweb R package. We illustrate this with the Potter Cove food web (included in the package as netData[[23]]) and show how to run Infomap, compare implementations, and apply network randomization routines.
-You need to install infomap" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_4accc2c0008842f9.png" /><meta property="og:locale" content="en-us" />
+You need to install infomap" /><meta property="og:image" content="https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -360,7 +360,7 @@ You need to install infomap" /><meta property="og:image" content="http://localho
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/post/25-05-07-infomap/"
+    "@id": "https://lsaravia.github.io/post/25-05-07-infomap/"
   },
   "headline": "Using Infomap for Food Web Modularity",
   
@@ -377,7 +377,7 @@ You need to install infomap" /><meta property="og:image" content="http://localho
     "name": "EcoComplex",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/icon_hu_2c0f7c3d1007352d.png"
+      "url": "https://lsaravia.github.io/media/icon_hu_2c0f7c3d1007352d.png"
     }
   },
   "description": "\u003cp\u003eThis post introduces how to calculate and assess modularity in food web networks using the \u003ccode\u003emultiweb\u003c/code\u003e R package. We illustrate this with the Potter Cove food web (included in the package as \u003ccode\u003enetData[[23]]\u003c/code\u003e) and show how to run Infomap, compare implementations, and apply network randomization routines.\nYou need to install infomap\u003c/p\u003e"
@@ -433,7 +433,7 @@ You need to install infomap" /><meta property="og:image" content="http://localho
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.4fef3e534144e9903491f0cc6527eccd.js"></script>
 
   
 
@@ -832,7 +832,7 @@ You need to install infomap" /><meta property="og:image" content="http://localho
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -963,13 +963,13 @@ You need to install infomap</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">shuffle_network_deg</span><span class="p">(</span><span class="n">input_graph</span><span class="p">,</span> <span class="n">delta</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span>
 </span></span></code></pre></div><p>Where <code>delta</code> is the number of swaps</p>
 <p>We use this in a more systematic way with:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">results</span> <span class="o">&lt;</span>– <span class="nf">generate_shuffled_seq</span><span class="p">(</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">result</span> <span class="o">&lt;</span>– <span class="nf">generate_shuffled_seq</span><span class="p">(</span>
 </span></span><span class="line"><span class="cl">  <span class="n">netData[[29]]</span><span class="p">,</span> 
-</span></span><span class="line"><span class="cl">  <span class="n">max_delta</span><span class="o">=</span> <span class="m">200</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="n">max_delta</span><span class="o">=</span> <span class="m">1000</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="n">modularity_func</span> <span class="o">=</span> <span class="n">run_infomap</span><span class="p">,</span> 
 </span></span><span class="line"><span class="cl">  <span class="n">shuffle_func</span> <span class="o">=</span> <span class="n">shuffle_network_deg</span>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span></code></pre></div><p>This produces a sequence of 200 networks each with 10 edge swaps using the <code>shuffle_network_deg</code> algorithm</p>
+</span></span></code></pre></div><p>This produces a sequence of 1000 networks each with 10 edge swaps using the <code>shuffle_network_deg</code> algorithm</p>
 <p>Plotting modularity over shuffle steps can help detect when modularity deviates from the empirical structure.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Extract modularity metrics</span>
 </span></span><span class="line"><span class="cl"><span class="n">metrics_df</span> <span class="o">&lt;-</span> <span class="n">result</span><span class="o">$</span><span class="n">Metrics</span>
@@ -1005,17 +1005,17 @@ You need to install infomap</p>
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Shuffle Modularity Plot" srcset="
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp 400w,
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_39b9a43eae37fab9.webp 760w,
-               /post/25-05-07-infomap/modularity_shuffling_plot_hu_a7dfbac453a9ef8f.webp 1200w"
-               src="/post/25-05-07-infomap/modularity_shuffling_plot_hu_e1cfa7b21514d85d.webp"
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_85da60ad7151a31a.webp 400w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_c242fa51cb07024d.webp 760w,
+               /post/25-05-07-infomap/modularity_shuffling_plot_hu_bf083e60ce988ddf.webp 1200w"
+               src="/post/25-05-07-infomap/modularity_shuffling_plot_hu_85da60ad7151a31a.webp"
                width="760"
                height="570"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <hr>
-<p>The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the <code>curve_ball</code> routine (previous graph) and at least in 200 iterations no stabilization of modularity is observed.</p>
+<p>The graph shows that gradual shuffling runs through the distribution of modularity values ​​obtained by the <code>shuffle_network_deg</code> routine preserving in and out degree the same that <code>curve_ball</code> (previous graph). As shuffling proceeds, modularity explores a broad range of values spanning the distribution obtained from independently randomized networks (see previous figure). Across 1,000 iterations, no convergence or stabilization of modularity is observed, indicating that modular structure remains highly sensitive to the specific configuration of links generated at each shuffle step.</p>
 <h2 id="summary">Summary</h2>
 <ul>
 <li><code>run_infomap()</code> wraps the external Infomap binary and gives reliable modularity estimates.</li>
@@ -1074,7 +1074,7 @@ randomization.</li>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F&amp;text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1091,7 +1091,7 @@ randomization.</li>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F&amp;t=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;t=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1110,7 +1110,7 @@ randomization.</li>
         
       
       <li>
-        <a href="mailto:?subject=Using%20Infomap%20for%20Food%20Web%20Modularity&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Using%20Infomap%20for%20Food%20Web%20Modularity&amp;body=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1127,7 +1127,7 @@ randomization.</li>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1144,7 +1144,7 @@ randomization.</li>
       
       
       <li>
-        <a href="whatsapp://send?text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity%20https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1161,7 +1161,7 @@ randomization.</li>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Flsaravia.github.io%2Fpost%2F25-05-07-infomap%2F&amp;title=Using&#43;Infomap&#43;for&#43;Food&#43;Web&#43;Modularity" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1393,7 +1393,7 @@ randomization.</li>
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.5faf09821dbe513ca103e87bafd52766.js"></script>
 
 
 
@@ -1474,7 +1474,7 @@ randomization.</li>
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-  <script src="/js/wowchemy-headroom.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1488,11 +1488,11 @@ randomization.</li>
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.ac1b70592543393148c2e6c6ddc1c96a.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1525,7 +1525,7 @@ randomization.</li>
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 

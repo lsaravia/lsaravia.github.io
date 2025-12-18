@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Invasion | EcoComplex</title>
-    <link>http://localhost:1313/tag/invasion/</link>
-      <atom:link href="http://localhost:1313/tag/invasion/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lsaravia.github.io/tag/invasion/</link>
+      <atom:link href="https://lsaravia.github.io/tag/invasion/index.xml" rel="self" type="application/rss+xml" />
     <description>Invasion</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4accc2c0008842f9.png</url>
+      <url>https://lsaravia.github.io/media/icon_hu_4accc2c0008842f9.png</url>
       <title>Invasion</title>
-      <link>http://localhost:1313/tag/invasion/</link>
+      <link>https://lsaravia.github.io/tag/invasion/</link>
     </image>
     
     <item>
       <title>Dynamics of Invasion in Forest-Fire Models</title>
-      <link>http://localhost:1313/publication/delafuente-2025/</link>
+      <link>https://lsaravia.github.io/publication/delafuente-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/delafuente-2025/</guid>
+      <guid>https://lsaravia.github.io/publication/delafuente-2025/</guid>
       <description></description>
     </item>
     
